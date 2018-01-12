@@ -7,7 +7,9 @@
   <br>
   <div>
     Here shall be Provider Company logo with company name
-    <h4>{{$ctrl.serviceItem.company}}</h4>
+    <a href="#/company">
+      <h4>{{$ctrl.serviceItem.company}}</h4>
+    </a>
     <p>When you click on the company you shall see the companies profile with it's services</p>
   </div>
   <span>{{$ctrl.serviceItem.description}}</span>
@@ -25,4 +27,8 @@
       <th>Price</th>
     </tr>
   </table>
+
+  <button>BOOK NOW</button>
+
+  <p>Note: some of the elements can be seen by the company that's logged in and can't be seen by the user and viceversa</p>
 </div>

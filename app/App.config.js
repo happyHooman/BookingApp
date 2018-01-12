@@ -5,7 +5,7 @@ function appConfig($routeProvider, $locationProvider) {
 
     $routeProvider
         .when('/', {
-            redirectTo: '/dashboard'
+            templateUrl: 'PageTemplates/userView.template.html'
         })
         .when('/login',{
             templateUrl: 'PageTemplates/login.template.html'
@@ -31,8 +31,8 @@ function appConfig($routeProvider, $locationProvider) {
         .when('/newService',{
             templateUrl: 'PageTemplates/newService.template.html'
         })
-        .when('/user-view',{
-            templateUrl: 'PageTemplates/userView.template.html'
+        .when('/company',{
+            templateUrl: 'PageTemplates/companyProfile.template.html'
         })
         .otherwise({
             redirectTo: '/dashboard'
