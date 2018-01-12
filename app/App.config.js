@@ -31,6 +31,9 @@ function appConfig($routeProvider, $locationProvider) {
         .when('/newService',{
             templateUrl: 'PageTemplates/newService.template.html'
         })
+        .when('/user-view',{
+            templateUrl: 'PageTemplates/userView.template.html'
+        })
         .otherwise({
             redirectTo: '/dashboard'
         })

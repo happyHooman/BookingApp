@@ -1,17 +1,22 @@
 <div class="jumbotron">
   <h3>
-    {{$ctrl.componentName}}
+    {{$ctrl.serviceItem.title}}
     <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
     <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
   </h3>
   <br>
-  <span>{{}}</span>
+  <div>
+    Here shall be Provider Company logo with company name
+    <h4>{{$ctrl.serviceItem.company}}</h4>
+    <p>When you click on the company you shall see the companies profile with it's services</p>
+  </div>
+  <span>{{$ctrl.serviceItem.description}}</span>
   <table>
     <tr>
-      <td>{{$ctrl.serviceItem}}</td>
-      <td>6 spaces</td>
-      <td>1 hour</td>
-      <td>20 lei</td>
+      <td>{{$ctrl.serviceItem.availability}}</td>
+      <td>{{$ctrl.serviceItem.spaces}}</td>
+      <td>{{$ctrl.serviceItem.duration}}</td>
+      <td>{{$ctrl.serviceItem.price | currency}}</td>
     </tr>
     <tr>
       <th>Availability</th>
