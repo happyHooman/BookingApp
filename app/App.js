@@ -5,6 +5,8 @@ import Admin from './Admin/Main.module';
 import Public from './Public/Main.module';
 import appConfig from './App.config'
 
+import componentStyles from './PageTemplates/page-styles.css'
+
 class IndexController {
     constructor() {
 

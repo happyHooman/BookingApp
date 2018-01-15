@@ -1,10 +1,23 @@
 <div class="jumbotron">
+
   <h3>
-    {{$ctrl.serviceItem.title}}
-    <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
-    <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
+    <div class="row">
+      <div class="col-md-11">
+
+        {{$ctrl.serviceItem.title}}
+      </div>
+      <div class="col-md-1">
+        <a href="#">
+          <i class="fa fa-pencil" aria-hidden="true"></i>
+        </a>
+        <a href="#">
+          <i class="fa fa-trash-o" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
   </h3>
-  <br>
+
+
   <div>
     Here shall be Provider Company logo with company name
     <a href="#/company">
@@ -13,7 +26,7 @@
     <p>When you click on the company you shall see the companies profile with it's services</p>
   </div>
   <span>{{$ctrl.serviceItem.description}}</span>
-  <table>
+  <table class="table">
     <tr>
       <td>{{$ctrl.serviceItem.availability}}</td>
       <td>{{$ctrl.serviceItem.spaces}}</td>

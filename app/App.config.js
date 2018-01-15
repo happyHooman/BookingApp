@@ -17,7 +17,7 @@ function appConfig($routeProvider, $locationProvider) {
             templateUrl: 'PageTemplates/register.template.html'
         })
         .when('/dashboard',{
-            templateUrl: 'PageTemplates/dashboard.template.html'
+            templateUrl: 'PageTemplates/dashboard.html'
         })
         .when('/bookings',{
             templateUrl: 'PageTemplates/bookings.template.html'

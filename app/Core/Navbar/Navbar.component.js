@@ -1,4 +1,5 @@
 import template from './Navbar.template.html'
+import componentStyles from './Navbar.scss'
 
 class NavbarController {
     constructor() {
