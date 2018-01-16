@@ -38,3 +38,27 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+.profile-view {
+  max-width: 780px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  font-size: 20px !important;
+  font-weight: normal !important;
+}
+
+.profile-logo-img {
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 40px;
+}
+
+.profile-button{
+  background-color: #cb7de6;
+  color: white;
+  outline-style: none;
+}
