@@ -43,31 +43,10 @@
 
 .service-card-detail-titles {
     color: #afafaf;
+    margin-bottom: 40px;
 }
 
 .service-card-description {
     color: #afafaf;
     margin-top: 20px;
-}
-
-.book-now-btn{
-    background-color: #c97de5;
-    border:1px solid #c97de5;
-    border-radius: 3px;
-    width: 165px;
-    height: 55px;
-    color: white;
-    font-size: 20px;
-    margin-top: 30px;
-    outline: none;
-}
-
-.book-now-btn:hover{
-    background-color: #e391ff;
-    border:1px solid #e391ff;
-}
-
-.book-now-btn:active{
-    background-color: #9e63ba;
-    border:1px solid #9e63ba;
 }

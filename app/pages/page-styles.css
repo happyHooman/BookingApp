@@ -57,11 +57,25 @@
   margin-bottom: 40px;
 }
 
-.profile-button{
+.default-button{
   background-color: #cb7de6;
+  border-radius: 3px;
   color: white;
-  outline-style: none;
+  font-size: 20px;
+  outline: none;
 }
+
+
+.default-button:hover{
+    background-color: #e391ff;
+    color: white;
+}
+
+.default-button:active{
+    background-color: #9e63ba;
+    color: white;
+}
+
 
 .login-container{
   width: 500px;
