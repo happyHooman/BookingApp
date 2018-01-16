@@ -3,7 +3,7 @@ import template from './ServiceList.template.html'
 class ServiceListController {
     constructor() {
         this.componentName = 'ServiceListComponent';
-        this.isLoggedIn= true;
+        this.isLoggedIn= false;
         this.services = [
             {
                 title: 'Haircut',
