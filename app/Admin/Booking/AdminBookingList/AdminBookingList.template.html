@@ -1,30 +1,20 @@
-<div class="container-flex">
-  <label>
-    Search<br>
-    <input type="text">
-  </label>
-  <label>
-    Select week <br>
-    <input type="text">
-  </label>
-  <table class="table">
-    <thead>
-    <tr>
-      <th>Name</th>
-      <th>Email</th>
-      <th>Phone Number</th>
-      <th>Availability</th>
-      <th>Service name</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr ng-repeat="booking in $ctrl.bookings">
-      <td>{{booking.name}}</td>
-      <td>{{booking.email}}</td>
-      <td>{{booking.phone}}</td>
-      <td>{{booking.time}}</td>
-      <td>{{booking.serviceName}}</td>
-    </tr>
-    </tbody>
-  </table>
-</div>
+<table class="table booking-list-table">
+  <thead>
+  <tr>
+    <th>Name</th>
+    <th>Email</th>
+    <th>Phone Number</th>
+    <th>Availability</th>
+    <th>Service name</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr ng-repeat="booking in $ctrl.bookings">
+    <td>{{booking.name}}</td>
+    <td>{{booking.email}}</td>
+    <td>{{booking.phone}}</td>
+    <td>{{booking.time}}</td>
+    <td>{{booking.serviceName}}</td>
+  </tr>
+  </tbody>
+</table>
