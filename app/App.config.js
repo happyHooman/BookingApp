@@ -5,34 +5,34 @@ function appConfig($routeProvider, $locationProvider) {
 
     $routeProvider
         .when('/', {
-            templateUrl: 'PageTemplates/user-view.html'
+            templateUrl: 'pages/user-view.html'
         })
         .when('/login',{
-            templateUrl: 'PageTemplates/login.html'
+            templateUrl: 'pages/login.html'
         })
         .when('/recover',{
-            templateUrl: 'PageTemplates/recover.html'
+            templateUrl: 'pages/recover.html'
         })
         .when('/register',{
-            templateUrl: 'PageTemplates/register.html'
+            templateUrl: 'pages/register.html'
         })
         .when('/dashboard',{
-            templateUrl: 'PageTemplates/dashboard.html'
+            templateUrl: 'pages/dashboard.html'
         })
         .when('/bookings',{
-            templateUrl: 'PageTemplates/bookings.html'
+            templateUrl: 'pages/bookings.html'
         })
         .when('/calendar',{
-            templateUrl: 'PageTemplates/calendar.html'
+            templateUrl: 'pages/calendar.html'
         })
         .when('/profile',{
-            templateUrl: 'PageTemplates/profile.html'
+            templateUrl: 'pages/profile.html'
         })
         .when('/newService',{
-            templateUrl: 'PageTemplates/new-service.html'
+            templateUrl: 'pages/new-service.html'
         })
         .when('/company',{
-            templateUrl: 'PageTemplates/company-profile.html'
+            templateUrl: 'pages/company-profile.html'
         })
         .otherwise({
             redirectTo: '/dashboard'

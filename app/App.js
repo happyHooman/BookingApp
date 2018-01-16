@@ -5,10 +5,8 @@ import Admin from './Admin/Main.module';
 import Public from './Public/Main.module';
 import appConfig from './App.config'
 
-
 class IndexController {
     constructor() {
-
     }
 
     $onInit() {
