@@ -3,37 +3,36 @@
 <div class="container-fluid default-background">
 
   <div class="container services-list">
-    <div>
+    <div >
       <h1>Add new service</h1>
 
       <div id="new-service-button-container" align="center">
-        <a href="#">
-          <button class="btn" id="new-service-button">
+          <button type="submit" class="btn" id="new-service-button">
             +
           </button>
-        </a>
         <p>New Service</p>
       </div>
     </div>
+
   </div>
 
-  <div class="container service-list">
+  <div class="container services-list">
     <form action="#">
 
       <div class="row">
 
-        <div class="col-md-3">
+        <div class="col-md-6">
           <div class="form-group">
             <label>Service name</label>
-            <input type="text" class="form-control" id="sv-name">
+            <input type="text" class="form-control has-error" id="sv-name">
           </div>
           <div class="form-group">
             <label>Service description</label>
-            <input type="text" class="form-control" id="sv-descr">
+            <textarea class="form-control" rows="5 " id="sv-descr"></textarea>
           </div>
         </div>
 
-        <div class="col-md-3">
+        <div class="col-md-6">
           <div class="form-group">
             <label>Service Duration</label>
             <input type="text" class="form-control" id="sv-time">
@@ -50,10 +49,15 @@
       </div>
     </form>
   </div>
+
+  <div class="container services-list">
+    <div style="height: 400px">
+      Availability
+      <p>here will lay the calendar input form</p>
+    </div>
+  </div>
+
+
 </div>
 
 
-<div>
-  Availability
-  <p>here will lay the calendar input form</p>
-</div>
