@@ -1,21 +1,33 @@
 <navbar-component></navbar-component>
 
-<div class="container-fluid default-background">
+<!-- <div class="container-fluid default-background">
 
-  <!--SEARCH FORM-->
-  <div class="bookings-list">
-    <form action="#">
-      <label>
-        Search<br>
-        <input type="text">
-      </label>
-      <label>
-        Select week <br>
-        <input type="text">
-      </label>
+
+  FILTERS FORM
+<div class="bookings-list">
+   <form action="#">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <select class="form-control selectpicker" ng-model="serviceName">
+              <option selected value value="">Sevice name</option>
+              <option>Haircut</option>
+              <option>Beard Trimming</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input placeholder="Select Week" ng-model="period" class="form-control" id="sv-select-wk">
+          </div>
+        </div>
+      </div>
     </form>
   </div>
 
-    <admin-booking-list-component></admin-booking-list-component>
 
-</div>
+  BOOKINGS LIST
+  <admin-booking-list-component service-name="serviceName" period="period"></admin-booking-list-component>
+</div> -->
+
+<admin-booking-list-component></admin-booking-list-component>

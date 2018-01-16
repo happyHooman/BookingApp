@@ -1,20 +1,48 @@
-<table class="table booking-list-table">
-  <thead>
-  <tr>
-    <th>Name</th>
-    <th>Email</th>
-    <th>Phone Number</th>
-    <th>Availability</th>
-    <th>Service name</th>
-  </tr>
-  </thead>
-  <tbody>
-  <tr ng-repeat="booking in $ctrl.bookings">
-    <td>{{booking.name}}</td>
-    <td>{{booking.email}}</td>
-    <td>{{booking.phone}}</td>
-    <td>{{booking.time}}</td>
-    <td>{{booking.serviceName}}</td>
-  </tr>
-  </tbody>
-</table>
+<div class="container-fluid default-background">
+
+
+  <!--FILTERS FORM-->
+  <div class="bookings-list">
+    <form action="#">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <select class="form-control selectpicker" ng-model="serviceName">
+              <option value="">Service name</option>
+              <option ng-repeat="service in $ctrl.services">{{service}}</option>
+            </select>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <input placeholder="Select Week" ng-model="period" class="form-control" id="sv-select-wk">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <!-- BOOKINGS LIST -->
+  <table class="table table-striped bookings-list">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Phone Number</th>
+        <th>Time</th>
+        <th>Service name</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr ng-repeat="booking in $ctrl.bookings | filter: serviceName">
+        <td>{{booking.name}}</td>
+        <td>{{booking.email}}</td>
+        <td>{{booking.phone}}</td>
+        <td>{{booking.time}}</td>
+        <td>{{booking.serviceName}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+</div>

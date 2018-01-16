@@ -28,7 +28,7 @@ function appConfig($routeProvider, $locationProvider) {
         .when('/profile',{
             templateUrl: 'pages/profile.html'
         })
-        .when('/newService',{
+        .when('/new-service',{
             templateUrl: 'pages/new-service.html'
         })
         .when('/company',{
