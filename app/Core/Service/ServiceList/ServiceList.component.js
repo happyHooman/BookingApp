@@ -3,6 +3,7 @@ import template from './ServiceList.template.html'
 class ServiceListController {
     constructor() {
         this.componentName = 'ServiceListComponent';
+        this.isLoggedIn= true;
         this.services = [
             {
                 title: 'Haircut',
@@ -52,8 +53,6 @@ class ServiceListController {
 }
 
 const bindings = {
-    someInput: '<',
-    someOutput: '&'
 }
 
 export const serviceListComponent = {

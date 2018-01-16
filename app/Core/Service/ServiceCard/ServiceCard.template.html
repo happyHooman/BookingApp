@@ -3,7 +3,7 @@
   <h2 style="margin-top: 0">
     <div class="row" style="margin: 0">
       <div class="col-md-6 service-card-title">{{$ctrl.serviceItem.title}}</div>
-      <div class="col-m-6 options-buttons" align="right">
+      <div class="col-m-6 options-buttons" align="right" ng-show="{{$ctrl.loggedIn}}">
         <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
         <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
       </div>
@@ -11,7 +11,7 @@
   </h2>
 
 
-  <a href="#/company" class="service-logo">
+  <a href="#/company" class="service-logo" ng-hide="{{$ctrl.loggedIn}}">
     <img ng-src="{{$ctrl.serviceItem.logo}}" class="service-logo-img">
     <h4>{{$ctrl.serviceItem.company}}</h4>
   </a>
@@ -31,6 +31,6 @@
     <div class="col-md-2">Price</div>
   </div>
 
-  <button class="btn default-button">BOOK NOW</button>
+  <button class="btn default-button" ng-hide="{{$ctrl.loggedIn}}">BOOK NOW</button>
 
 </div>

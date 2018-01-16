@@ -3,6 +3,7 @@ import componentStyle from './ServiceCard.scss'
 
 class ServiceCardController {
     constructor() {
+
         this.componentName = 'ServiceCardComponent';
     }
 
@@ -11,7 +12,8 @@ class ServiceCardController {
 }
 
 const bindings = {
-    serviceItem: '<'
+    serviceItem: '<',
+    loggedIn: '<'
 }
 
 export const serviceCardComponent = {
