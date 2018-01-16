@@ -1,4 +1,5 @@
 import template from './ServiceCard.template.html'
+import componentStyle from './ServiceCard.scss'
 
 class ServiceCardController {
     constructor() {

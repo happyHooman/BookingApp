@@ -1,47 +1,36 @@
 <div class="jumbotron">
 
-  <h3>
-    <div class="row">
-      <div class="col-md-11">
-
-        {{$ctrl.serviceItem.title}}
-      </div>
-      <div class="col-md-1">
-        <a href="#">
-          <i class="fa fa-pencil" aria-hidden="true"></i>
-        </a>
-        <a href="#">
-          <i class="fa fa-trash-o" aria-hidden="true"></i>
-        </a>
+  <h2 style="margin-top: 0">
+    <div class="row" style="margin: 0">
+      <div class="col-md-6 service-card-title">{{$ctrl.serviceItem.title}}</div>
+      <div class="col-m-6 options-buttons" align="right">
+        <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+        <a href="#"><i class="fa fa-trash-o" aria-hidden="true"></i></a>
       </div>
     </div>
-  </h3>
+  </h2>
 
 
-  <div>
-    Here shall be Provider Company logo with company name
-    <a href="#/company">
-      <h4>{{$ctrl.serviceItem.company}}</h4>
-    </a>
-    <p>When you click on the company you shall see the companies profile with it's services</p>
+  <a href="#/company" class="service-logo">
+    <img ng-src="{{$ctrl.serviceItem.logo}}" class="service-logo-img">
+    <h4>{{$ctrl.serviceItem.company}}</h4>
+  </a>
+
+  <div class="service-card-description">{{$ctrl.serviceItem.description}}</div>
+
+  <div class="row service-card-data">
+    <div class="col-md-4">{{$ctrl.serviceItem.availability}}</div>
+    <div class="col-md-3">{{$ctrl.serviceItem.spaces}}</div>
+    <div class="col-md-3">{{$ctrl.serviceItem.duration}}</div>
+    <div class="col-md-2">{{$ctrl.serviceItem.price | currency}}</div>
   </div>
-  <span>{{$ctrl.serviceItem.description}}</span>
-  <table class="table">
-    <tr>
-      <td>{{$ctrl.serviceItem.availability}}</td>
-      <td>{{$ctrl.serviceItem.spaces}}</td>
-      <td>{{$ctrl.serviceItem.duration}}</td>
-      <td>{{$ctrl.serviceItem.price | currency}}</td>
-    </tr>
-    <tr>
-      <th>Availability</th>
-      <th>Spaces</th>
-      <th>Duration</th>
-      <th>Price</th>
-    </tr>
-  </table>
+  <div class="row service-card-detail-titles">
+    <div class="col-md-4">Availability</div>
+    <div class="col-md-3">Spaces</div>
+    <div class="col-md-3">Duration</div>
+    <div class="col-md-2">Price</div>
+  </div>
 
-  <button>BOOK NOW</button>
+  <button class="book-now-btn">BOOK NOW</button>
 
-  <p>Note: some of the elements can be seen by the company that's logged in and can't be seen by the user and viceversa</p>
 </div>

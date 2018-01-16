@@ -1,32 +1,57 @@
 <navbar-component></navbar-component>
-<h1>Add new service</h1>
 
-<div style="display: inline">
-  <div>
-    <span>
-      Service name <br>
-      <input type="text">
-    </span> <br>
-    <span>
-      Service description <br>
-      <input type="text">
-    </span>
+<div class="container-fluid default-background">
+
+  <div class="container services-list">
+    <div>
+      <h1>Add new service</h1>
+
+      <div id="new-service-button-container" align="center">
+        <a href="#">
+          <button class="btn" id="new-service-button">
+            +
+          </button>
+        </a>
+        <p>New Service</p>
+      </div>
+    </div>
   </div>
-  <div>
-    <span>
-      Service duration <br>
-      <input type="text">
-    </span> <br>
-    <span>
-      Spaces <br>
-      <input type="number">
-    </span> <br>
-    <span>
-      Price <br>
-      <input type="number">
-    </span>
+
+  <div class="container service-list">
+    <form action="#">
+
+      <div class="row">
+
+        <div class="col-md-3">
+          <div class="form-group">
+            <label>Service name</label>
+            <input type="text" class="form-control" id="sv-name">
+          </div>
+          <div class="form-group">
+            <label>Service description</label>
+            <input type="text" class="form-control" id="sv-descr">
+          </div>
+        </div>
+
+        <div class="col-md-3">
+          <div class="form-group">
+            <label>Service Duration</label>
+            <input type="text" class="form-control" id="sv-time">
+          </div>
+          <div class="form-group">
+            <label>Spaces</label>
+            <input type="number" class="form-control" id="sv-spcs">
+          </div>
+          <div class="form-group">
+            <label>Price</label>
+            <input type="number" class="form-control" id="sv-price">
+          </div>
+        </div>
+      </div>
+    </form>
   </div>
 </div>
+
 
 <div>
   Availability

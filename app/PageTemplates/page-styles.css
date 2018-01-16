@@ -1,0 +1,33 @@
+#new-service-button-container {
+    float: right;
+    font-size: 18px;
+    margin: 40px 0 30px 0;
+}
+
+#new-service-button {
+    background-color: #c97de5;
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+
+.services-list {
+    width: 758px;
+    padding: 0;
+}
+
+.default-background{
+    background-color: #fcfcfc;
+}
+
+#sv-descr{
+    height: 150px;
+}
+
+.form-control{
+    height: 55px;
+    font-size: ;
+}

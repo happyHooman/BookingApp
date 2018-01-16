@@ -5,16 +5,17 @@ class ServiceListController {
         this.componentName = 'ServiceListComponent';
         this.services = [
             {
-                title: 'Hair Cut',
+                title: 'Haircut',
                 company: 'Beauty and the barber',
                 description: 'Now eldest new tastes plenty mother called misery get. Longer excuse for county nor except met its' +
                 ' things. Narrow enough sex moment desire are. Hold who what come that seen read age its. Contained or estimable ' +
                 'earnestly so perceived. Imprudence he in sufficient cultivated. Delighted promotion improving acuteness an newspaper ' +
                 'offending he. Misery in am secure theirs giving an. Design on longer thrown oppose am. ',
-                availability: 'Mon-Friday, 8:00-21:00',
+                availability: 'Mon-Fri, 8:00-21:00',
                 spaces: 7,
                 duration: '1',
-                price: 5
+                price: 5,
+                logo: '../../../Public/assets/pika.png'
             },
             {
                 title: 'Beard Trimming',
@@ -27,7 +28,8 @@ class ServiceListController {
                 availability: 'Mon-Fri',
                 spaces: 7,
                 duration: '1h',
-                price: 5
+                price: 5,
+                logo: '../../../Public/assets/zelda.png'
             },
             {
                 title: 'Prettyfy',
@@ -39,7 +41,8 @@ class ServiceListController {
                 availability: 'Sat',
                 spaces: 1,
                 duration: '3h',
-                price: 2000
+                price: 2000,
+                logo: '../../../Public/assets/zelda.png'
             }
         ]
     }

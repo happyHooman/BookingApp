@@ -1,0 +1,73 @@
+.service-card {
+    background-color: white;
+    border-radius: 3px;
+    width: 758px;
+    border: 1px solid red;
+    box-shadow: 0 5px 10px 5px #f2e5f8;
+}
+
+.service-card-title {
+    color:#c97de5;
+    padding-left: 0;
+}
+
+.options-buttons a {
+    color: #afafaf !important;
+}
+
+.options-buttons a:hover {
+    color: black !important;
+}
+
+.jumbotron {
+    background-color: white;
+    box-shadow: 2px 6px 28px -2px rgba(201,125,229,0.56);
+    margin: 0 0 50px 0;
+    padding: 10px 20px 30px 30px !important;
+}
+
+.service-logo{
+    display: inline-flex;
+    margin-top:10px;
+}
+
+.service-logo-img {
+    width: 40px;
+    height: 40px;
+}
+
+.service-card-data{
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+.service-card-detail-titles {
+    color: #afafaf;
+}
+
+.service-card-description {
+    color: #afafaf;
+    margin-top: 20px;
+}
+
+.book-now-btn{
+    background-color: #c97de5;
+    border:1px solid #c97de5;
+    border-radius: 3px;
+    width: 165px;
+    height: 55px;
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    outline: none;
+}
+
+.book-now-btn:hover{
+    background-color: #e391ff;
+    border:1px solid #e391ff;
+}
+
+.book-now-btn:active{
+    background-color: #9e63ba;
+    border:1px solid #9e63ba;
+}
