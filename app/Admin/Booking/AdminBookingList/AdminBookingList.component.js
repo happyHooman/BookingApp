@@ -22,7 +22,7 @@ class AdminBookingListController {
                 name: 'John Doe',
                 email: 'john.doe@email.com',
                 phone: '0789456123',
-                time: 'Mon, 10:00-11:00',
+                time:  new Date(2018,1,1,10),
                 serviceName: 'Haircut'
             },
             {
@@ -49,10 +49,14 @@ class AdminBookingListController {
         ];
     }
 
-    $onInit() {
-      // SAVE ALL UNIQUE SERVICES IN THE SERVICES VARIABLE
-        this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) => array.indexOf(x) == pos);
 
+            // SAVE ALL UNIQUE SERVICES IN THE SERVICES VARIABLE
+    filterServices(){
+      return this.bookings.map(x => x.serviceName).filter((x, pos, array) => array.indexOf(x) == pos);
+    }
+
+    $onInit() {
+        this.services = this.filterServices();
     }
 }
 

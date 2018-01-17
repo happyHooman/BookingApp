@@ -37,6 +37,6 @@
     </div>
   </div>
 
-  <button class="btn default-button" ng-hide="{{$ctrl.loggedIn}}">BOOK NOW</button>
-
+  <button type="button" class="btn default-button " data-toggle="modal" data-target="#myModal" ng-hide="{{$ctrl.loggedIn}}">BOOK NOW</button>
+  <default-modal-component></default-modal-component>
 </div>

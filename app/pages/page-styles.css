@@ -86,6 +86,11 @@
     color: white;
 }
 
+.default-button:focus{
+  outline: none;
+  color: white;
+}
+
 
 .login-container{
   width: 500px;

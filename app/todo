@@ -1,0 +1,7 @@
+1. bookings sort by each param
+2. show real date in bookings
+3. first page choose between user and admin
+4. create service - duration - select
+5. edit/delete service
+   - edit Modal load data from element
+   - delete - confirm

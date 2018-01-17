@@ -35,11 +35,18 @@
         <div class="col-md-6">
           <div class="form-group">
             <label>Service Duration</label>
-            <input type="text" class="form-control" id="sv-time">
+            <select class="form-control" name="Selct duration">
+              <option value="">10 min</option>
+              <option value="">20 min</option>
+              <option value="">30 min</option>
+              <option value="">40 min</option>
+              <option value="">50 min</option>
+              <option value="">1 hour</option>
+            </select>
           </div>
           <div class="form-group">
             <label>Spaces</label>
-            <input type="number" class="form-control" id="sv-spcs">
+            <input type="number" class="form-control" id="sv-spcs" min="1" max="20" value="1">
           </div>
           <div class="form-group">
             <label>Price</label>
