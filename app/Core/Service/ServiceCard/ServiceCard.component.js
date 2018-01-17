@@ -3,10 +3,8 @@ import componentStyle from './ServiceCard.scss'
 
 class ServiceCardController {
     constructor() {
-
         this.componentName = 'ServiceCardComponent';
     }
-
     $onInit() {
     }
 }

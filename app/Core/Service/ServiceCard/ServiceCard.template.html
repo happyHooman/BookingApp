@@ -19,16 +19,22 @@
   <div class="service-card-description">{{$ctrl.serviceItem.description}}</div>
 
   <div class="row service-card-data">
-    <div class="col-md-4">{{$ctrl.serviceItem.availability}}</div>
-    <div class="col-md-3">{{$ctrl.serviceItem.spaces}}</div>
-    <div class="col-md-3">{{$ctrl.serviceItem.duration}}</div>
-    <div class="col-md-2">{{$ctrl.serviceItem.price | currency}}</div>
-  </div>
-  <div class="row service-card-detail-titles">
-    <div class="col-md-4">Availability</div>
-    <div class="col-md-3">Spaces</div>
-    <div class="col-md-3">Duration</div>
-    <div class="col-md-2">Price</div>
+    <div class="col-md-4">
+      <dt>{{$ctrl.serviceItem.availability}}</dt>
+      <dd>Availability</dd>
+    </div>
+    <div class="col-md-3">
+      <dt>{{$ctrl.serviceItem.spaces}}</dt>
+      <dd>Spaces</dd>
+    </div>
+    <div class="col-md-3">
+      <dt>{{$ctrl.serviceItem.duration}}</dt>
+      <dd>Duration</dd>
+    </div>
+    <div class="col-md-2">
+      <dt>{{$ctrl.serviceItem.price | currency}}</dt>
+      <dd>Price</dd>
+    </div>
   </div>
 
   <button class="btn default-button" ng-hide="{{$ctrl.loggedIn}}">BOOK NOW</button>
