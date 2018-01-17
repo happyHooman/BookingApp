@@ -11,7 +11,9 @@
   </h2>
 
 
-  <a href="#/company" class="service-logo" ng-hide="{{$ctrl.loggedIn}}">
+  <a href="#/company"
+     class="service-logo"
+     ng-hide="{{$ctrl.loggedIn}}">
     <img ng-src="{{$ctrl.serviceItem.logo}}" class="service-logo-img">
     <h4>{{$ctrl.serviceItem.company}}</h4>
   </a>
@@ -37,6 +39,10 @@
     </div>
   </div>
 
-  <button type="button" class="btn default-button " data-toggle="modal" data-target="#myModal" ng-hide="{{$ctrl.loggedIn}}">BOOK NOW</button>
+  <button type="button"
+          class="btn default-button "
+          data-toggle="modal"
+          data-target="#myModal"
+          ng-hide="{{$ctrl.loggedIn}}">BOOK NOW</button>
   <default-modal-component></default-modal-component>
 </div>
