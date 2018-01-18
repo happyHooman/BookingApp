@@ -110,18 +110,26 @@
     margin-top: 10px;
 }
 
-.modal{
-  margin-top: 150px;
+.modal {
+    margin-top: 150px;
 }
 
-.modal-header{
-  text-align: center;
+.modal-lg {
+    width: 1000px;
+}
+
+.modal-header {
+    text-align: center;
+    border: none;
+    padding-top: 5px;
+    padding-right: 8px;
 }
 
 .modal-title {
     font-size: 30px;
     color: #cb7de6;
     font-weight: bolder;
+    padding-top: 40px;
 }
 
 .modal-subtitle {
@@ -132,13 +140,28 @@
 .modal-body {
     font-size: 20px;
     font-weight: normal !important;
-    padding: 60px 150px 80px 150px;
+    padding: 40px 150px 80px 150px;
 }
 
 .form-group {
-  margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 
 label {
-  font-weight: 500;
+    font-weight: 500;
+}
+
+.clean-button{
+  background-color: transparent;
+  color: #afafaf;
+  border: none;
+  outline: none;
+}
+
+.clean-button:hover{
+  color: black;
+}
+
+.clean-button:active{
+  color: #c97de5;
 }

@@ -4,13 +4,13 @@ class SuccessModalController {
   constructor(){
 
   }
-  onInit(){
+  $onInit(){
 
   }
 }
 
 export const successModalComponent = {
   controller: SuccessModalController,
-  controllerAs: '$ctrl'.
+  controllerAs: '$ctrl',
   template
 }

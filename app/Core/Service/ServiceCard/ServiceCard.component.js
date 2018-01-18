@@ -11,7 +11,8 @@ class ServiceCardController {
 
 const bindings = {
     serviceItem: '<',
-    loggedIn: '<'
+    loggedIn: '<',
+    deleteFunction: '&'
 }
 
 export const serviceCardComponent = {

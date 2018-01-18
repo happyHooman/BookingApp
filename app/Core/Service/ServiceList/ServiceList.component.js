@@ -48,6 +48,12 @@ class ServiceListController {
         ]
     }
 
+    deleteService(service) {
+      if(confirm('Are you sure you want to delete this service?')){
+        this.services.splice(this.services.indexOf(service), 1);
+      }
+    }
+
     $onInit() {
     }
 }
