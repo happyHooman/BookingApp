@@ -17,6 +17,7 @@ class IndexController {
 
 angular.module('App', [
     'ngRoute',
+    'ui.router',
     'Core',
     'Admin',
     'Public'])

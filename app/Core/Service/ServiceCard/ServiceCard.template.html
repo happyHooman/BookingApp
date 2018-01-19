@@ -2,9 +2,9 @@
 
   <h2 style="margin-top: 0">
     <div class="row" style="margin: 0">
-      <div class="col-md-6 service-card-title">{{$ctrl.serviceItem.title}}</div>
+      <div class="col-md-6 service-card-title">{{$ctrl.serviceItem.name}}</div>
       <div class="col-m-6 options-buttons" align="right" ng-show="{{$ctrl.loggedIn}}">
-        <button class="clean-button"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+        <button class="clean-button" ng-click="$ctrl.goEditService($ctrl.serviceItem)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
         <button class="clean-button" ng-click="$ctrl.deleteFunction($ctrl.serviceItem)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
       </div>
     </div>

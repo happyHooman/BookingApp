@@ -1,135 +1,69 @@
-<table class="table">
+<!-- <table class="table">
   <thead>
     <th></th>
-    <th>MON</th>
-    <th>TUE</th>
-    <th>WED</th>
-    <th>THU</th>
-    <th>FRI</th>
-    <th>SAT</th>
-    <th>SUN</th>
+    <th ng-repeat="day in $ctrl.days">{{day.day}}</th>
   </thead>
   <tbody>
-    <tr>
-      <td>07:00</td>
-      <td> <i class="fa fa-circle-o"></i> </td>
-      <td> <i class="fa fa-circle-o"></i> </td>
-      <td> <i class="fa fa-circle-o"></i> </td>
-      <td> <i class="fa fa-circle-o"></i> </td>
-      <td> <i class="fa fa-circle-o"></i> </td>
-      <td> <i class="fa fa-circle-o"></i> </td>
-      <td> <i class="fa fa-circle-o"></i> </td>
+
+    <tr ng-repeat="day in ">
+
     </tr>
-    <tr>
-      <td>08:00</td>
-      <td> <i class="fa fa-circle"></i> </td>
-      <td> <i class="fa fa-circle"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>09:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>10:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>11:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>12:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>13:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>14:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>15:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>16:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>17:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-    </tr>
-    <tr>
-      <td>18:00</td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
-      <td> <i class="fa fa-circle-thin"></i> </td>
+
+
+
+
+    <tr ng-repeat="hour in $ctrl.hours">
+      <td>{{hour.time}}</td>
+      <td ng-repeat="day in $ctrl.days">
+        <i ng-class="hour.selected ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
+        ng-click="$ctrl.setTime(day.day, hour)"></i>
+      </td>
     </tr>
   </tbody>
+</table> -->
 
-</table>
+
+
+<ul class="calendar">
+
+  <li class="calendar-columns">
+    <ul class="calendar-hours">
+      <li></li>
+      <li ng-repeat="hour in $ctrl.hours">
+        {{ hour.time }}
+      </li>
+    </ul>
+  </li>
+
+  <li class="calendar-columns" ng-repeat="day in $ctrl.days track by $index">
+    {{ day.day }}
+    <ul class="calendar-hours">
+      <li ng-repeat="hour in day.hours track by $index">
+        <i ng-class="hour.selected ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
+        ng-click="$ctrl.setTime(day, hour, $index)"></i>
+      </li>
+    </ul>
+  </li>
+
+</ul>
+
+<style media="screen">
+  .calendar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+  }
+
+  .calendar-columns {
+    width: calc(100% /  8);
+  }
+
+  .calendar-hours {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+  }
+
+</style>

@@ -4,7 +4,7 @@
     margin: 40px 0 30px 0;
 }
 
-#new-service-button {
+.new-service-btn {
     background-color: #c97de5;
     color: white;
     border-radius: 50%;
@@ -13,6 +13,10 @@
     font-size: 40px;
     margin-bottom: 10px;
     outline-style: none;
+}
+
+.new-service-btn:focus{
+  outline: none;
 }
 
 .services-list {
@@ -164,4 +168,27 @@ label {
 
 .clean-button:active{
   color: #c97de5;
+}
+
+.day-picker-table {
+  border: 1px solid #cfcfcf;
+  /*padding: 20px;*/
+  font-size: 20px;
+  color: #777777;
+}
+
+.day-picker-table tr td{
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
+
+.day-picker-table tr th{
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
+
+.clk{
+  color: #cb7de6;
 }

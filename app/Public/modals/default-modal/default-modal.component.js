@@ -2,7 +2,8 @@ import template from './default-modal.template.html'
 
 class DefaultModalController {
   constructor(){
-    this.componentName = 'DefaultModalComponent'
+    this.componentName = 'DefaultModalComponent';
+    this.step = 1;
   }
   onInit(){
   }
