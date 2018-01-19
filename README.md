@@ -2,8 +2,11 @@
 
 1. clone the project
 2. ```npm install```
-3. ```npm run dev```
+3. ```npm install -g json-server```
+4. ```npm run dev```
 
+5. open a separate terminal from the /app folder
+6. ```json-server -w db.json```
 
 
 
