@@ -4,7 +4,7 @@
   "services": [
     {
       "id": 1,
-      "name": "Haircut 2",
+      "name": "Haircut2",
       "company": "Beauty and the barber",
       "description": "Now eldest new tastes plenty mother called misery get. Longer excuse for county nor except met its things. Narrow enough sex moment desire are. Hold who what come that seen read age its. Contained or estimable earnestly so perceived. Imprudence he in sufficient cultivated. Delighted promotion improving acuteness an newspaper offending he. Misery in am secure theirs giving an. Design on longer thrown oppose am. ",
       "availability": "Mon-Fri, 8:00-21:00",
@@ -29,9 +29,9 @@
       "name": "Prettyfy",
       "company": "Magic Mirror",
       "description": "Of on affixed civilly moments promise explain fertile in. Assurance advantage belonging happiness departure so of. Now improving and one sincerity intention allowance commanded not. Oh an am frankness be necessary earnestly advantage estimable extensive. Five he wife gone ye. Mrs suffering sportsmen earnestly any. In am do giving to afford parish settle easily garret. ",
-      "spaces": 1,
+      "spaces": 5,
       "duration": "30 min",
-      "price": 2000,
+      "price": 2000.5,
       "logo": "../../../Public/assets/zelda.png",
       "availability": [
         {
@@ -40,12 +40,20 @@
       ]
     },
     {
+      "name": "Car Wash",
+      "description": "Let your car have a sauna!",
+      "duration": "30 min",
+      "spaces": 2,
+      "price": 20,
+      "id": 4
+    },
+    {
       "name": "aaaa",
       "description": "aaaa",
       "duration": "10 min",
-      "spaces": 3,
-      "price": 2222,
-      "id": 4
+      "spaces": 12,
+      "price": 12,
+      "id": 5
     }
   ]
 }

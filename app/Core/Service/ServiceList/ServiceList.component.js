@@ -1,5 +1,4 @@
 import template from './ServiceList.template.html'
-import {$state} from '@uirouter/angularjs';
 import { ApiUrl } from '../../../ApiUrl.constants';
 
 
@@ -28,6 +27,7 @@ class ServiceListController {
 	$onInit() {
     this._http.get(ApiUrl.base + ApiUrl.services).then(res => {
 			this.services = res.data;
+			console.log("services loaded");
     }, function(err) {
       console.log('err ', err);
     });

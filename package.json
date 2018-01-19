@@ -32,7 +32,7 @@
         "babel-preset-es2015": "^6.24.1",
         "chai": "^3.5.0",
         "concurrently": "^3.4.0",
-        "css-loader": "^0.28.0",
+        "css-loader": "^0.28.9",
         "inject-loader": "^3.0.0",
         "less": "^2.7.3",
         "less-loader": "^4.0.5",
@@ -46,9 +46,7 @@
         "style-loader": "^0.16.1",
         "watch": "^1.0.2",
         "webpack": "^2.3.3",
-        "webpack-dev-server": "^2.4.2"
+        "webpack-dev-server": "^2.11.0"
     },
-    "dependencies": {
-        "@uirouter/angularjs": "latest"
-    }
+    "dependencies": {}
 }
