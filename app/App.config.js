@@ -7,6 +7,9 @@ function appConfig($routeProvider, $locationProvider) {
         .when('/', {
             templateUrl: 'pages/choose-type.html'
         })
+        .when('/edit-service/:id', {
+            templateUrl: 'pages/edit-service.html'
+        })
         .when('/user-view', {
             templateUrl: 'pages/user-view.html'
         })

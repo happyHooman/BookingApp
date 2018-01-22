@@ -2,13 +2,13 @@
 
   <div class="container services-list" ng-hide='false'>
     <div>
-      <h1>Add new service</h1>
+      <h1>{{$ctrl.pageOptions.title}}</h1>
 
       <div id="new-service-button-container" align="center">
         <button type="submit" class="btn new-service-btn" ng-click="$ctrl.saveService()">
             +
           </button>
-        <p>Save Service</p>
+        <p>{{$ctrl.pageOptions.button}}</p>
       </div>
     </div>
 
@@ -56,6 +56,6 @@
   </div>
 
   <div class="container services-list" ng-hide="false">
-    <day-picker-component></day-picker-component>
+    <day-picker-component availability="$ctrl.service.availability" working-hours="$ctrl.service.workingHours"></day-picker-component>
   </div>
 </div>

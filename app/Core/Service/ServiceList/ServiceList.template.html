@@ -1,7 +1,7 @@
 <service-card-component
   service-item="service"
-  go-edit-service="$ctrl.goEditService(service)"
-  delete-function ="$ctrl.deleteService(service)"
+  edit-service="$ctrl.editService(service)"
+  delete-service ="$ctrl.deleteService(service)"
   logged-in="$ctrl.isLoggedIn"
   ng-repeat="service in $ctrl.services | filter: $ctrl.filter">
 </service-card-component>

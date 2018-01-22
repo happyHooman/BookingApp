@@ -18,10 +18,8 @@ class ServiceListController {
 		}
 	}
 
-	goEditService(service) {
-    this.location.path('/new-service');
-    localStorage.setItem('service', JSON.stringify(service));
-
+	editService(service) {
+    this.location.path('/edit-service/'+ service.id);
 	}
 
 	$onInit() {

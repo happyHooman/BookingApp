@@ -8,7 +8,7 @@
       <td>{{$ctrl.hours[$index+$ctrl.workingHours[0]]}}</td>
       <td ng-repeat="day in hour track by $index">
         <i ng-class="day ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
-        ng-click="$ctrl.selectTime($parent.$index, $index)"></i>
+        ng-click="$ctrl.setAvailable($parent.$index, $index)"></i>
       </td>
     </tr>
   </tbody>

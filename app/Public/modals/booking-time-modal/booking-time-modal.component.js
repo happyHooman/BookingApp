@@ -5,8 +5,6 @@ class BookingTimeModalController {
 		this.componentName = 'bookingTimeModalComponent'
 	}
 	$onInit() {
-		console.log(this.componentName);
-
 	}
 }
 

@@ -1,18 +1,59 @@
 import template from './edit-service.template.html'
-import {
-	ApiUrl
-} from '../../../ApiUrl.constants';
+import { ApiUrl } from '../../../ApiUrl.constants';
 
 class EditServiceController {
-	constructor($http, $location) {
+	constructor($http, $location, $routeParams) {
+		this._routeParamas = $routeParams;
 		this._location = $location;
 		this._http = $http;
 		this.service = {};
 	}
+
 	$onInit() {
-		this.service = JSON.parse(localStorage.getItem('service'));
-		localStorage.removeItem('service');
+		this.loadService();
 	}
+
+	loadService() {
+		if (this._routeParamas.id) {
+			this._http.get(ApiUrl.base + ApiUrl.services + this._routeParamas.id).then(
+				res => {
+					this.service = res.data;
+					console.log('service loaded');
+				}, err => {
+					console.log("error loading service", err);
+				});
+		} else {
+			this.service = {
+				availability: [
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0]
+			]
+			}
+		}
+	}
+
 	saveService() {
 		if (this.service.id) { //uptade the current service, wich has an id
 			this._http.put(ApiUrl.base + ApiUrl.services + this.service.id, this.service)
@@ -25,12 +66,12 @@ class EditServiceController {
 }
 
 const bindings = {
-	service: '<'
+	pageOptions: '<'
 }
-
 
 export const editServiceComponent = {
 	controller: EditServiceController,
 	controllerAs: '$ctrl',
+	bindings,
 	template
 }

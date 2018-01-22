@@ -5,10 +5,10 @@
 -done- edit service
 -done- delete service, ask for confirmation
 -done- create day-picker component
-add availability to the service in db
+-done- add availability to the service in db
 step by step booking modal
-add booking to database
-different edit/add pages
+-done- add booking to database
+-done- different edit/add pages
 add booking end Time
 create users / register
 login validation

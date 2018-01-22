@@ -4,8 +4,8 @@
     <div class="row" style="margin: 0">
       <div class="col-md-6 service-card-title">{{$ctrl.serviceItem.name}}</div>
       <div class="col-m-6 options-buttons" align="right" ng-show="{{$ctrl.loggedIn}}">
-        <button class="clean-button" ng-click="$ctrl.goEditService($ctrl.serviceItem)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-        <button class="clean-button" ng-click="$ctrl.deleteFunction($ctrl.serviceItem)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+        <button class="clean-button" ng-click="$ctrl.editService($ctrl.serviceItem)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+        <button class="clean-button" ng-click="$ctrl.deleteService($ctrl.serviceItem)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
       </div>
     </div>
   </h2>
@@ -22,7 +22,7 @@
 
   <div class="row service-card-data">
     <div class="col-md-4">
-      <dt>{{$ctrl.serviceItem.availability}}</dt>
+      <dt>{{$ctrl.serviceItem.workingHours}}</dt>
       <dd>Availability</dd>
     </div>
     <div class="col-md-3">
