@@ -5,49 +5,49 @@
       "name": "John Doe",
       "email": "john.doe@email.com",
       "phone": "0789456123",
-      "time": "Mon, 10:00-11:00",
+      "time": 1517212800000,
       "serviceName": "Haircut"
     },
     {
       "name": "Vasily Zaytsev",
       "email": "v.z@email.ru",
       "phone": "0929456123",
-      "time": "Tue, 10:00-11:00",
+      "time": 1517306400000,
       "serviceName": "Beard Trimming"
     },
     {
       "name": "John Doe",
       "email": "john.doe@email.com",
       "phone": "0789456123",
-      "time": "new Date(2018,1,1,10)",
+      "time": 1517403600000,
       "serviceName": "Haircut"
     },
     {
       "name": "Vasily Zaytsev",
       "email": "v.z@email.ru",
       "phone": "0929456123",
-      "time": "Mon, 10:00-11:00",
+      "time": 1517475600000,
       "serviceName": "Shoes Cleaning"
     },
     {
       "name": "John Doe",
       "email": "john.doe@email.com",
       "phone": "0789456123",
-      "time": "Wed, 10:00-11:00",
+      "time": 1517572800000,
       "serviceName": "Nail Polish"
     },
     {
       "name": "Vasily Zaytsev",
       "email": "v.z@email.ru",
       "phone": "0929456123",
-      "time": "Fri, 10:00-11:00",
+      "time": 1517670000000,
       "serviceName": "Beard Trimming"
     }
   ],
   "services": [
     {
       "id": 1,
-      "name": "Haircut222",
+      "name": "Haircut",
       "company": "Beauty and the barber",
       "description": "Now eldest new tastes plenty mother called misery get. Longer excuse for county nor except met its things. Narrow enough sex moment desire are. Hold who what come that seen read age its. Contained or estimable earnestly so perceived. Imprudence he in sufficient cultivated. Delighted promotion improving acuteness an newspaper offending he. Misery in am secure theirs giving an. Design on longer thrown oppose am. ",
       "availability": "Mon-Fri, 8:00-21:00",
@@ -89,14 +89,6 @@
       "spaces": 2,
       "price": 20,
       "id": 4
-    },
-    {
-      "name": "aSDFABVSDFB",
-      "duration": "40 min",
-      "description": "ASDFAV",
-      "spaces": 7,
-      "price": 100,
-      "id": 5
     }
   ]
 }

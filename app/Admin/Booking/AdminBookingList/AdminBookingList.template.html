@@ -25,21 +25,31 @@
 
   <!-- BOOKINGS LIST -->
   <table class="table table-striped bookings-list">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Email</th>
-        <th>Phone Number</th>
-        <th>Time</th>
-        <th>Service name</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr ng-repeat="booking in $ctrl.bookings | filter: serviceName">
+  <thead class="booking-list-titles">
+    <tr>
+      <th ng-click="$ctrl.sortBy('name')"> Name
+        <i class="fa" ng-show="$ctrl.orderProp ==='name'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
+      </th>
+      <th ng-click="$ctrl.sortBy('email')">Email
+        <i class="fa" ng-show="$ctrl.orderProp ==='email'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
+      </th>
+      <th ng-click="$ctrl.sortBy('phone')">Phone Number
+        <i class="fa" ng-show="$ctrl.orderProp ==='phone'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
+      </th>
+      <th ng-click="$ctrl.sortBy('time')">Time
+        <i class="fa" ng-show="$ctrl.orderProp ==='time'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
+      </th>
+      <th ng-click="$ctrl.sortBy('serviceName')">Service name
+        <i class="fa" ng-show="$ctrl.orderProp ==='serviceName'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+      <tr ng-repeat="booking in $ctrl.bookings | filter: serviceName | orderBy:$ctrl.orderProp:$ctrl.reverseOrder">
         <td>{{booking.name}}</td>
         <td>{{booking.email}}</td>
         <td>{{booking.phone}}</td>
-        <td>{{booking.time | date}}</td>
+        <td>{{booking.time | date:'EEE, H:mm'}}</td>
         <td>{{booking.serviceName}}</td>
       </tr>
     </tbody>

@@ -1,8 +1,14 @@
-1. bookings sort by each param
-2. show real date in bookings
-3. first page choose between user and admin
-4. create service - duration - select
-5. edit/delete service
-   - edit Modal load data from element
-   - delete - confirm
-6. different edit/add pages
+-done- bookings order by each param
+-done- show real date in bookings
+-done- first page choose between user and admin
+-done- create service - duration - select
+-done- edit service
+-done- delete service, ask for confirmation
+step by step booking modal
+different edit/add pages
+add booking end Time
+create users / register
+login validation
+dispaly page differently when logged in and when logged out
+link booking to a service
+link service to a company
