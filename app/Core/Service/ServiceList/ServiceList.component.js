@@ -28,8 +28,8 @@ class ServiceListController {
     this._http.get(ApiUrl.base + ApiUrl.services).then(res => {
 			this.services = res.data;
 			console.log("services loaded");
-    }, function(err) {
-      console.log('err ', err);
+    }, err => {
+      console.log('Error loading services. Please check server status. ', err);
     });
   }
 }

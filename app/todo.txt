@@ -5,3 +5,4 @@
 5. edit/delete service
    - edit Modal load data from element
    - delete - confirm
+6. different edit/add pages

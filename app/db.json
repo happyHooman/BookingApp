@@ -1,16 +1,59 @@
 {
   "companies": [],
-  "bookings": [],
+  "bookings": [
+    {
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "phone": "0789456123",
+      "time": "Mon, 10:00-11:00",
+      "serviceName": "Haircut"
+    },
+    {
+      "name": "Vasily Zaytsev",
+      "email": "v.z@email.ru",
+      "phone": "0929456123",
+      "time": "Tue, 10:00-11:00",
+      "serviceName": "Beard Trimming"
+    },
+    {
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "phone": "0789456123",
+      "time": "new Date(2018,1,1,10)",
+      "serviceName": "Haircut"
+    },
+    {
+      "name": "Vasily Zaytsev",
+      "email": "v.z@email.ru",
+      "phone": "0929456123",
+      "time": "Mon, 10:00-11:00",
+      "serviceName": "Shoes Cleaning"
+    },
+    {
+      "name": "John Doe",
+      "email": "john.doe@email.com",
+      "phone": "0789456123",
+      "time": "Wed, 10:00-11:00",
+      "serviceName": "Nail Polish"
+    },
+    {
+      "name": "Vasily Zaytsev",
+      "email": "v.z@email.ru",
+      "phone": "0929456123",
+      "time": "Fri, 10:00-11:00",
+      "serviceName": "Beard Trimming"
+    }
+  ],
   "services": [
     {
       "id": 1,
-      "name": "Haircut2",
+      "name": "Haircut222",
       "company": "Beauty and the barber",
       "description": "Now eldest new tastes plenty mother called misery get. Longer excuse for county nor except met its things. Narrow enough sex moment desire are. Hold who what come that seen read age its. Contained or estimable earnestly so perceived. Imprudence he in sufficient cultivated. Delighted promotion improving acuteness an newspaper offending he. Misery in am secure theirs giving an. Design on longer thrown oppose am. ",
       "availability": "Mon-Fri, 8:00-21:00",
       "spaces": 7,
       "duration": "10 min",
-      "price": 5,
+      "price": 20,
       "logo": "../../../Public/assets/pika.png"
     },
     {
@@ -31,7 +74,7 @@
       "description": "Of on affixed civilly moments promise explain fertile in. Assurance advantage belonging happiness departure so of. Now improving and one sincerity intention allowance commanded not. Oh an am frankness be necessary earnestly advantage estimable extensive. Five he wife gone ye. Mrs suffering sportsmen earnestly any. In am do giving to afford parish settle easily garret. ",
       "spaces": 5,
       "duration": "30 min",
-      "price": 2000.5,
+      "price": 2000,
       "logo": "../../../Public/assets/zelda.png",
       "availability": [
         {
@@ -48,11 +91,11 @@
       "id": 4
     },
     {
-      "name": "aaaa",
-      "description": "aaaa",
-      "duration": "10 min",
-      "spaces": 12,
-      "price": 12,
+      "name": "aSDFABVSDFB",
+      "duration": "40 min",
+      "description": "ASDFAV",
+      "spaces": 7,
+      "price": 100,
       "id": 5
     }
   ]
