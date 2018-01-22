@@ -2,92 +2,39 @@ import template from './day-picker.template.html'
 
 class DayPickerController {
 	constructor() {
-		this.selectedTime = [1, 1];
-		this.hours = [
-			{
-				time: 7,
-				selected: false
-			},
-			{
-				time: 8,
-				selected: false
-			},
-			{
-				time: 9,
-				selected: false
-			},
-			{
-				time: 10,
-				selected: false
-			},
-			{
-				time: 11,
-				selected: false
-			},
-			{
-				time: 12,
-				selected: false
-			},
-			{
-				time: 13,
-				selected: false
-			},
-			{
-				time: 14,
-				selected: false
-			},
-			{
-				time: 15,
-				selected: false
-			},
-			{
-				time: 16,
-				selected: false
-			},
-			{
-				time: 17,
-				selected: false
-			},
-			{
-				time: 18,
-				selected: false
-			}];
-		this.days = [
-			{
-				day: 'MON',
-				hours: this.cloneHours()
-			},
-			{
-				day: 'TUE',
-				hours: this.cloneHours()
-			},
-			{
-				day: 'WED',
-				hours: this.cloneHours()
-			},
-			{
-				day: 'THU',
-				hours: this.cloneHours()
-			},
-			{
-				day: 'FRI',
-				hours: this.cloneHours()
-			},
-			{
-				day: 'SAT',
-				hours: this.cloneHours()
-			},
-			{
-				day: 'SUN',
-				hours: this.cloneHours()
-			}
+		this.weekdays = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
+		this.hours = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
+			18, 19, 20, 21, 22, 23];
+		this.availability = [ // 0 means unset wich is not available for booking, 1 means available, 2 means busy
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0],
+			[0, 0, 0, 0, 0, 0, 0]
 		];
-		this.busy = {
-			nu: 'fa fa-circle-thin fa-2x',
-			da: 'fa fa-circle fa-2x',
-			clk: 'fa fa-circle fa-2x clk'
-		}
+		this.workingHours=[7,12];
+
 	}
+
 
 
 	cloneHours() {
@@ -98,8 +45,14 @@ class DayPickerController {
 
 	$onInit() {}
 
-	setTime(day, hour, hourIndex) {
-		hour.selected = !hour.selected;
+	setHour(hour) {
+		console.log("hour is set to:", hour);
+		this.hour = hour;
+	}
+
+	selectTime(hour, day) {
+		this.availability[hour + this.workingHours[0]][day] = 1;
+		console.log(this.weekdays[day], 'at', hour + this.workingHours[0]);
 	}
 
 }

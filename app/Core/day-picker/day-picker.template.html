@@ -1,69 +1,15 @@
-<!-- <table class="table">
+<table class="table">
   <thead>
     <th></th>
-    <th ng-repeat="day in $ctrl.days">{{day.day}}</th>
+    <th ng-repeat="day in $ctrl.weekdays">{{day}}</th>
   </thead>
   <tbody>
-
-    <tr ng-repeat="day in ">
-
-    </tr>
-
-
-
-
-    <tr ng-repeat="hour in $ctrl.hours">
-      <td>{{hour.time}}</td>
-      <td ng-repeat="day in $ctrl.days">
-        <i ng-class="hour.selected ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
-        ng-click="$ctrl.setTime(day.day, hour)"></i>
+    <tr ng-repeat="hour in $ctrl.availability | limitTo:$ctrl.workingHours[1]:$ctrl.workingHours[0] track by $index">
+      <td>{{$ctrl.hours[$index+$ctrl.workingHours[0]]}}</td>
+      <td ng-repeat="day in hour track by $index">
+        <i ng-class="day ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
+        ng-click="$ctrl.selectTime($parent.$index, $index)"></i>
       </td>
     </tr>
   </tbody>
-</table> -->
-
-
-
-<ul class="calendar">
-
-  <li class="calendar-columns">
-    <ul class="calendar-hours">
-      <li></li>
-      <li ng-repeat="hour in $ctrl.hours">
-        {{ hour.time }}
-      </li>
-    </ul>
-  </li>
-
-  <li class="calendar-columns" ng-repeat="day in $ctrl.days track by $index">
-    {{ day.day }}
-    <ul class="calendar-hours">
-      <li ng-repeat="hour in day.hours track by $index">
-        <i ng-class="hour.selected ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
-        ng-click="$ctrl.setTime(day, hour, $index)"></i>
-      </li>
-    </ul>
-  </li>
-
-</ul>
-
-<style media="screen">
-  .calendar {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    list-style: none;
-    padding: 0;
-  }
-
-  .calendar-columns {
-    width: calc(100% /  8);
-  }
-
-  .calendar-hours {
-    padding: 0;
-    list-style: none;
-    text-align: center;
-  }
-
-</style>
+</table>
