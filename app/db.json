@@ -4,36 +4,36 @@
       "email": "nuEraEmailPe@vremea.mea",
       "name": "",
       "description": "",
-      "logo": "",
+      "logo": "../Public/assets/vlad.jpeg",
       "id": 1
     },
     {
       "email": "stefan@calare.pecal",
       "name": "",
       "description": "",
-      "logo": "",
+      "logo": "../Public/assets/stefan.jpeg",
       "id": 2
     },
     {
       "email": "mihai@viteazu.ro",
       "name": "",
       "description": "",
-      "logo": "",
+      "logo": "../Public/assets/mihaiviteazu.jpeg",
       "id": 3
     },
     {
-      "email": "mihai@viteazu.ro",
-      "name": "",
-      "description": "",
-      "logo": "",
-      "id": 4
+      "email": "mircea@batran.ro",
+      "name": "Hai la Mircea",
+      "description": "Da mă! Io-s Mircea!",
+      "logo": "../Public/assets/mircea.jpeg",
+      "id": 5
     },
     {
-      "email": "mircea@batran.ro",
-      "name": "",
-      "description": "",
+      "email": "bogdan@voievod.ro",
+      "name": "Serviciile lui Bogdan",
+      "description": "Biruie in razboi pe suleiman cu toata ceata de turci.",
       "logo": "",
-      "id": 5
+      "id": 6
     }
   ],
   "bookings": [
@@ -412,7 +412,16 @@
           0,
           0,
           0,
+          1,
           0,
+          0,
+          1
+        ],
+        [
+          0,
+          0,
+          1,
+          1,
           0,
           0,
           0
@@ -421,18 +430,9 @@
           0,
           0,
           1,
-          0,
-          0,
-          0,
-          0
-        ],
-        [
-          0,
-          0,
           1,
           0,
           0,
-          0,
           0
         ],
         [
@@ -468,7 +468,7 @@
           0,
           0,
           0,
-          0,
+          1,
           0
         ],
         [
@@ -1254,16 +1254,16 @@
       "id": 3
     },
     {
-      "name": "Mihai Viteazul",
-      "email": "mihai@viteazu.ro",
-      "password": "calarepebreazu",
-      "id": 4
-    },
-    {
       "name": "Mircea cel Batran",
       "email": "mircea@batran.ro",
       "password": "tuestimircea?",
       "id": 5
+    },
+    {
+      "name": "Bogdan Voievod",
+      "email": "bogdan@voievod.ro",
+      "password": "bogdan",
+      "id": 6
     }
   ]
 }

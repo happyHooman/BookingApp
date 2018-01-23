@@ -2,11 +2,14 @@ import template from './Navbar.template.html'
 import componentStyles from './Navbar.scss'
 
 class NavbarController {
-	constructor() {
-	}
+	constructor() {}
 
 	$onInit() {
-		this.greeting = "Welcome " + JSON.parse(localStorage.getItem('userInfo')).name;
+		if (localStorage.getItem('userInfo')) {
+			this.greeting = "Welcome " + JSON.parse(localStorage.getItem('userInfo')).name;
+		} else {
+			this.greeting = "Welcome!"
+		}
 	}
 }
 

@@ -14,7 +14,7 @@ class AdminBookingListController {
 
 	// SAVE ALL UNIQUE SERVICES IN THE SERVICES VARIABLE
 	filterServices() {
-		this.services = this.bookings.map(x => x.seLrviceName).filter((x, pos, array) =>
+		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) =>
 			array
 			.indexOf(x) == pos);
 	}
