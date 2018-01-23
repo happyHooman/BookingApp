@@ -7,7 +7,7 @@ class ServiceListController {
     this.location = $location;
     this._http = $http;
 		this.componentName = 'ServiceListComponent';
-		this.isLoggedIn = true;
+		this.isLoggedIn = false;
 		this.services = [];
 	}
 

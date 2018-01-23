@@ -1,5 +1,13 @@
 {
-  "companies": [],
+  "companies": [
+    {
+      "email": "nuEraEmailPe@vremea.mea",
+      "name": "",
+      "description": "",
+      "logo": "",
+      "id": 1
+    }
+  ],
   "bookings": [
     {
       "name": "John Doe",
@@ -970,6 +978,14 @@
           0
         ]
       ]
+    }
+  ],
+  "users": [
+    {
+      "name": "Vlad Tepes",
+      "email": "nuEraEmailPe@vremea.mea",
+      "password": "ititaicapu",
+      "id": 1
     }
   ]
 }

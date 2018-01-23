@@ -22,7 +22,7 @@
 
   <div class="row service-card-data">
     <div class="col-md-4">
-      <dt>{{$ctrl.serviceItem.workingHours}}</dt>
+      <dt>{{$ctrl.serviceItem.workingHours[0]}}:00 - {{$ctrl.serviceItem.workingHours[0]+$ctrl.serviceItem.workingHours[1]}}:00</dt>
       <dd>Availability</dd>
     </div>
     <div class="col-md-3">

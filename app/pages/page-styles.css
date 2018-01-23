@@ -103,6 +103,14 @@
     margin-top: 85px;
 }
 
+.login-form input.ng-invalid {
+  border: 1px solid red;
+}
+
+.login-form input.ng-pristine {
+  border: 1px solid #ccc;
+}
+
 .login-component {
     height: 50px;
     margin-top: 10px;

@@ -1,6 +1,7 @@
 import template from './AdminBookingList.template.html'
 import componentStyles from './AdminBookingList.scss'
 import { ApiUrl } from '../../../ApiUrl.constants'
+
 class AdminBookingListController {
 	constructor($http, $scope) {
 		this.orderProp = 'time';
@@ -13,13 +14,13 @@ class AdminBookingListController {
 
 	// SAVE ALL UNIQUE SERVICES IN THE SERVICES VARIABLE
 	filterServices() {
-		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) =>
+		this.services = this.bookings.map(x => x.seLrviceName).filter((x, pos, array) =>
 			array
 			.indexOf(x) == pos);
 	}
 
 	sortBy(newProp) {
-		this.reverseOrder = (this.orderProp === newProp) ? true : false;
+		this.reverseOrder = (this.orderProp === newProp) ? !this.reverseOrder : false;
 		this.orderProp = newProp;
 	}
 

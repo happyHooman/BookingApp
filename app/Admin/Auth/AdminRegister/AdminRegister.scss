@@ -1,0 +1,8 @@
+.auth-button{
+  margin-top: 35px
+}
+
+.auth-button:disabled, .auth-button[disabled] {
+  background-color: gray;
+  color: black;
+}

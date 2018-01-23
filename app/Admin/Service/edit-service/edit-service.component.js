@@ -24,6 +24,7 @@ class EditServiceController {
 				});
 		} else {
 			this.service = {
+				workingHours: [0,24],
 				availability: [
 				[0, 0, 0, 0, 0, 0, 0],
 				[0, 0, 0, 0, 0, 0, 0],

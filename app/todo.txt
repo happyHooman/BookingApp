@@ -10,6 +10,7 @@ step by step booking modal
 -done- add booking to database
 -done- different edit/add pages
 add booking end Time
+select week in bookings
 create users / register
 login validation
 dispaly page differently when logged in and when logged out

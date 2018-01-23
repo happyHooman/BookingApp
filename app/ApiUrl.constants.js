@@ -1,5 +1,7 @@
 export const ApiUrl = {
   base: 'http://localhost:3000/',
   services: "services/",
-  bookings: "bookings/"
+  bookings: "bookings/",
+  companies: "companies/",
+  users: 'users/'
 }
