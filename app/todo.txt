@@ -6,9 +6,10 @@
 -done- delete service, ask for confirmation
 -done- create day-picker component
 -done- add availability to the service in db
-step by step booking modal
 -done- add booking to database
 -done- different edit/add pages
+
+step by step booking modal
 add booking end Time
 select week in bookings
 create users / register

@@ -48,5 +48,7 @@
         "webpack": "^2.3.3",
         "webpack-dev-server": "^2.11.0"
     },
-    "dependencies": {}
+    "dependencies": {
+        "json-server": "^0.12.1"
+    }
 }

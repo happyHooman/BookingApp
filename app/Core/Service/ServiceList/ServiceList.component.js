@@ -29,6 +29,7 @@ class ServiceListController {
     }, err => {
       console.log('Error loading services. Please check server status. ', err);
     });
+		this.isLoggedIn = localStorage.getItem('userEmail')? true: false;
   }
 }
 
