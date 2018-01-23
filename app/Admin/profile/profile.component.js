@@ -1,8 +1,7 @@
 import template from './profile.template.html'
 
 class ProfileController {
-	constructor($http, $location) {
-    this._http = $http;
+	constructor($location) {
     this._location = $location;
 	}
 
@@ -10,7 +9,10 @@ class ProfileController {
   }
 
   signOut(){
-    localStorage.removeItem('userEmail');
+		if(confirm("Are You Shure You Want To Sign Out?")){
+    localStorage.removeItem('userEmail')
+		this._location.path('/')
+		}
   }
 }
 

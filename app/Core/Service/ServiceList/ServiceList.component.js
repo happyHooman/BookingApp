@@ -23,6 +23,7 @@ class ServiceListController {
 	}
 
 	$onInit() {
+
     this._http.get(ApiUrl.base + ApiUrl.services).then(res => {
 			this.services = res.data;
 			console.log("services loaded");

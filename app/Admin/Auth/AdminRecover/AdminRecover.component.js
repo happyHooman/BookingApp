@@ -2,22 +2,15 @@ import template from './AdminRecover.template.html'
 import componentStyles from './AdminRecover.scss'
 
 class AdminRecoverController {
-    constructor() {
-        this.componentName = 'adminRecoverComponent';
-    }
+	constructor() {
+	}
 
-    $onInit() {
-    }
-}
-
-const bindings = {
-    someInput: '<',
-    someOutput: '&'
+	$onInit() {
+	}
 }
 
 export const adminRecoverComponent = {
-    controller: AdminRecoverController,
-    controllerAs: '$ctrl',
-    template,
-    bindings
+	controller: AdminRecoverController,
+	controllerAs: '$ctrl',
+	template,
 }

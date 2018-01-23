@@ -10,19 +10,21 @@ class AdminLoginController {
 	}
 
 	$onInit() {
+
+		//load all users because no normal api is available
     this._http.get(ApiUrl.base + ApiUrl.users).then(res=>{
       this.allUsers = res.data;
-      console.log(this.allUsers);
     })
   }
 
 	login() {
-		console.log('you requested to log in to', this.user.email, this.user.password);
+
+
+		//check the enetered email and password in all users array
     if(this.allUsers.map(user=>user.email).find(email=>email===this.user.email)){
-      console.log('good! now you can continue your journey');
       if(this.allUsers.map(user=>user.password).find(password=>password===this.user.password)){
         localStorage.setItem('userEmail', this.user.email);
-        this._location.path('/dashboard')
+        this._location.path('#/dashboard')
       } else{
         console.log('wrong password');
       }

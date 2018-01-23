@@ -2,16 +2,16 @@ import template from './Navbar.template.html'
 import componentStyles from './Navbar.scss'
 
 class NavbarController {
-    constructor() {
-        this.componentName = 'navbarComponent';
-    }
+	constructor() {
+		this.componentName = 'navbarComponent';
+	}
 
-    $onInit() {
-    }
+	$onInit() {
+	}
 }
 
 export const navbarComponent = {
-    controller: NavbarController,
-    controllerAs: '$ctrl',
-    template,
+	controller: NavbarController,
+	controllerAs: '$ctrl',
+	template,
 }
