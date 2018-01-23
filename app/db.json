@@ -6,6 +6,34 @@
       "description": "",
       "logo": "",
       "id": 1
+    },
+    {
+      "email": "stefan@calare.pecal",
+      "name": "",
+      "description": "",
+      "logo": "",
+      "id": 2
+    },
+    {
+      "email": "mihai@viteazu.ro",
+      "name": "",
+      "description": "",
+      "logo": "",
+      "id": 3
+    },
+    {
+      "email": "mihai@viteazu.ro",
+      "name": "",
+      "description": "",
+      "logo": "",
+      "id": 4
+    },
+    {
+      "email": "mircea@batran.ro",
+      "name": "",
+      "description": "",
+      "logo": "",
+      "id": 5
     }
   ],
   "bookings": [
@@ -1212,6 +1240,30 @@
       "email": "nuEraEmailPe@vremea.mea",
       "password": "ititaicapu",
       "id": 1
+    },
+    {
+      "name": "Stefan Cel Mare",
+      "email": "stefan@calare.pecal",
+      "password": "123123",
+      "id": 2
+    },
+    {
+      "name": "Mihai Viteazul",
+      "email": "mihai@viteazu.ro",
+      "password": "calarepebreazu",
+      "id": 3
+    },
+    {
+      "name": "Mihai Viteazul",
+      "email": "mihai@viteazu.ro",
+      "password": "calarepebreazu",
+      "id": 4
+    },
+    {
+      "name": "Mircea cel Batran",
+      "email": "mircea@batran.ro",
+      "password": "tuestimircea?",
+      "id": 5
     }
   ]
 }

@@ -1,7 +1,6 @@
 import template from './AdminRegister.template.html'
 import componentStyles from './AdminRegister.scss'
 import {ApiUrl} from '../../../ApiUrl.constants'
-
 class AdminRegisterController {
 	constructor($http, $location) {
 		this._http = $http
@@ -14,26 +13,37 @@ class AdminRegisterController {
 	}
 
 	$onInit() {
+
+		this._http.get(ApiUrl.base + ApiUrl.users).then(res => {
+			this.allUsers = res.data;
+		})
 	}
 
 	createUser() {
-		console.log(this.user);
 
-		// create user
-		this._http.post(ApiUrl.base + ApiUrl.users, this.user).then(() => {
-			console.log("The user", this.user.name, "has been created.");
-		});
+		if(this.allUsers.map(user=>user.email).find(email=>email===this.user.email)) {
+			alert('email allready used')
+    } else {
+			// create user
+			this._http.post(ApiUrl.base + ApiUrl.users, this.user).then(() => {
+				console.log("The user", this.user.name, "has been created.");
+			});
 
-		this.company = {
-			email: this.user.email,
-			name: '',
-			description: '',
-			logo: ''
-		}
-		// create associated company
-		this._http.post(ApiUrl.base + ApiUrl.companies, this.company).then(() => {
-			console.log("associated company has been created");
-		})
+			this.company = {
+				email: this.user.email,
+				name: '',
+				description: '',
+				logo: ''
+			}
+			// create associated company
+			this._http.post(ApiUrl.base + ApiUrl.companies, this.company).then(() => {
+				console.log("associated company has been created");
+			})
+
+			this._location.path('/login')
+    }
+
+
 	}
 }
 

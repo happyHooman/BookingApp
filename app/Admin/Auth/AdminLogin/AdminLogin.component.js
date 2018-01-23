@@ -19,11 +19,13 @@ class AdminLoginController {
 
 	login() {
 
-
 		//check the enetered email and password in all users array
     if(this.allUsers.map(user=>user.email).find(email=>email===this.user.email)){
       if(this.allUsers.map(user=>user.password).find(password=>password===this.user.password)){
+				this.user = this.allUsers.find(user=>user.email===this.user.email)
+				this.user = { name: this.user.name, email: this.user.email}
         localStorage.setItem('userEmail', this.user.email);
+				localStorage.setItem('userInfo', JSON.stringify(this.user))
         this._location.path('#/dashboard')
       } else{
         console.log('wrong password');

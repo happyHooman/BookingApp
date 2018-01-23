@@ -3,10 +3,10 @@ import componentStyles from './Navbar.scss'
 
 class NavbarController {
 	constructor() {
-		this.componentName = 'navbarComponent';
 	}
 
 	$onInit() {
+		this.greeting = "Welcome " + JSON.parse(localStorage.getItem('userInfo')).name;
 	}
 }
 

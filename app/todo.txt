@@ -9,11 +9,15 @@
 -done- add booking to database
 -done- different edit/add pages
 
+
+-done- login validation
+-done- display pages differently when logged in and when logged out
+-done- create users / register
+
+
+prevent creating multiple users with the same email
 step by step booking modal
 add booking end Time
 select week in bookings
-create users / register
-login validation
-dispaly page differently when logged in and when logged out
 link booking to a service
 link service to a company
