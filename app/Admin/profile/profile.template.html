@@ -18,6 +18,17 @@
           <label>Company description</label>
           <textarea class="form-control" name="name" rows="4" ng-model="$ctrl.company.description"></textarea>
         </div>
+        <div class="form-group">
+          <label>Working Hours</label>
+          <div class="row">
+            <div class="col-sm-6">
+              <input type="number" class="form-control" ng-model="$ctrl.company.workingHours.start">
+            </div>
+            <div class="col-sm-6">
+              <input type="number" class="form-control" ng-model="$ctrl.company.workingHours.end">
+            </div>
+          </div>
+        </div>
         <div class="row">
           <div class="col-md-6">
             <div class="form-group">

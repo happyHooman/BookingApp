@@ -1,5 +1,5 @@
 import template from './profile.template.html'
-import {ApiUrl} from '../../ApiUrl.constants'
+import { ApiUrl } from '../../ApiUrl.constants'
 
 class ProfileController {
 	constructor($http, $location) {

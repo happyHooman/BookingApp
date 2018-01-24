@@ -9,17 +9,25 @@
     },
     {
       "email": "stefan@calare.pecal",
-      "name": "",
-      "description": "",
+      "name": "Stefan cel Mare",
+      "description": "Moldova nu este a noastra, si nici a urmasilor nostri...",
       "logo": "../Public/assets/stefan.jpeg",
-      "id": 2
+      "id": 2,
+      "workingHours": {
+        "start": 7,
+        "end": 16
+      }
     },
     {
       "email": "mihai@viteazu.ro",
-      "name": "",
-      "description": "",
+      "name": "Mihai",
+      "description": "Nu va urez viata capitanii mei,\nDimpotriva - moarte, iata ce va cei..",
       "logo": "../Public/assets/mihaiviteazu.jpeg",
-      "id": 3
+      "id": 3,
+      "workingHours": {
+        "start": 8,
+        "end": 20
+      }
     },
     {
       "email": "mircea@batran.ro",
