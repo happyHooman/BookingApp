@@ -4,8 +4,8 @@
     <th ng-repeat="day in $ctrl.weekdays">{{day}}</th>
   </thead>
   <tbody>
-    <tr ng-repeat="hour in $ctrl.availability | limitTo:$ctrl.workingHours[1]:$ctrl.workingHours[0] track by $index">
-      <td>{{$ctrl.hours[$index+$ctrl.workingHours[0]]}}</td>
+    <tr ng-repeat="hour in $ctrl.availability | limitTo:$ctrl.length:$ctrl.workingHours.start track by $index">
+      <td>{{$ctrl.hours[$index+ $ctrl.workingHours.start]}}</td>
       <td ng-repeat="day in hour track by $index">
         <i ng-class="day ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
         ng-click="$ctrl.setAvailable($parent.$index, $index)"></i>

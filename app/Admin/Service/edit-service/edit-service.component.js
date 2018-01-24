@@ -1,9 +1,8 @@
 import template from './edit-service.template.html'
-import { ApiUrl } from '../../../ApiUrl.constants';
-
+import { ApiUrl } from '../../../ApiUrl.constants'
 class EditServiceController {
 	constructor($http, $location, $routeParams) {
-		this._routeParamas = $routeParams;
+		this._routeParams = $routeParams;
 		this._location = $location;
 		this._http = $http;
 		this.service = {};
@@ -14,8 +13,9 @@ class EditServiceController {
 	}
 
 	loadService() {
-		if (this._routeParamas.id) {
-			this._http.get(ApiUrl.base + ApiUrl.services + this._routeParamas.id).then(
+		let company = {};
+		if (this._routeParams.id) {
+			this._http.get(ApiUrl.base + ApiUrl.services + this._routeParams.id).then(
 				res => {
 					this.service = res.data;
 					console.log('service loaded');
@@ -23,35 +23,43 @@ class EditServiceController {
 					console.log("error loading service", err);
 				});
 		} else {
-			this.service = {
-				workingHours: [0,24],
-				availability: [
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0]
+			this.service.availability = [
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0],
+				[0, 0, 0, 0,0,0,0]
 			]
-			}
+			this._http.get(ApiUrl.base + ApiUrl.companies + JSON.parse(localStorage.getItem('userInfo')).id)
+				.then(res => {
+					this.company = res.data;
+					this.service.workingHours = this.company.workingHours;
+					this.service.logo = this.company.logo;
+					this.service.company = this.company.name;
+					console.log(this.service);
+				}, err=>{
+					console.log("error loading company",err);
+				})
+
 		}
 	}
 
