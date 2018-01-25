@@ -26,3 +26,5 @@ link booking to a service
 step by step booking modal
 add booking end Time
 select week in bookings
+
+M/TU/W/TH/F/S/S
