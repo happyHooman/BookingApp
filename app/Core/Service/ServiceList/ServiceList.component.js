@@ -2,31 +2,39 @@ import template from './ServiceList.template.html'
 import { ApiUrl } from '../../../ApiUrl.constants';
 
 class ServiceListController {
-	constructor($location, $http) {
+	constructor($location, $http, $routeParams) {
 		this.location = $location;
 		this._http = $http;
+		this._routeParams = $routeParams;
 		this.componentName = 'ServiceListComponent';
 		this.isLoggedIn = false;
 		this.services = [];
 	}
 
 	$onInit() {
+		this.loadServices()
+		this.setDisplayFilter()
+	}
 
-		// load services list
+	loadServices(){
 		this._http.get(ApiUrl.base + ApiUrl.services).then(res => {
 			this.services = res.data;
 			console.log("services loaded");
 		}, err => {
 			console.log('Error loading services. Please check server status. ', err);
 		});
+	}
 
-		// define services display filter
+	setDisplayFilter(){
+		// if user is logged in
 		if(localStorage.getItem('userInfo')){
-			//this case means user is logged in, we need to display only this user's services
 			this.filterVal = JSON.parse(localStorage.getItem('userInfo')).id
-			console.log(this.filterVal);
 		}
 
+		// if company profile is viewed by visitor
+		if(this._routeParams.id){
+			this.filterVal = this._routeParams.id;
+		}
 	}
 
 	deleteService(service) {

@@ -24,3 +24,4 @@ add booking end Time
 select week in bookings
 link booking to a service
 link service to a company
+when displaying a service availability take in account the service duration
