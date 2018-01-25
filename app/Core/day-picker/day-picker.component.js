@@ -22,12 +22,8 @@ class DayPickerController {
 					this.workingHours = company.workingHours;
 					this.workingDays = company.workingDays;
 					this.length = this.workingHours.end - this.workingHours.start;
-					this.setDays()
-					if (this.availability) {
-						console.log("loaded company availability");
-					} else {
+					if (!this.availability) {
 						this.setAvailability()
-						console.log("created availability");
 					}
 				}, err => {
 					console.log("error loading company", err);
@@ -37,24 +33,21 @@ class DayPickerController {
 
 	setAvailability() {
 		let n = this.workingHours.end - this.workingHours.start;
-		let m = this.weekdays.length
 
 		this.availability = []
 		for (var i = 0; i < n; i++) {
 			this.availability[i] = []
-			for (var j = 0; j < m; j++) {
-				this.availability[i][j] = 1;
+			for (var j = 0; j < 7; j++) {
+				if (this.workingDays[j]) {
+					this.availability[i][j] = 1;
+				} else {
+					this.availability[i][j] = 0;
+				}
+
 			}
 		}
 	}
 
-	setDays() {
-		this.weekdays = this.weekdays.filter((day, id) => {
-			if (this.workingDays[id]) {
-				return day
-			}
-		})
-	}
 
 	setAvailable(hour, day) {
 		this.availability[hour][day] = this.availability[hour][day] ? 0 : 1;

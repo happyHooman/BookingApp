@@ -31,11 +31,12 @@
         "end": 16
       },
       "workingDays": {
-        "0": false,
+        "0": true,
         "1": true,
         "2": true,
         "3": true,
-        "4": true
+        "4": true,
+        "5": true
       }
     },
     {
@@ -152,63 +153,7 @@
       "description": "Offices parties lasting outward nothing age few resolve. Impression to discretion understood to we interested he excellence. Him remarkably use projection collecting. Going about eat forty world has round miles. Attention affection at my preferred offending shameless me if agreeable. Life lain held calm and true neat she. Much feet each so went no from. Truth began maids linen an mr to after.",
       "spaces": 3,
       "price": 5,
-      "id": 1,
-      "availability": [
-        [
-          1,
-          0,
-          0,
-          1
-        ],
-        [
-          1,
-          1,
-          1,
-          1
-        ],
-        [
-          1,
-          1,
-          1,
-          1
-        ],
-        [
-          1,
-          0,
-          0,
-          1
-        ],
-        [
-          1,
-          0,
-          0,
-          1
-        ],
-        [
-          1,
-          0,
-          1,
-          1
-        ],
-        [
-          1,
-          1,
-          1,
-          1
-        ],
-        [
-          1,
-          1,
-          1,
-          1
-        ],
-        [
-          1,
-          1,
-          1,
-          1
-        ]
-      ]
+      "id": 1
     },
     {
       "companyId": 2,
