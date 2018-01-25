@@ -22,45 +22,20 @@ class EditServiceController {
 					console.log("error loading service", err);
 				});
 		} else {
-			this.service.availability = [
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0],
-				[0, 0, 0, 0, 0, 0, 0]
-			]
 			this.service.companyId = JSON.parse(localStorage.getItem('userInfo')).id
 		}
 	}
 
 	saveService() {
-		if (this.service.id) { //uptade the current service, wich has an id
+		if (this.service.id) { //uptade the current service
 			this._http.put(ApiUrl.base + ApiUrl.services + this.service.id, this.service)
 				.then(() => this._location.path('/dashboard'));
-		} else { //create a new service, it doesn't have an id. the json-server will automatically create it
+		} else { //create a new service
 			this._http.post(ApiUrl.base + ApiUrl.services, this.service)
 				.then(() => this._location.path('/dashboard'));
 		}
 	}
+
 }
 
 const bindings = {

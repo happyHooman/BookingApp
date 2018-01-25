@@ -21,7 +21,6 @@ class ProfileController {
 
 	loadProfile(){
 		let email = JSON.parse(localStorage.getItem('userInfo')).email
-		console.log(email);
 		this._http.get(ApiUrl.base + ApiUrl.companies).then(res=>{
 			this.company = res.data.filter(company=>company.email===email)[0]
 		})
@@ -29,7 +28,6 @@ class ProfileController {
 
 	saveSettings(){
 		this._http.put(ApiUrl.base + ApiUrl.companies + this.company.id, this.company)
-		console.log(this.company.workingDays);
 		alert("Profile Saved");
 	}
 }

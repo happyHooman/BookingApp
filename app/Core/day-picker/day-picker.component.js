@@ -10,28 +10,60 @@ class DayPickerController {
 	}
 
 	$onInit() {
-		// if user is signed in it can edit available working hours
-		if(localStorage.getItem('userInfo')){
-			this._http.get(ApiUrl.base + ApiUrl.companies + JSON.parse(localStorage.getItem('userInfo')).id)
+		this.loadData()
+	}
+
+	loadData() {
+		if (localStorage.getItem('userInfo')) {
+			this._http.get(ApiUrl.base + ApiUrl.companies + JSON.parse(localStorage.getItem(
+					'userInfo')).id)
 				.then(res => {
-					this.company = res.data;
-					this.workingHours = this.company.workingHours;
+					let company = res.data;
+					this.workingHours = company.workingHours;
+					this.workingDays = company.workingDays;
 					this.length = this.workingHours.end - this.workingHours.start;
-				}, err=>{
-					console.log("error loading company",err);
+					this.setDays()
+					if (this.availability) {
+						console.log("loaded company availability");
+					} else {
+						this.setAvailability()
+						console.log("created availability");
+					}
+				}, err => {
+					console.log("error loading company", err);
 				})
 		}
+	}
 
+	setAvailability() {
+		let n = this.workingHours.end - this.workingHours.start;
+		let m = this.weekdays.length
+
+		this.availability = []
+		for (var i = 0; i < n; i++) {
+			this.availability[i] = []
+			for (var j = 0; j < m; j++) {
+				this.availability[i][j] = 1;
+			}
+		}
+	}
+
+	setDays() {
+		this.weekdays = this.weekdays.filter((day, id) => {
+			if (this.workingDays[id]) {
+				return day
+			}
+		})
 	}
 
 	setAvailable(hour, day) {
-		this.availability[hour + this.workingHours.start][day] = this.availability[hour + this.workingHours.start][day]? 0: 1;
+		this.availability[hour][day] = this.availability[hour][day] ? 0 : 1;
 		console.log(this.weekdays[day], 'at', hour + this.workingHours.start);
 	}
 }
 
 const bindings = {
-	availability: '='
+	availability: '<'
 }
 
 export const dayPickerComponent = {
