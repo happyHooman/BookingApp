@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-6" align="center">
       <a href="">
-        <img class="profile-logo-img" ng-src="{{$ctrl.logoImg}}" alt="">
+        <img class="profile-logo-img" ng-src="{{$ctrl.company.logo}}" alt="">
       </a>
       <p>
         Upload logo <br> <small style="color: #afafaf">(max. 140x140 px)</small>
@@ -29,13 +29,43 @@
             </div>
           </div>
         </div>
+        <div class="form-group">
+          <label>Working Days</label>
+          <div class="row">
+            <div class="col-sm-6">
+              <label>
+                <input type="checkbox" ng-model="$ctrl.company.workingDays[0]"> <span class="label-text">Monday</span>
+              </label>
+              <label>
+                <input type="checkbox" ng-model="$ctrl.company.workingDays[1]"> <span class="label-text">Tuesday</span>
+              </label>
+              <label>
+                <input type="checkbox" ng-model="$ctrl.company.workingDays[2]"> <span class="label-text">Wednesday</span>
+              </label>
+              <label>
+                <input type="checkbox" ng-model="$ctrl.company.workingDays[3]"> <span class="label-text">Thursday</span>
+              </label>
+            </div>
+            <div class="col-sm-6">
+              <label>
+                <input type="checkbox" ng-model="$ctrl.company.workingDays[4]"> <span class="label-text">Friday</span>
+              </label>
+              <label>
+                <input type="checkbox" ng-model="$ctrl.company.workingDays[5]"> <span class="label-text">Saturday</span>
+              </label>
+              <label>
+                <input type="checkbox" ng-model="$ctrl.company.workingDays[6]"> <span class="label-text">Sunday</span>
+              </label>
+            </div>
+          </div>
+        </div>
         <div class="row">
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="form-group">
               <button class="btn form-control default-button" ng-click="$ctrl.signOut()">Sign Out</button>
             </div>
           </div>
-          <div class="col-md-6">
+          <div class="col-sm-6">
             <div class="form-group">
               <button class="btn form-control default-button" ng-click="$ctrl.saveSettings()">Save</button>
             </div>

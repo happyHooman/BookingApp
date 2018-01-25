@@ -13,7 +13,6 @@ class AdminRegisterController {
 	}
 
 	$onInit() {
-
 		this._http.get(ApiUrl.base + ApiUrl.users).then(res => {
 			this.allUsers = res.data;
 		})
@@ -33,7 +32,9 @@ class AdminRegisterController {
 				email: this.user.email,
 				name: '',
 				description: '',
-				logo: ''
+				logo: '../Public/assets/logo.png',
+				workingHours: {start: 0, end: 23},
+				workingDays: [0,0,0,0,0,0,0]
 			}
 			// create associated company
 			this._http.post(ApiUrl.base + ApiUrl.companies, this.company).then(() => {

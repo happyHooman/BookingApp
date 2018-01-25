@@ -1,6 +1,5 @@
 import template from './edit-service.template.html'
 import { ApiUrl } from '../../../ApiUrl.constants'
-
 class EditServiceController {
 	constructor($http, $location, $routeParams) {
 		this._routeParams = $routeParams;
@@ -13,7 +12,7 @@ class EditServiceController {
 		this.loadService();
 	}
 
-	loadService(){
+	loadService() {
 		if (this._routeParams.id) {
 			this._http.get(ApiUrl.base + ApiUrl.services + this._routeParams.id).then(
 				res => {
@@ -24,30 +23,30 @@ class EditServiceController {
 				});
 		} else {
 			this.service.availability = [
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0],
-				[0, 0, 0, 0,0,0,0]
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0],
+				[0, 0, 0, 0, 0, 0, 0]
 			]
 			this.service.companyId = JSON.parse(localStorage.getItem('userInfo')).id
 		}

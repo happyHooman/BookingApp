@@ -24,13 +24,13 @@ class ProfileController {
 		console.log(email);
 		this._http.get(ApiUrl.base + ApiUrl.companies).then(res=>{
 			this.company = res.data.filter(company=>company.email===email)[0]
-			this.logoImg = this.company.logo? this.company.logo : "../Public/assets/logo.png"
 		})
 	}
 
 	saveSettings(){
-		// console.log(this.company);
 		this._http.put(ApiUrl.base + ApiUrl.companies + this.company.id, this.company)
+		console.log(this.company.workingDays);
+		alert("Profile Saved");
 	}
 }
 
