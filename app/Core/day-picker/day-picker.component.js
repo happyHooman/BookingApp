@@ -10,14 +10,18 @@ class DayPickerController {
 	}
 
 	$onInit() {
-		this._http.get(ApiUrl.base + ApiUrl.companies + JSON.parse(localStorage.getItem('userInfo')).id)
-			.then(res => {
-				this.company = res.data;
-				this.workingHours = this.company.workingHours;
-				this.length = this.workingHours.end - this.workingHours.start;
-			}, err=>{
-				console.log("error loading company",err);
-			})
+		// if user is signed in it can edit available working hours
+		if(localStorage.getItem('userInfo')){
+			this._http.get(ApiUrl.base + ApiUrl.companies + JSON.parse(localStorage.getItem('userInfo')).id)
+				.then(res => {
+					this.company = res.data;
+					this.workingHours = this.company.workingHours;
+					this.length = this.workingHours.end - this.workingHours.start;
+				}, err=>{
+					console.log("error loading company",err);
+				})
+		}
+
 	}
 
 	setAvailable(hour, day) {

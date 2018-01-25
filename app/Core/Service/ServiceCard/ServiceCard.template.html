@@ -2,10 +2,10 @@
 
   <h2 style="margin-top: 0">
     <div class="row" style="margin: 0">
-      <div class="col-md-6 service-card-title">{{$ctrl.serviceItem.name}}</div>
+      <div class="col-md-6 service-card-title">{{$ctrl.service.name}}</div>
       <div class="col-m-6 options-buttons" align="right" ng-show="{{$ctrl.loggedIn}}">
-        <button class="clean-button" ng-click="$ctrl.editService($ctrl.serviceItem)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-        <button class="clean-button" ng-click="$ctrl.deleteService($ctrl.serviceItem)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+        <button class="clean-button" ng-click="$ctrl.editService($ctrl.service)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+        <button class="clean-button" ng-click="$ctrl.deleteService($ctrl.service)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
       </div>
     </div>
   </h2>
@@ -14,11 +14,11 @@
   <a href="#/company"
      class="service-logo"
      ng-hide="{{$ctrl.loggedIn}}">
-    <img ng-src="{{$ctrl.serviceItem.logo}}" class="service-logo-img">
-    <h4>{{$ctrl.serviceItem.company}}</h4>
+    <img ng-src="{{$ctrl.service.logo}}" class="service-logo-img">
+    <h4 style="padding-left: 10px">{{$ctrl.service.company}}</h4>
   </a>
 
-  <div class="service-card-description">{{$ctrl.serviceItem.description}}</div>
+  <div class="service-card-description">{{$ctrl.service.description}}</div>
 
   <div class="row service-card-data">
     <div class="col-md-4">
@@ -26,15 +26,15 @@
       <dd>Availability</dd>
     </div>
     <div class="col-md-3">
-      <dt>{{$ctrl.serviceItem.spaces}}</dt>
+      <dt>{{$ctrl.service.spaces}}</dt>
       <dd>Spaces</dd>
     </div>
     <div class="col-md-3">
-      <dt>{{$ctrl.serviceItem.duration}}</dt>
+      <dt>{{$ctrl.service.duration}}</dt>
       <dd>Duration</dd>
     </div>
     <div class="col-md-2">
-      <dt>{{$ctrl.serviceItem.price | currency}}</dt>
+      <dt>{{$ctrl.service.price | currency}}</dt>
       <dd>Price</dd>
     </div>
   </div>

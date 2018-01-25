@@ -1,18 +1,26 @@
 import template from './ServiceCard.template.html'
 import componentStyle from './ServiceCard.scss'
+import { ApiUrl } from '../../../ApiUrl.constants'
 
 class ServiceCardController {
-    constructor() {
+    constructor($http) {
+      this._http = $http;
     }
 
     $onInit() {
   		this.loggedIn = localStorage.getItem('userEmail')? true: false;
-      this.availability = this.serviceItem.workingHours.start + ':00 - '  +  this.serviceItem.workingHours.end + ':00';
+      this._http.get(ApiUrl.base + ApiUrl.companies + this.service.companyId).then(res=>{
+        let company = res.data;
+        this.service.logo = company.logo;
+        this.service.workingHours = company.workingHours;
+        this.service.company = company.name;
+        this.availability = company.workingHours.start + ':00 - '  +  company.workingHours.end + ':00';
+      })
     }
 }
 
 const bindings = {
-    serviceItem: '<',
+    service: '<',
     deleteService: '&',
     editService: '&'
 }

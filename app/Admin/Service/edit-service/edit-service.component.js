@@ -1,5 +1,6 @@
 import template from './edit-service.template.html'
 import { ApiUrl } from '../../../ApiUrl.constants'
+
 class EditServiceController {
 	constructor($http, $location, $routeParams) {
 		this._routeParams = $routeParams;
@@ -10,10 +11,10 @@ class EditServiceController {
 
 	$onInit() {
 		this.loadService();
+		console.log(this.service);
 	}
 
-	loadService() {
-		let company = {};
+	loadService(){
 		if (this._routeParams.id) {
 			this._http.get(ApiUrl.base + ApiUrl.services + this._routeParams.id).then(
 				res => {
@@ -49,17 +50,7 @@ class EditServiceController {
 				[0, 0, 0, 0,0,0,0],
 				[0, 0, 0, 0,0,0,0]
 			]
-			this._http.get(ApiUrl.base + ApiUrl.companies + JSON.parse(localStorage.getItem('userInfo')).id)
-				.then(res => {
-					this.company = res.data;
-					this.service.workingHours = this.company.workingHours;
-					this.service.logo = this.company.logo;
-					this.service.company = this.company.name;
-					console.log(this.service);
-				}, err=>{
-					console.log("error loading company",err);
-				})
-
+			this.service.companyId = JSON.parse(localStorage.getItem('userInfo')).id
 		}
 	}
 
