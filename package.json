@@ -20,7 +20,7 @@
         "es7",
         "components"
     ],
-    "author": "Victor JEMAN",
+    "author": "Victor JEMAN, Alex Tornea",
     "license": "ISC",
     "devDependencies": {
         "angular": "^1.6.4",

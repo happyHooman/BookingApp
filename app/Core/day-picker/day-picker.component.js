@@ -43,7 +43,6 @@ class DayPickerController {
 				} else {
 					this.availability[i][j] = 0;
 				}
-
 			}
 		}
 	}
@@ -56,7 +55,7 @@ class DayPickerController {
 }
 
 const bindings = {
-	availability: '<'
+	availability: '=?'
 }
 
 export const dayPickerComponent = {

@@ -5,6 +5,7 @@ import { ApiUrl } from '../../../ApiUrl.constants'
 class ServiceCardController {
     constructor($http) {
       this._http = $http;
+      this.name = 'test';
     }
 
     $onInit() {
