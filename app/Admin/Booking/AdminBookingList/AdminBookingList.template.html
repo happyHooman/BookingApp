@@ -7,7 +7,7 @@
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
-            <select class="form-control" ng-model="serviceName">
+            <select class="form-control" ng-model="service">
               <option value="">All services</option>
               <option ng-repeat="service in $ctrl.services">{{service}}</option>
             </select>
@@ -45,11 +45,11 @@
     </tr>
   </thead>
   <tbody>
-      <tr ng-repeat="booking in $ctrl.bookings | filter: serviceName | orderBy:$ctrl.orderProp:$ctrl.reverseOrder">
+      <tr ng-repeat="booking in $ctrl.bookings | filter: service | orderBy:$ctrl.orderProp:$ctrl.reverseOrder">
         <td>{{booking.name}}</td>
         <td>{{booking.email}}</td>
         <td>{{booking.phone}}</td>
-        <td>{{booking.time | date:'EEE, H:mm'}}</td>
+        <td>{{booking.time | date:'EEE d.MM, H:mm'}}</td>
         <td>{{booking.serviceName}}</td>
       </tr>
     </tbody>

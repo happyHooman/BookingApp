@@ -11,7 +11,6 @@ class EditServiceController {
 
 	$onInit() {
 		this.loadService();
-		console.log(this.service);
 	}
 
 	loadService(){
