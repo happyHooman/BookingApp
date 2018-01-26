@@ -1,17 +1,15 @@
 <button class="btn default-button" ng-click="$ctrl.setBookingTimes()">Reset Booking Times</button>
 <table class="table">
   <thead>
-    <th></th>
+    <th>time</th>
     <th ng-repeat="day in $ctrl.weekdays">{{day}}</th>
   </thead>
-  <tbody>
-    <tr ng-repeat="hour in $ctrl.availability | limitTo:$ctrl.length track by $index">
-      <!-- <td>{{$ctrl.hours[$index+ $ctrl.workingHours.start]}}</td> -->
+  <tbody style="margin-bottom: 100px">
+    <tr ng-repeat="hour in $ctrl.availability track by $index">
       <td>{{$ctrl.bookingTimes[$index] | date:'H:mm'}}</td>
       <td ng-repeat="day in hour track by $index">
-        <i ng-class="day ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"></i>
-        <!-- <i ng-class="day ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
-        ng-click="$ctrl.setAvailable($parent.$index, $index)"></i> -->
+        <i ng-class="day ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
+        ng-click="$ctrl.setAvailable($parent.$index, $index)"></i>
       </td>
     </tr>
   </tbody>

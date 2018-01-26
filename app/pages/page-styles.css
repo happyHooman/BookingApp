@@ -156,6 +156,7 @@
 
 label {
     font-weight: 500;
+    font-size: 20px;
 }
 
 .clean-button{
@@ -232,7 +233,16 @@ input[type="checkbox"]:disabled + .label-text:before{
 	color: #ccc;
 }
 
-
+tbody {
+    display:block;
+    height:300px;
+    overflow:auto;
+}
+thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
 
 @keyframes effect{
 	0%{transform: scale(0);}

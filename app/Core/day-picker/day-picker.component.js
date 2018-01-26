@@ -5,8 +5,6 @@ class DayPickerController {
 	constructor($http, $scope) {
 		this._http = $http;
 		this.weekdays = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
-		this.hours = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17,
-			18, 19, 20, 21, 22, 23];
 	}
 
 	$onInit() {
@@ -68,7 +66,7 @@ class DayPickerController {
 
 	setAvailable(hour, day) {
 		this.availability[hour][day] = this.availability[hour][day] ? 0 : 1;
-		console.log(this.weekdays[day], 'at', hour + this.workingHours.start);
+		console.log(this.weekdays[day], 'at', this.bookingTimes[hour]);
 	}
 }
 

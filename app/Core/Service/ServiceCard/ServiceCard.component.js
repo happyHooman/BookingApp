@@ -16,7 +16,20 @@ class ServiceCardController {
         this.service.workingHours = company.workingHours;
         this.service.company = company.name;
         this.availability = company.workingHours.start + ':00 - '  +  company.workingHours.end + ':00';
+        this.setDuration()
       })
+    }
+
+    setDuration(){
+      if(this.service.duration.hours===0){
+        this.duration = this.service.duration.minutes + ' min';
+      } else {
+        if (this.service.duration.minutes===0) {
+          this.duration = this.service.duration.hours + ' h';
+        } else {
+          this.duration = this.service.duration.hours + ' h, ' + this.service.duration.minutes + ' min';
+        }
+      }
     }
 }
 
