@@ -24,8 +24,13 @@ class SuccessModalController {
 	}
 }
 
+const bindings = {
+	changeStep: '&'
+}
+
 export const successModalComponent = {
 	controller: SuccessModalController,
 	controllerAs: '$ctrl',
+	bindings,
 	template
 }

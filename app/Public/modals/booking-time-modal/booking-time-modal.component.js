@@ -8,8 +8,13 @@ class BookingTimeModalController {
 	}
 }
 
+const bindings = {
+	changeStep: '&'
+}
+
 export const bookingTimeModalComponent = {
 	controller: BookingTimeModalController,
 	controllerAs: '$ctrl',
+	bindings,
 	template
 }

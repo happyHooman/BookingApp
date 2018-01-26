@@ -28,12 +28,12 @@ class ServiceListController {
 	setDisplayFilter(){
 		// if user is logged in
 		if(localStorage.getItem('userInfo')){
-			this.filterVal = JSON.parse(localStorage.getItem('userInfo')).id
+			this.filter = JSON.parse(localStorage.getItem('userInfo')).id
 		}
 
 		// if company profile is viewed by visitor
 		if(this._routeParams.id){
-			this.filterVal = this._routeParams.id;
+			this.filter = this._routeParams.id;
 		}
 	}
 
@@ -49,9 +49,13 @@ class ServiceListController {
 	}
 }
 
+const bindings = {
+	filter: '<'
+}
 
 export const serviceListComponent = {
 	controller: ServiceListController,
 	controllerAs: '$ctrl',
+	bindings,
 	template
 }

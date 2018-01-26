@@ -2,14 +2,11 @@ import template from './default-modal.template.html'
 
 class DefaultModalController {
 	constructor() {
-		this.componentName = 'DefaultModalComponent';
-		this.step = 2;
-	}
-	changeStep(value) {
-		this.step += value;
+		this.step = 1;
 	}
 
-	onInit() {}
+	onInit() {
+	}
 }
 
 export const defaultModalComponent = {

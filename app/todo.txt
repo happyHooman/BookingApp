@@ -18,13 +18,14 @@
 -done- edit company profile from visitors page
 -done- link services to companies
 -done- display only companies services
+-done- when displaying a service availability take in account the service duration
+-done- step by step booking modal
 
-
-when displaying a service availability take in account the service duration
+CLOSE LAST MODAL STAGE
 
 link booking to a service
-step by step booking modal
+
 add booking end Time
 select week in bookings
-
-M/TU/W/TH/F/S/S
+in availability add a div displaying working days in a graphical way
+separate search filter in user-view

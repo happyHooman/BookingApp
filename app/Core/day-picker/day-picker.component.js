@@ -9,6 +9,11 @@ class DayPickerController {
 
 	$onInit() {
 		this.loadData()
+		if (localStorage.getItem('userInfo')) {
+			this.loggedIn = true;
+		} else {
+			this.loggedIn = false;
+		}
 	}
 
 	loadData() {
@@ -44,8 +49,12 @@ class DayPickerController {
 				this.bookingTimes[i] = this.bookingTimes[i-1] + this.duration;
 				i++;
 			}
-			this.setAvailability()
 		}
+	}
+
+	resetBookingTimes(){
+		this.setBookingTimes()
+		this.setAvailability()
 	}
 
 	setAvailability() {

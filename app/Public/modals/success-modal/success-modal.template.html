@@ -3,40 +3,12 @@
 
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal">&times;</button>
+    <img src="../Public/assets/success.png" style="margin-top:90px">
+    <h4 class="modal-title">Your request was sent!</h4>
   </div>
 
-  <div class="modal-body">
-
-    <!-- use this to create timestamp -->
-    <form action="" >
-      <div class="row">
-        <div class="col-sm-6">
-          <div class="form-group">
-            <label>Select year</label>
-            <input class="form-control" type="number" ng-model="$ctrl.date.year">
-          </div>
-          <div class="form-group">
-            <label>Select month</label>
-            <input class="form-control" type="number" ng-model="$ctrl.date.month">
-          </div>
-        </div>
-        <div class="col-sm-6">
-          <div class="form-group">
-            <label>Select Day</label>
-            <input class="form-control" type="number" ng-model="$ctrl.date.day">
-          </div>
-          <div class="form-group">
-            <label>Select hour</label>
-            <input class="form-control" type="number" ng-model="$ctrl.date.hour">
-          </div>
-        </div>
-      </div>
-    </form>
-    <div>
-      <p>Date: {{$ctrl.generateDate()}}</p>
-    </div>
-
-
-
+  <div class="modal-body" align="center">
+    <p >In a couple of seconds a confirmation email will be sent to your email address with all details for your reservation. Thank you for using our services!</p>
+    <button class="btn default-button" data-dismiss="modal" style="width:360px;margin-top: 100px" ng-click="$ctrl.changeStep({val:1})">CLOSE</button>
   </div>
 </div>

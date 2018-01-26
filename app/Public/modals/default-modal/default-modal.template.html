@@ -2,9 +2,9 @@
 <div class="modal fade" id="myModal" role="dialog">
   <div class="modal-dialog modal-lg">
 
-    <personal-details-modal-component ng-if="$ctrl.step === 1"></personal-details-modal-component>
-    <booking-time-modal-component ng-if="$ctrl.step === 2"></booking-time-modal-component>
-    <success-modal-component ng-if="$ctrl.step === 3"></success-modal-component>
+    <personal-details-modal-component change-step="$ctrl.step = val" ng-if="$ctrl.step === 1"></personal-details-modal-component>
+    <booking-time-modal-component change-step="$ctrl.step = val" ng-if="$ctrl.step === 2"></booking-time-modal-component>
+    <success-modal-component change-step="$ctrl.step = val" ng-if="$ctrl.step === 3"></success-modal-component>
 
   </div>
 </div>
