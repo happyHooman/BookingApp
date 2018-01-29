@@ -5,12 +5,17 @@ class DefaultModalController {
 		this.step = 1;
 	}
 
-	onInit() {
+	$onInit() {
 	}
+}
+
+const bindings = {
+	service: '<'
 }
 
 export const defaultModalComponent = {
 	controller: DefaultModalController,
 	controllerAs: '$ctrl',
+	bindings,
 	template
 }

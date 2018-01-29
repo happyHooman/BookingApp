@@ -39,10 +39,14 @@
     </div>
   </div>
 
+
+
+  <!-- ng-click="$ctrl.bookService()" -->
+
   <button type="button"
           class="btn default-button"
-          data-toggle="modal"
-          data-target="#myModal"
-          ng-hide="{{$ctrl.loggedIn}}">BOOK NOW</button>
-  <default-modal-component></default-modal-component>
+          data-target="#modal_{{$ctrl.service.id}}"
+          ng-hide="{{$ctrl.loggedIn}}"
+          data-toggle="modal">BOOK NOW</button>
+  <default-modal-component service="$ctrl.service"></default-modal-component>
 </div>
