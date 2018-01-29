@@ -21,6 +21,10 @@
 -done- when displaying a service availability take in account the service duration
 -done- step by step booking modal
 
+
+ONE CAN SELECT MANY SLOTS AT A TIME IF HE GOES BACK AND FORTH
+
+
 CLOSE LAST MODAL STAGE
 
 link booking to a service

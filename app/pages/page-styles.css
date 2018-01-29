@@ -178,8 +178,9 @@ label {
 .day-picker-table {
   border: 1px solid #cfcfcf;
   /*padding: 20px;*/
-  font-size: 20px;
+  /*font-size: 20px;*/
   color: #777777;
+  /*border: 1px solid #afafaf;*/
 }
 
 .day-picker-table tr td{

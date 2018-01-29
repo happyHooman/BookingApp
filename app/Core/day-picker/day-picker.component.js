@@ -120,7 +120,8 @@ class DayPickerController {
 
 const bindings = {
 	availability: '=?',
-	duration: '<'
+	duration: '<',
+	selected: '=?'
 }
 
 export const dayPickerComponent = {

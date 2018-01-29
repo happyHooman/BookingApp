@@ -8,8 +8,9 @@
   </div>
 
   <div class="modal-body">
-    <day-picker-component availability="$ctrl.availability"></day-picker-component>
-    <div class="row">
+    <p ng-bind="$ctrl.selectedDate"></p>
+    <day-picker-component availability="$ctrl.availability" selected="$ctrl.selectedDate"></day-picker-component>
+    <div class="row" >
       <div class="col-md-6">
         <button class="btn default-button form-control" ng-click="$ctrl.changeStep({val:1})">Back</button>
       </div>
