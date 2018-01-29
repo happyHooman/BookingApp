@@ -3,6 +3,11 @@ import template from './default-modal.template.html'
 class DefaultModalController {
 	constructor() {
 		this.step = 1;
+		this.personalDetails = {
+			name: '',
+			email: '',
+			phone: ''
+		}
 	}
 
 	$onInit() {

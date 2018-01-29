@@ -60,22 +60,23 @@ class DayPickerController {
 	setAvailability() {
 		let n = this.bookingTimes.length;
 		console.log(n);
-		this.availability = []
+		this.availability.times = this.bookingTimes;
+		this.availability.slots = []
 		for (var i = 0; i < n; i++) {
-			this.availability[i] = []
+			this.availability.slots[i] = []
 			for (var j = 0; j < 7; j++) {
 				if (this.workingDays[j]) {
-					this.availability[i][j] = 1;
+					this.availability.slots[i][j] = 1;
 				} else {
-					this.availability[i][j] = 0;
+					this.availability.slots[i][j] = 0;
 				}
 			}
 		}
 	}
 
 	setAvailable(hour, day) {
-		this.availability[hour][day] = this.availability[hour][day] ? 0 : 1;
-		console.log(this.weekdays[day], 'at', this.bookingTimes[hour]);
+		this.availability.slots[hour][day] = this.availability.slots[hour][day] ? 0 : 1;
+		console.log(this.weekdays[day], 'at', this.availability.times[hour]);
 	}
 }
 

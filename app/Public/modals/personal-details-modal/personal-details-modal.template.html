@@ -8,29 +8,31 @@
   </div>
 
   <div class="modal-body">
-    <form>
+    <form name="personalDetailsForm">
       <div class="row">
         <div class="col-md-6">
           <div class="form-group">
             <label>Name</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" ng-model="$ctrl.personalDetails.name" required>
           </div>
           <div class="form-group">
             <label>Phone number</label>
-            <input type="text" class="form-control">
+            <input type="text" class="form-control" ng-model="$ctrl.personalDetails.phone" required>
           </div>
         </div>
         <div class="col-md-6">
           <div class="form-group">
             <label>Email</label>
-            <input type="email" class="form-control">
+            <input type="email" class="form-control" ng-model="$ctrl.personalDetails.email" required>
           </div>
           <div class="form-group">
-            <button class="form-control default-button" style="margin-top: 58px" ng-click="$ctrl.changeStep({val:2})">NEXT</button>
+            <button class="form-control default-button"
+                    style="margin-top: 58px"
+                    ng-click="$ctrl.changeStep({val:2})"
+                    ng-disabled="!personalDetailsForm.$valid">NEXT</button>
           </div>
         </div>
       </div>
     </form>
-    <p>{{$parent.$ctrl.service.id}}</p>
   </div>
 </div>

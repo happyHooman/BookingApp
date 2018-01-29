@@ -9,7 +9,8 @@ class BookingTimeModalController {
 }
 
 const bindings = {
-	changeStep: '&'
+	changeStep: '&',
+	availability: '<'
 }
 
 export const bookingTimeModalComponent = {

@@ -2,8 +2,8 @@
 <div class="modal fade" id="modal_{{$ctrl.service.id}}" role="dialog">
   <div class="modal-dialog modal-lg">
 
-    <personal-details-modal-component change-step="$ctrl.step = val" ng-if="$ctrl.step === 1"></personal-details-modal-component>
-    <booking-time-modal-component change-step="$ctrl.step = val" ng-if="$ctrl.step === 2"></booking-time-modal-component>
+    <personal-details-modal-component personal-details="$ctrl.phoneDetails" change-step="$ctrl.step = val" ng-if="$ctrl.step === 1"></personal-details-modal-component>
+    <booking-time-modal-component availability="$ctrl.service.availability" change-step="$ctrl.step = val" ng-if="$ctrl.step === 2"></booking-time-modal-component>
     <success-modal-component change-step="$ctrl.step = val" ng-if="$ctrl.step === 3"></success-modal-component>
 
   </div>

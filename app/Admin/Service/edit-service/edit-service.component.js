@@ -105,6 +105,7 @@ class EditServiceController {
 
 	saveService() {
 		if (this.service.id) { //uptade the current service
+			console.log(this.service.availability);
 			this._http.put(ApiUrl.base + ApiUrl.services + this.service.id, this.service)
 				.then(() => this._location.path('/dashboard'));
 		} else { //create a new service

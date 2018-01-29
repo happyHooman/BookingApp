@@ -13,7 +13,6 @@ class ServiceCardController {
 		this.loggedIn = localStorage.getItem('userEmail') ? true : false;
 		this.loadCompanyDetails()
 		this.stringifyDuration()
-    this.serviceId = this.service.id.toString();
 	}
 
 	loadCompanyDetails() {

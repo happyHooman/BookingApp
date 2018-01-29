@@ -7,7 +7,8 @@ class PersonalDetailsModalController {
 }
 
 const bindings = {
-	 changeStep: '&'
+	 changeStep: '&',
+	 personalDetails: '='
 }
 
 export const personalDetailsModalComponent = {
