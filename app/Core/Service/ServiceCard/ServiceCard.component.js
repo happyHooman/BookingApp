@@ -10,7 +10,7 @@ class ServiceCardController {
 	}
 
 	$onInit() {
-		this.loggedIn = localStorage.getItem('userEmail') ? true : false;
+		this.loggedIn = localStorage.getItem('userInfo') ? true : false;
 		this.loadCompanyDetails()
 		this.stringifyDuration()
 	}

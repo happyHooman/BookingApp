@@ -198,6 +198,18 @@ label {
   color: #cb7de6;
 }
 
+.set{
+  color: #afafaf;
+}
+
+.available {
+  color: green;
+}
+
+.bkd{
+  color: blue;
+}
+
 input[type="checkbox"], input[type="radio"]{
 	position: absolute;
 	right: 9000px;

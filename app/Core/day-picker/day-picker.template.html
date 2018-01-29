@@ -1,14 +1,14 @@
 <button class="btn default-button" ng-click="$ctrl.resetBookingTimes()" ng-show="$ctrl.loggedIn">Reset Booking Times</button>
 <table class="table">
   <thead>
-    <th>time</th>
+    <th>time\day</th>
     <th ng-repeat="day in $ctrl.weekdays">{{day}}</th>
   </thead>
   <tbody style="margin-bottom: 100px">
     <tr ng-repeat="hour in $ctrl.availability.slots track by $index">
       <td>{{$ctrl.availability.times[$index] | date:'H:mm'}}</td>
       <td ng-repeat="day in hour track by $index">
-        <i ng-class="day ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'"
+        <i ng-class="$ctrl.setClasses(day)"
         ng-click="$ctrl.setAvailable($parent.$index, $index)"></i>
       </td>
     </tr>

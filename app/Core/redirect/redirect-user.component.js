@@ -4,7 +4,7 @@ class RedirectUserController {
 	}
 
 	$onInit() {
-		if (!localStorage.getItem('userEmail')) {
+		if (!localStorage.getItem('userInfo')) {
 			this._location.path('/')
 		}
 	}

@@ -75,9 +75,47 @@ class DayPickerController {
 	}
 
 	setAvailable(hour, day) {
-		this.availability.slots[hour][day] = this.availability.slots[hour][day] ? 0 : 1;
-		console.log(this.weekdays[day], 'at', this.availability.times[hour]);
+		let slot = this.availability.slots[hour][day]
+		if (this.loggedIn) {
+			slot = slot ? 0 : 1;
+			console.log(this.weekdays[day], 'at', new Date(this.availability.times[hour]));
+		} else {
+			if (slot===1) {
+				if (this.selected) {
+					this.availability.slots[this.selected.h][this.selected.d]=1;
+				}
+				this.availability.slots[hour][day] = 2;
+				this.selected = {
+					h: hour,
+					d: day
+				};
+				console.log("you selected: ", this.selected);
+			} else {
+				console.log("can not click there");
+			}
+		}
+
 	}
+
+	setClasses(val){
+		if (this.loggedIn) {
+			console.log("day ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'");
+			switch (val) {
+				case 0: return 'fa fa-circle-thin fa-2x'
+				case 1: return 'fa fa-circle fa-2x clk'
+				case 2: return 'fa fa-circle fa-2x bkd'
+			}
+		} else {
+			switch (val) {
+				case 0: return 'fa fa-circle-thin fa-2x set'
+				case 1: return 'fa fa-circle fa-2x clk'
+				case 2: return 'fa fa-circle fa-2x bkd'
+			}
+		}
+
+	}
+
+
 }
 
 const bindings = {

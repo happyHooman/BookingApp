@@ -23,7 +23,6 @@ class AdminLoginController {
     if(verifyUser){
       if(verifyUser.password === this.user.password){
 				this.user = { name: verifyUser.name, email: verifyUser.email, id: verifyUser.id}
-        localStorage.setItem('userEmail', this.user.email);
 				localStorage.setItem('userInfo', JSON.stringify(this.user))
         this._location.path('/dashboard')
       } else{

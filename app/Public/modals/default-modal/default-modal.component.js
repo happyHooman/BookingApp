@@ -2,7 +2,7 @@ import template from './default-modal.template.html'
 
 class DefaultModalController {
 	constructor() {
-		this.step = 1;
+		this.step = 2;
 		this.personalDetails = {
 			name: '',
 			email: '',

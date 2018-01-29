@@ -13,7 +13,6 @@ class ProfileController {
 
   signOut(){
 		if(confirm("Are You Shure You Want To Sign Out?")){
-    localStorage.removeItem('userEmail')
     localStorage.removeItem('userInfo')
 		this._location.path('/')
 		}
