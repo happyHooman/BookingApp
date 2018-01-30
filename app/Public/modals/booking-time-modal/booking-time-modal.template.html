@@ -4,18 +4,17 @@
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal">&times;</button>
     <h4 class="modal-title">Make your booking</h4>
-    <p class="modal-subtitle">PERSONAL DETAILS</p>
+    <p class="modal-subtitle">SELECT TIME</p>
   </div>
 
   <div class="modal-body">
-    <p ng-bind="$ctrl.selectedDate"></p>
-    <day-picker-component availability="$ctrl.availability" selected="$ctrl.selectedDate"></day-picker-component>
+    <day-picker-component availability="$ctrl.availability" selected="$parent.$ctrl.selectedDate"></day-picker-component>
     <div class="row" >
       <div class="col-md-6">
         <button class="btn default-button form-control" ng-click="$ctrl.changeStep({val:1})">Back</button>
       </div>
       <div class="col-md-6">
-        <button class="btn default-button form-control" ng-click="$ctrl.changeStep({val:3})">Send booking</button>
+        <button class="btn default-button form-control" ng-click="$parent.$ctrl.sendBooking()">Send booking</button>
       </div>
     </div>
   </div>

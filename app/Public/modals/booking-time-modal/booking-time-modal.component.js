@@ -5,11 +5,11 @@ class BookingTimeModalController {
 		this.componentName = 'bookingTimeModalComponent'
 	}
 	$onInit() {
+
 	}
 }
 
 const bindings = {
-	changeStep: '&',
 	availability: '<'
 }
 

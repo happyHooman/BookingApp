@@ -59,7 +59,7 @@ class DayPickerController {
 
 	setAvailability() {
 		let n = this.bookingTimes.length;
-		console.log(n);
+		this.availability = {}
 		this.availability.times = this.bookingTimes;
 		this.availability.slots = []
 		for (var i = 0; i < n; i++) {
@@ -75,12 +75,14 @@ class DayPickerController {
 	}
 
 	setAvailable(hour, day) {
-		let slot = this.availability.slots[hour][day]
 		if (this.loggedIn) {
-			slot = slot ? 0 : 1;
-			console.log(this.weekdays[day], 'at', new Date(this.availability.times[hour]));
+			if (this.availability.slots[hour][day]===0 || this.availability.slots[hour][day]===1) {
+				this.availability.slots[hour][day] = this.availability.slots[hour][day]===1 ? 0 : 1
+			} else if (this.availability.slots[hour][day] === 3 ) {
+				console.log('are you shure you want to remove this booking?');
+			}
 		} else {
-			if (slot===1) {
+			if (this.availability.slots[hour][day]===1) {
 				if (this.selected) {
 					this.availability.slots[this.selected.h][this.selected.d]=1;
 				}
@@ -88,8 +90,7 @@ class DayPickerController {
 				this.selected = {
 					h: hour,
 					d: day
-				};
-				console.log("you selected: ", this.selected);
+				}
 			} else {
 				console.log("can not click there");
 			}
@@ -99,17 +100,18 @@ class DayPickerController {
 
 	setClasses(val){
 		if (this.loggedIn) {
-			console.log("day ? 'fa fa-circle fa-2x clk' : 'fa fa-circle-thin fa-2x'");
 			switch (val) {
 				case 0: return 'fa fa-circle-thin fa-2x'
 				case 1: return 'fa fa-circle fa-2x clk'
 				case 2: return 'fa fa-circle fa-2x bkd'
+				case 3: return 'fa fa-circle fa-2x set'
 			}
 		} else {
 			switch (val) {
 				case 0: return 'fa fa-circle-thin fa-2x set'
 				case 1: return 'fa fa-circle fa-2x clk'
 				case 2: return 'fa fa-circle fa-2x bkd'
+				case 3: return 'fa fa-circle fa-2x set'
 			}
 		}
 

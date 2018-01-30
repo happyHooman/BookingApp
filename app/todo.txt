@@ -20,16 +20,20 @@
 -done- display only companies services
 -done- when displaying a service availability take in account the service duration
 -done- step by step booking modal
-
-
-ONE CAN SELECT MANY SLOTS AT A TIME IF HE GOES BACK AND FORTH
-
+-done- one user can select only one booking time
+-done- link booking to a service
 
 CLOSE LAST MODAL STAGE
 
-link booking to a service
+
 
 add booking end Time
 select week in bookings
 in availability add a div displaying working days in a graphical way
 separate search filter in user-view
+
+
+
+
+- move user password to company (company is the user)
+- http://localhost:3000/companies?email_like=stefan@calare.pecal + password validation
