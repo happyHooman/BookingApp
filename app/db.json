@@ -201,6 +201,46 @@
       "companyId": 2,
       "serviceName": "Kill Turks",
       "id": 10
+    },
+    {
+      "name": "Alyssa Tasman",
+      "email": "AlyssaTasman@armyspy.com",
+      "phone": "077 3649 2108",
+      "time": 1518160800000,
+      "serviceId": 8,
+      "companyId": 2,
+      "serviceName": "Kill Turks",
+      "id": 11
+    },
+    {
+      "name": "Paige Crommelin",
+      "email": "PaigeCrommelin@teleworm.us",
+      "phone": "079 1654 1133",
+      "time": 1517985900000,
+      "serviceId": 4,
+      "companyId": 3,
+      "serviceName": "Unirea Principatelor",
+      "id": 12
+    },
+    {
+      "name": "Igor Dodon",
+      "email": "dodonBidon@tomberon",
+      "phone": "079522152",
+      "time": 1518069600000,
+      "serviceId": 5,
+      "companyId": 1,
+      "serviceName": "Trag prin teapa",
+      "id": 13
+    },
+    {
+      "name": "Vladimir Putin",
+      "email": "vPutine@ru",
+      "phone": "09254566235",
+      "time": 1518112800000,
+      "serviceId": 6,
+      "companyId": 1,
+      "serviceName": "Terorizez inamicii",
+      "id": 14
     }
   ],
   "services": [
@@ -609,7 +649,7 @@
           [
             1,
             1,
-            1,
+            3,
             1,
             0,
             0,
@@ -1016,7 +1056,13 @@
       "duration": {
         "hours": 0,
         "minutes": 15
-      }
+      },
+      "logo": "../Public/assets/mihaiviteazu.jpeg",
+      "workingHours": {
+        "start": 8,
+        "end": 20
+      },
+      "company": "Mihai"
     },
     {
       "companyId": 1,
@@ -1083,7 +1129,7 @@
             1,
             1,
             0,
-            1,
+            3,
             1,
             0,
             0
@@ -1274,7 +1320,13 @@
       "duration": {
         "hours": 0,
         "minutes": 40
-      }
+      },
+      "logo": "../Public/assets/vlad.jpeg",
+      "workingHours": {
+        "start": 6,
+        "end": 22
+      },
+      "company": "Dracula"
     },
     {
       "companyId": 1,
@@ -1352,7 +1404,7 @@
             1,
             1,
             0,
-            1,
+            3,
             1,
             0,
             0
@@ -1362,7 +1414,13 @@
       "duration": {
         "hours": 2,
         "minutes": 20
-      }
+      },
+      "logo": "../Public/assets/vlad.jpeg",
+      "workingHours": {
+        "start": 6,
+        "end": 22
+      },
+      "company": "Dracula"
     },
     {
       "companyId": 6,
@@ -1549,7 +1607,7 @@
             0,
             1,
             1,
-            1,
+            3,
             1,
             0
           ],

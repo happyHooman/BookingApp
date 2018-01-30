@@ -42,9 +42,7 @@ class DefaultModalController {
 			time: 0
 		}
 		this.selectedDate = undefined;
-		let id = 'modal_'+ this.service.id;
-		console.log(id, document.getElementById(id));
-		document.getElementById(id).modal("hide");
+		$('#modal_'+ this.service.id).modal("hide")
 	}
 
 	setBookingTime(){
