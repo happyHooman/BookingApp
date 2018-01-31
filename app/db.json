@@ -1,8 +1,10 @@
 {
   "companies": [
     {
+      "name": "Vlad Tepes",
+      "password": "ititaicapu",
       "email": "nuEraEmailPe@vremea.mea",
-      "name": "Dracula",
+      "companyName": "Dracula",
       "description": "Boy favourable day can introduced sentiments entreaties. Noisier carried of in warrant because. So mr plate seems cause chief widen first. Two differed husbands met screened his. Bed was form wife out ask draw. Wholly coming at we no enable. Offending sir delivered questions now new met. Acceptance she interested new boisterous day discretion celebrated.",
       "logo": "../Public/assets/vlad.jpeg",
       "id": 1,
@@ -21,8 +23,10 @@
       }
     },
     {
+      "name": "Stefan Cel Mare",
+      "password": "123123",
       "email": "stefan@calare.pecal",
-      "name": "Stefan cel Mare",
+      "companyName": "Stefan cel Mare",
       "description": "Moldova nu este a noastra, si nici a urmasilor nostri, ci este a urmasilor urmasilor nostri.",
       "logo": "../Public/assets/stefan.jpeg",
       "id": 2,
@@ -40,8 +44,10 @@
       }
     },
     {
+      "name": "Mihai Viteazul",
+      "password": "calarepebreazu",
       "email": "mihai@viteazu.ro",
-      "name": "Mihai",
+      "companyName": "Mihai",
       "description": "Nu va urez viata capitanii mei,\nDimpotriva - moarte, iata ce va cei..",
       "logo": "../Public/assets/mihaiviteazu.jpeg",
       "id": 3,
@@ -57,8 +63,10 @@
       }
     },
     {
+      "name": "Mircea cel Batran",
       "email": "mircea@batran.ro",
-      "name": "Hai la Mircea",
+      "password": "tuestimircea?",
+      "companyName": "Hai la Mircea",
       "description": "Da mă! Io-s Mircea!",
       "logo": "../Public/assets/mircea.jpeg",
       "id": 5,
@@ -75,8 +83,10 @@
       }
     },
     {
+      "name": "Bogdan Voievod",
       "email": "bogdan@voievod.ro",
-      "name": "Serviciile lui Bogdan",
+      "password": "bogdan",
+      "companyName": "Serviciile lui Bogdan",
       "description": "She literature discovered increasing how diminution understood. Though and highly the enough county for man. Of it up he still court alone widow seems. Suspected he remainder rapturous my sweetness. All vanity regard sudden nor simple can. World mrs and vexed china since after often.",
       "logo": "../Public/assets/logo.png",
       "id": 6,
@@ -95,10 +105,47 @@
     },
     {
       "email": "d.cantemir@gmail.com",
-      "name": "",
+      "name": "Dimitrie Cantemir",
+      "password": "dsfgsvs",
+      "companyName": "",
       "description": "",
       "logo": "../Public/assets/logo.png",
+      "workingHours": {
+        "start": 0,
+        "end": 23
+      },
+      "workingDays": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
       "id": 7
+    },
+    {
+      "name": "Darth Vader",
+      "email": "dart@vader",
+      "password": "avacaacd",
+      "companyName": "",
+      "description": "",
+      "logo": "../Public/assets/logo.png",
+      "workingHours": {
+        "start": 0,
+        "end": 23
+      },
+      "workingDays": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 8
     }
   ],
   "bookings": [
@@ -1749,44 +1796,6 @@
         "end": 16
       },
       "company": "Stefan cel Mare"
-    }
-  ],
-  "users": [
-    {
-      "name": "Vlad Tepes",
-      "email": "nuEraEmailPe@vremea.mea",
-      "password": "ititaicapu",
-      "id": 1
-    },
-    {
-      "name": "Stefan Cel Mare",
-      "email": "stefan@calare.pecal",
-      "password": "123123",
-      "id": 2
-    },
-    {
-      "name": "Mihai Viteazul",
-      "email": "mihai@viteazu.ro",
-      "password": "calarepebreazu",
-      "id": 3
-    },
-    {
-      "name": "Mircea cel Batran",
-      "email": "mircea@batran.ro",
-      "password": "tuestimircea?",
-      "id": 5
-    },
-    {
-      "name": "Bogdan Voievod",
-      "email": "bogdan@voievod.ro",
-      "password": "bogdan",
-      "id": 6
-    },
-    {
-      "name": "Dimitrie Cantemir",
-      "email": "d.cantemir@gmail.com",
-      "password": "1234",
-      "id": 7
     }
   ]
 }

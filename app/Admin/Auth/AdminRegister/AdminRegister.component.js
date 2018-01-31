@@ -1,6 +1,7 @@
 import template from './AdminRegister.template.html'
 import componentStyles from './AdminRegister.scss'
-import {ApiUrl} from '../../../ApiUrl.constants'
+import { ApiUrl } from '../../../ApiUrl.constants'
+
 class AdminRegisterController {
 	constructor($http, $location) {
 		this._http = $http
@@ -13,41 +14,37 @@ class AdminRegisterController {
 	}
 
 	$onInit() {
-		this._http.get(ApiUrl.base + ApiUrl.users).then(res => {
-			this.allUsers = res.data;
+
+	}
+
+	verifyCompany() {
+		let companyExists;
+		let url = ApiUrl.base + ApiUrl.companies + '?email=' + this.company.email;
+		this._http.get(url).then(res => {
+			companyExists = res.data[0]
+			if (companyExists) {
+				alert('an user with this email allready exists. do you wish to log in?');
+			} else {
+				console.log('we will create the user soon');
+				this.createCompany()
+			}
 		})
 	}
 
-	createUser() {
+	createCompany() {
+		this.company.companyName = ''
+		this.company.description = ''
+		this.company.logo = '../Public/assets/logo.png'
+		this.company.workingHours = {start: 0, end: 23}
+		this.company.workingDays = [0, 0, 0, 0, 0, 0, 0]
 
-		if(this.allUsers.map(user=>user.email).find(email=>email===this.user.email)) {
-			alert('email allready used')
-    } else {
-			// create user
-			this._http.post(ApiUrl.base + ApiUrl.users, this.user).then(() => {
-				console.log("The user", this.user.name, "has been created.");
-			});
-
-			this.company = {
-				email: this.user.email,
-				name: '',
-				description: '',
-				logo: '../Public/assets/logo.png',
-				workingHours: {start: 0, end: 23},
-				workingDays: [0,0,0,0,0,0,0]
-			}
-			// create associated company
-			this._http.post(ApiUrl.base + ApiUrl.companies, this.company).then(() => {
-				console.log("associated company has been created");
-			})
-
+		this._http.post(ApiUrl.base + ApiUrl.companies, this.company).then(() => {
+			console.log("associated company has been created");
 			this._location.path('/login')
-    }
-
-
+		})
 	}
-}
 
+}
 
 
 export const adminRegisterComponent = {

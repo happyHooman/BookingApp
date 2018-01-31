@@ -4,18 +4,18 @@
   <form class="login-form" name="registerForm">
     <div class="form-group">
       <label>Your name</label>
-      <input class="form-control" type="name" ng-model="$ctrl.user.name" required>
+      <input class="form-control" type="name" ng-model="$ctrl.company.name" required>
     </div>
     <div class="form-group">
       <label>Email</label>
-      <input class="form-control" type="email" ng-model="$ctrl.user.email" required>
+      <input class="form-control" type="email" ng-model="$ctrl.company.email" required>
     </div>
     <div class="form-group">
       <label>Password</label>
-      <input class="form-control" type="password" ng-model="$ctrl.user.password" required>
+      <input class="form-control" type="password" ng-model="$ctrl.company.password" required>
     </div>
     <div class="form-group">
-      <button class="btn form-control default-button auth-button" ng-click="$ctrl.createUser()" ng-disabled="!registerForm.$valid">REGISTER</button>
+      <button class="btn form-control default-button auth-button" ng-click="$ctrl.verifyCompany()" ng-disabled="!registerForm.$valid">REGISTER</button>
     </div>
   </form>
 

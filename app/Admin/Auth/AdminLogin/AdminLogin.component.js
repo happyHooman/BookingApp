@@ -12,9 +12,9 @@ class AdminLoginController {
 	$onInit() {
 
 		//load all users because no normal api is available
-    this._http.get(ApiUrl.base + ApiUrl.users).then(res=>{
-      this.allUsers = res.data;
-    })
+    // this._http.get(ApiUrl.base + ApiUrl.users).then(res=>{
+    //   this.allUsers = res.data;
+    // })
   }
 
 	login() {
