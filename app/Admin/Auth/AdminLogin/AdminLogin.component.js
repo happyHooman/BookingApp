@@ -1,6 +1,6 @@
 import template from './AdminLogin.template.html'
 import componentStyles from './AdminLogin.scss'
-import {ApiUrl} from '../../../ApiUrl.constants'
+import { ApiUrl } from '../../../ApiUrl.constants'
 
 class AdminLoginController {
 	constructor($http, $location) {
@@ -9,29 +9,35 @@ class AdminLoginController {
 		this.componentName = 'adminLoginComponent';
 	}
 
-	$onInit() {
+	$onInit() {  }
 
-		//load all users because no normal api is available
-    // this._http.get(ApiUrl.base + ApiUrl.users).then(res=>{
-    //   this.allUsers = res.data;
-    // })
-  }
-
-	login() {
-		//check the enetered email and password in all users array
-		let verifyUser = this.allUsers.find(user=>user.email === this.user.email)
-    if(verifyUser){
-      if(verifyUser.password === this.user.password){
-				this.user = { name: verifyUser.name, email: verifyUser.email, id: verifyUser.id}
-				localStorage.setItem('userInfo', JSON.stringify(this.user))
-        this._location.path('/dashboard')
-      } else{
-        console.log('wrong password');
-      }
-    } else {
-      console.log('sorry! the email is not found');
-    }
+	verifyCompany() {
+		let url = ApiUrl.base + ApiUrl.companies + '?email=' + this.credentials.email
+		let companyExists
+		this._http.get(url).then(res=>{
+			companyExists = res.data[0]
+			if (companyExists) {
+				if (companyExists.password === this.credentials.password) {
+					this.login(companyExists)
+				} else {
+					alert('wrong password');
+				}
+			} else {
+				alert('This user does not exist')
+			}
+		})
 	}
+
+	login(company){
+		let credentials = {
+			id: company.id,
+			email: company.email,
+			name: company.name
+		}
+		localStorage.setItem('userInfo', JSON.stringify(credentials))
+		this._location.path('/dashboard')
+	}
+
 }
 
 export const adminLoginComponent = {

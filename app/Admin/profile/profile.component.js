@@ -20,8 +20,9 @@ class ProfileController {
 
 	loadProfile(){
 		let email = JSON.parse(localStorage.getItem('userInfo')).email
-		this._http.get(ApiUrl.base + ApiUrl.companies).then(res=>{
-			this.company = res.data.filter(company=>company.email===email)[0]
+		let url = ApiUrl.base + ApiUrl.companies + '?email=' + email
+		this._http.get(url).then(res=>{
+			this.company = res.data[0]
 		})
 	}
 

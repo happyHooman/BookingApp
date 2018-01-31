@@ -4,7 +4,6 @@
       "name": "Vlad Tepes",
       "password": "ititaicapu",
       "email": "nuEraEmailPe@vremea.mea",
-      "companyName": "Dracula",
       "description": "Boy favourable day can introduced sentiments entreaties. Noisier carried of in warrant because. So mr plate seems cause chief widen first. Two differed husbands met screened his. Bed was form wife out ask draw. Wholly coming at we no enable. Offending sir delivered questions now new met. Acceptance she interested new boisterous day discretion celebrated.",
       "logo": "../Public/assets/vlad.jpeg",
       "id": 1,
@@ -26,7 +25,6 @@
       "name": "Stefan Cel Mare",
       "password": "123123",
       "email": "stefan@calare.pecal",
-      "companyName": "Stefan cel Mare",
       "description": "Moldova nu este a noastra, si nici a urmasilor nostri, ci este a urmasilor urmasilor nostri.",
       "logo": "../Public/assets/stefan.jpeg",
       "id": 2,
@@ -47,7 +45,6 @@
       "name": "Mihai Viteazul",
       "password": "calarepebreazu",
       "email": "mihai@viteazu.ro",
-      "companyName": "Mihai",
       "description": "Nu va urez viata capitanii mei,\nDimpotriva - moarte, iata ce va cei..",
       "logo": "../Public/assets/mihaiviteazu.jpeg",
       "id": 3,
@@ -66,7 +63,6 @@
       "name": "Mircea cel Batran",
       "email": "mircea@batran.ro",
       "password": "tuestimircea?",
-      "companyName": "Hai la Mircea",
       "description": "Da mă! Io-s Mircea!",
       "logo": "../Public/assets/mircea.jpeg",
       "id": 5,
@@ -86,7 +82,6 @@
       "name": "Bogdan Voievod",
       "email": "bogdan@voievod.ro",
       "password": "bogdan",
-      "companyName": "Serviciile lui Bogdan",
       "description": "She literature discovered increasing how diminution understood. Though and highly the enough county for man. Of it up he still court alone widow seems. Suspected he remainder rapturous my sweetness. All vanity regard sudden nor simple can. World mrs and vexed china since after often.",
       "logo": "../Public/assets/logo.png",
       "id": 6,
@@ -107,7 +102,6 @@
       "email": "d.cantemir@gmail.com",
       "name": "Dimitrie Cantemir",
       "password": "dsfgsvs",
-      "companyName": "",
       "description": "",
       "logo": "../Public/assets/logo.png",
       "workingHours": {
@@ -129,20 +123,19 @@
       "name": "Darth Vader",
       "email": "dart@vader",
       "password": "avacaacd",
-      "companyName": "",
-      "description": "",
+      "description": "By spite about do of do allow blush. Additions in conveying or collected objection in. Suffer few desire wonder her object hardly nearer. Abroad no chatty others my silent an. Fat way appear denote who wholly narrow gay settle. Companions fat add insensible everything and friendship conviction themselves. Theirs months ten had add narrow own.",
       "logo": "../Public/assets/logo.png",
       "workingHours": {
-        "start": 0,
-        "end": 23
+        "start": 6,
+        "end": 22
       },
       "workingDays": [
-        0,
-        0,
-        0,
-        0,
-        0,
-        0,
+        true,
+        true,
+        true,
+        true,
+        true,
+        true,
         0
       ],
       "id": 8
@@ -308,6 +301,16 @@
       "companyId": 5,
       "serviceName": "Defend the Country",
       "id": 16
+    },
+    {
+      "name": "Ali Keartland",
+      "email": "AliKeartland@teleworm.us",
+      "phone": "077 5058 8678",
+      "time": 1518246000000,
+      "serviceId": 9,
+      "companyId": 8,
+      "serviceName": "Gym",
+      "id": 17
     }
   ],
   "services": [
@@ -387,7 +390,7 @@
     },
     {
       "companyId": 2,
-      "description": "forming. Especially favourable compliment but thoroughly unreserved saw she themselves. Sufficient impossible him may ten insensible put continuing. Oppose exeter income simple few joy cousin but twenty. Scale began quiet up short wrong in in. Sportsmen shy forfeited engrossed may can.",
+      "description": "Especially favourable compliment but thoroughly unreserved saw she themselves. Sufficient impossible him may ten insensible put continuing. Oppose exeter income simple few joy cousin but twenty. Scale began quiet up short wrong in in. Sportsmen shy forfeited engrossed may can.",
       "spaces": 5000,
       "name": "Defend Christianity",
       "price": 10000,
@@ -1796,6 +1799,250 @@
         "end": 16
       },
       "company": "Stefan cel Mare"
+    },
+    {
+      "companyId": 8,
+      "duration": {
+        "hours": 0,
+        "minutes": 45
+      },
+      "availability": {
+        "times": [
+          1262318400000,
+          1262321100000,
+          1262323800000,
+          1262326500000,
+          1262329200000,
+          1262331900000,
+          1262334600000,
+          1262337300000,
+          1262340000000,
+          1262342700000,
+          1262345400000,
+          1262348100000,
+          1262350800000,
+          1262353500000,
+          1262356200000,
+          1262358900000,
+          1262361600000,
+          1262364300000,
+          1262367000000,
+          1262369700000,
+          1262372400000,
+          1262375100000
+        ],
+        "slots": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            3,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            0,
+            0
+          ]
+        ]
+      },
+      "name": "Gym",
+      "description": "Am if number no up period regard sudden better. Decisively surrounded all admiration and not you. Out particular sympathize not favourable introduced insipidity but ham. Rather number can and set praise. Distrusts an it contented perceived attending oh. Thoroughly estimating introduced stimulated why but motionless.",
+      "spaces": 1,
+      "price": 300,
+      "id": 9,
+      "logo": "../Public/assets/logo.png",
+      "workingHours": {
+        "start": 6,
+        "end": 22
+      },
+      "company": "Darth Vader"
     }
   ]
 }

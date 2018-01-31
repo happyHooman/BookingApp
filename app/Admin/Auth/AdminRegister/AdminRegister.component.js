@@ -43,7 +43,6 @@ class AdminRegisterController {
 			this._location.path('/login')
 		})
 	}
-
 }
 
 
