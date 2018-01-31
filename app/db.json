@@ -241,6 +241,26 @@
       "companyId": 1,
       "serviceName": "Terorizez inamicii",
       "id": 14
+    },
+    {
+      "name": "Dean McLeod",
+      "email": "DeanMcLeod@jourrapide.com",
+      "phone": "078 6741 8505",
+      "time": 1518156000000,
+      "serviceId": 5,
+      "companyId": 1,
+      "serviceName": "Trag prin teapa",
+      "id": 15
+    },
+    {
+      "name": "Alexandru",
+      "email": "tornea.alexandru@gmail.com",
+      "phone": "069590764",
+      "time": 1517995800000,
+      "serviceId": 3,
+      "companyId": 5,
+      "serviceName": "Defend the Country",
+      "id": 16
     }
   ],
   "services": [
@@ -484,7 +504,7 @@
           [
             1,
             1,
-            1,
+            3,
             1,
             1,
             0,
@@ -558,7 +578,13 @@
       "duration": {
         "hours": 1,
         "minutes": 10
-      }
+      },
+      "logo": "../Public/assets/mircea.jpeg",
+      "workingHours": {
+        "start": 8,
+        "end": 20
+      },
+      "company": "Hai la Mircea"
     },
     {
       "companyId": 3,
@@ -1130,7 +1156,7 @@
             1,
             0,
             3,
-            1,
+            3,
             0,
             0
           ],

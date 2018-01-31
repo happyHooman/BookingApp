@@ -195,6 +195,18 @@ label {
   text-align: center;
 }
 
+.day-picker-table tbody {
+    display:block;
+    height:300px;
+    overflow:auto;
+}
+.day-picker-table thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+
 .clk{
   color: #cb7de6;
 }
@@ -247,16 +259,7 @@ input[type="checkbox"]:disabled + .label-text:before{
 	color: #ccc;
 }
 
-tbody {
-    display:block;
-    height:300px;
-    overflow:auto;
-}
-thead, tbody tr {
-    display:table;
-    width:100%;
-    table-layout:fixed;
-}
+
 
 @keyframes effect{
 	0%{transform: scale(0);}

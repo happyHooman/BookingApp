@@ -6,7 +6,24 @@
 }
 
 .bookings-list {
-    max-width: 950px;
+    max-width: 1000px;
+    min-width: 500px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.bookings-list tbody {
+    display:block;
+    overflow:auto;
+}
+
+.bookings-list thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+.bookings-list tr td {
+  overflow: hidden;
+  text-overflow: ellipsis;
 }

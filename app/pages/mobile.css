@@ -1,0 +1,8 @@
+@media only screen and (max-width: 500px) {
+  /*maxwidth to be selected by components crash width*/
+  /*all styles to be inserted inside the media*/
+    .navbar-default {
+        background-color: lightblue !important;
+    }
+
+}

@@ -27,30 +27,30 @@
   <table class="table table-striped bookings-list">
   <thead class="booking-list-titles">
     <tr>
-      <th ng-click="$ctrl.sortBy('name')"> Name
+      <th ng-click="$ctrl.sortBy('name')" style="width: 18%"> Name
         <i class="fa" ng-show="$ctrl.orderProp ==='name'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
       </th>
-      <th ng-click="$ctrl.sortBy('email')">Email
+      <th ng-click="$ctrl.sortBy('email')" style="width: 30%">Email
         <i class="fa" ng-show="$ctrl.orderProp ==='email'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
       </th>
-      <th ng-click="$ctrl.sortBy('phone')">Phone Number
+      <th ng-click="$ctrl.sortBy('phone')" style="width: 17%">Phone Number
         <i class="fa" ng-show="$ctrl.orderProp ==='phone'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
       </th>
-      <th ng-click="$ctrl.sortBy('time')">Time
+      <th ng-click="$ctrl.sortBy('time')" style="width: 17%">Time
         <i class="fa" ng-show="$ctrl.orderProp ==='time'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
       </th>
-      <th ng-click="$ctrl.sortBy('serviceName')">Service name
+      <th ng-click="$ctrl.sortBy('serviceName')" style="width: 18%">Service name
         <i class="fa" ng-show="$ctrl.orderProp ==='serviceName'" ng-class="{'fa-chevron-down': !$ctrl.reverseOrder, 'fa-chevron-up': $ctrl.reverseOrder}"></i>
       </th>
     </tr>
   </thead>
   <tbody>
       <tr ng-repeat="booking in $ctrl.bookings | filter: service | orderBy:$ctrl.orderProp:$ctrl.reverseOrder">
-        <td>{{booking.name}}</td>
-        <td>{{booking.email}}</td>
-        <td>{{booking.phone}}</td>
-        <td>{{booking.time | date:'EEE d.MM, H:mm'}}</td>
-        <td>{{booking.serviceName}}</td>
+        <td style="width: 18%">{{booking.name}}</td>
+        <td style="width: 30%">{{booking.email}}</td>
+        <td style="width: 17%">{{booking.phone}}</td>
+        <td style="width: 17%">{{booking.time | date:'EEE d.MM, H:mm'}}</td>
+        <td style="width: 18%">{{booking.serviceName}}</td>
       </tr>
     </tbody>
   </table>
