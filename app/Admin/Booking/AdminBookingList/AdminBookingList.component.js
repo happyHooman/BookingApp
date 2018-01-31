@@ -14,9 +14,7 @@ class AdminBookingListController {
 
 	// SAVE ALL UNIQUE SERVICES IN THE SERVICES VARIABLE
 	filterServices() {
-		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) =>
-			array
-			.indexOf(x) == pos);
+		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) => array.indexOf(x) == pos);
 	}
 
 	sortBy(newProp) {
@@ -25,7 +23,10 @@ class AdminBookingListController {
 	}
 
 	$onInit() {
-		this._http.get(ApiUrl.base + ApiUrl.bookings).then(res => {
+		let companyId = JSON.parse(localStorage.getItem('userInfo')).id
+		let url = ApiUrl.base + ApiUrl.bookings + '?companyId=' + companyId + '&_sort=time&_order=asc'
+
+		this._http.get(url).then(res => {
 			this.bookings = res.data;
 			console.log("bookings loaded");
 			this.filterServices();

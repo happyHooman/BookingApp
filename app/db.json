@@ -30,11 +30,11 @@
       "id": 2,
       "workingHours": {
         "start": 7,
-        "end": 16
+        "end": 17
       },
       "workingDays": {
         "0": false,
-        "1": false,
+        "1": true,
         "2": true,
         "3": true,
         "4": true,
