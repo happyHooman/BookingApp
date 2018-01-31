@@ -2,5 +2,5 @@
   service="service"
   edit-service="$ctrl.editService(service)"
   delete-service ="$ctrl.deleteService(service)"
-  ng-repeat="service in $ctrl.services | filter: {companyId: $ctrl.filter}">
+  ng-repeat="service in $ctrl.services | filter: $ctrl.filter">
 </service-card-component>

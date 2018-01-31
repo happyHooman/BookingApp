@@ -6,36 +6,49 @@ class ServiceListController {
 		this.location = $location;
 		this._http = $http;
 		this._routeParams = $routeParams;
-		this.componentName = 'ServiceListComponent';
 		this.isLoggedIn = false;
 		this.services = [];
 	}
 
 	$onInit() {
-		this.loadServices()
-		this.setDisplayFilter()
+		this.checkLoggedIn()
+		this.selectServices()
 	}
 
-	loadServices(){
-		this._http.get(ApiUrl.base + ApiUrl.services).then(res => {
-			this.services = res.data;
-			console.log("services loaded");
-		}, err => {
-			console.log('Error loading services. Please check server status. ', err);
-		});
-	}
-
-	setDisplayFilter(){
-		// if user is logged in
+	checkLoggedIn(){
 		if(localStorage.getItem('userInfo')){
-			this.filter = JSON.parse(localStorage.getItem('userInfo')).id
-		}
-
-		// if company profile is viewed by visitor
-		if(this._routeParams.id){
-			this.filter = this._routeParams.id;
+			this.isLoggedIn = true
 		}
 	}
+
+	selectServices(){
+		if (this.isLoggedIn) {
+			let companyId = JSON.parse(localStorage.getItem('userInfo')).id
+			let url = ApiUrl.base + ApiUrl.services + '?companyId=' + companyId
+			this._http.get(url).then(res=>{
+				this.services = res.data
+			})
+		} else if (this._routeParams.id) {
+			let url = ApiUrl.base + ApiUrl.services + '?companyId=' + this._routeParams.id
+			this._http.get(url).then(res=>{
+				this.services = res.data
+			})
+		} else {
+			let url = ApiUrl.base + ApiUrl.services
+			this._http.get(url).then(res=>{
+				this.services = res.data
+			})
+		}
+	}
+
+	loadServices(url){
+		this._http.get(url).then(res=>{
+			this.services = res.data
+		}, err => {
+			console.log('errror loadin services', err);
+		})
+	}
+
 
 	deleteService(service) {
 		if (confirm('Are you sure you want to delete this service?')) {
