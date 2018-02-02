@@ -1,16 +1,16 @@
 import angular from 'angular';
 
 import {createBookingComponent} from './Booking/CreateBooking.component'
-import {defaultModalComponent} from './modals/default-modal/default-modal.component'
-import {personalDetailsModalComponent} from './modals/personal-details-modal/personal-details-modal.component'
-import {bookingTimeModalComponent} from './modals/booking-time-modal/booking-time-modal.component'
-import {successModalComponent} from './modals/success-modal/success-modal.component'
+import {modalContainerComponent} from './modals/modal-container/modal-container.component'
+import {personalDetailsComponent} from './modals/personal-details/personal-details.component'
+import {bookingTimeComponent} from './modals/booking-time/booking-time.component'
+import {successComponent} from './modals/success/success.component'
 import {companyProfileComponent} from './company-profile/company-profile.component'
 
  export default angular.module('Public', [])
      .component('createBookingComponent',createBookingComponent)
-     .component('defaultModalComponent',defaultModalComponent)
-     .component('personalDetailsModalComponent',personalDetailsModalComponent)
-     .component('bookingTimeModalComponent',bookingTimeModalComponent)
-     .component('successModalComponent',successModalComponent)
+     .component('modalContainerComponent',modalContainerComponent)
+     .component('personalDetailsComponent',personalDetailsComponent)
+     .component('bookingTimeComponent',bookingTimeComponent)
+     .component('successComponent',successComponent)
      .component('companyProfileComponent',companyProfileComponent)

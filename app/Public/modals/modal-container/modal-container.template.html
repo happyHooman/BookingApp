@@ -2,20 +2,20 @@
 <div class="modal fade" id="modal_{{$ctrl.service.id}}" role="dialog">
   <div class="modal-dialog modal-lg">
 
-    <personal-details-modal-component
+    <personal-details-component
       personal-details="$ctrl.booking"
       change-step="$ctrl.step = val"
       ng-if="$ctrl.step === 1">
-        </personal-details-modal-component>
+        </personal-details-component>
 
-    <booking-time-modal-component
+    <booking-time-component
       availability="$ctrl.service.availability"
       ng-if="$ctrl.step === 2">
-        </booking-time-modal-component>
+        </booking-time-component>
 
-    <success-modal-component
+    <success-component
       ng-if="$ctrl.step === 3">
-        </success-modal-component>
+        </success-component>
 
   </div>
 </div>

@@ -311,6 +311,56 @@
       "companyId": 8,
       "serviceName": "Gym",
       "id": 17
+    },
+    {
+      "name": "Jade Bee",
+      "email": "JadeBee@dayrep.com",
+      "phone": "077 1214 4493",
+      "time": 1518067800000,
+      "serviceId": 9,
+      "companyId": 8,
+      "serviceName": "Gym",
+      "id": 18
+    },
+    {
+      "name": "Caleb Hilliard",
+      "email": "CalebHilliard@dayrep.com",
+      "phone": "077 2696 7417",
+      "time": 1518092100000,
+      "serviceId": 7,
+      "companyId": 6,
+      "serviceName": "Reparatia drumurilor",
+      "id": 19
+    },
+    {
+      "name": "Matilda Tildesley",
+      "email": "MatildaTildesley@jourrapide.com",
+      "phone": "078 3941 1634",
+      "time": 1517894400000,
+      "serviceId": 5,
+      "companyId": 1,
+      "serviceName": "Trag prin teapa",
+      "id": 20
+    },
+    {
+      "name": "Charli Hoover",
+      "email": "CharliHoover@armyspy.com",
+      "phone": "077 0841 6084",
+      "time": 1517897700000,
+      "serviceId": 4,
+      "companyId": 3,
+      "serviceName": "Unirea Principatelor",
+      "id": 21
+    },
+    {
+      "name": "Vasilica Rotaru",
+      "email": "vasilica.rotaru@yahoo.com",
+      "phone": "08596226336",
+      "time": 1517994600000,
+      "serviceId": 1,
+      "companyId": 2,
+      "serviceName": "Punish Enemies",
+      "id": 22
     }
   ],
   "services": [
@@ -351,7 +401,7 @@
           [
             0,
             0,
-            1,
+            3,
             3,
             1,
             1,
@@ -384,9 +434,9 @@
       "logo": "../Public/assets/stefan.jpeg",
       "workingHours": {
         "start": 7,
-        "end": 16
+        "end": 17
       },
-      "company": "Stefan cel Mare"
+      "company": "Stefan Cel Mare"
     },
     {
       "companyId": 2,
@@ -706,7 +756,7 @@
           ],
           [
             1,
-            1,
+            3,
             1,
             1,
             0,
@@ -1138,7 +1188,7 @@
         "start": 8,
         "end": 20
       },
-      "company": "Mihai"
+      "company": "Mihai Viteazul"
     },
     {
       "companyId": 1,
@@ -1194,7 +1244,7 @@
           ],
           [
             1,
-            1,
+            3,
             0,
             1,
             1,
@@ -1402,7 +1452,7 @@
         "start": 6,
         "end": 22
       },
-      "company": "Dracula"
+      "company": "Vlad Tepes"
     },
     {
       "companyId": 1,
@@ -1550,7 +1600,7 @@
             1,
             1,
             1,
-            1,
+            3,
             1,
             1,
             0
@@ -1614,7 +1664,13 @@
       "duration": {
         "hours": 0,
         "minutes": 20
-      }
+      },
+      "logo": "../Public/assets/logo.png",
+      "workingHours": {
+        "start": 13,
+        "end": 17
+      },
+      "company": "Bogdan Voievod"
     },
     {
       "companyId": 2,
@@ -1854,7 +1910,7 @@
             1,
             1,
             1,
-            1,
+            3,
             1,
             0,
             0
@@ -2043,6 +2099,212 @@
         "end": 22
       },
       "company": "Darth Vader"
+    },
+    {
+      "duration": {
+        "hours": 0,
+        "minutes": 20
+      },
+      "availability": {
+        "times": [
+          1262343600000,
+          1262344800000,
+          1262346000000,
+          1262347200000,
+          1262348400000,
+          1262349600000,
+          1262350800000,
+          1262352000000,
+          1262353200000,
+          1262354400000,
+          1262355600000,
+          1262356800000
+        ],
+        "slots": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "id": 10
+    },
+    {
+      "duration": {
+        "hours": 0,
+        "minutes": 45
+      },
+      "availability": {
+        "times": [
+          1262343600000,
+          1262346300000,
+          1262349000000,
+          1262351700000,
+          1262354400000,
+          1262357100000
+        ],
+        "slots": [
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ],
+          [
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            0
+          ]
+        ]
+      },
+      "id": 11
     }
   ]
 }

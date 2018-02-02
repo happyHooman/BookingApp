@@ -21,7 +21,7 @@
   <div class="service-card-description">{{$ctrl.service.description}}</div>
 
   <div class="row service-card-data">
-    <div class="col-md-4">
+    <div class="col-md-3">
       <dt>{{$ctrl.availability}}</dt>
       <dd>Availability</dd>
     </div>
@@ -33,8 +33,8 @@
       <dt>{{$ctrl.duration}}</dt>
       <dd>Duration</dd>
     </div>
-    <div class="col-md-2">
-      <dt>{{$ctrl.service.price | currency}}</dt>
+    <div class="col-md-3">
+      <dt>{{$ctrl.service.price | currency: 'RON '}}</dt>
       <dd>Price</dd>
     </div>
   </div>
@@ -44,5 +44,5 @@
           data-target="#modal_{{$ctrl.service.id}}"
           ng-hide="{{$ctrl.loggedIn}}"
           data-toggle="modal">BOOK NOW</button>
-  <default-modal-component service="$ctrl.service"></default-modal-component>
+  <modal-container-component service="$ctrl.service"></modal-container-component>
 </div>

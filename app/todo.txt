@@ -26,7 +26,7 @@
 -done- link booking to a service
 -done- close last modal stage
 -done- move user password to company (company is the user)
--done- http://localhost:3000/companies?email_like=stefan@calare.pecal + password validation
+-done- '?email_like=[email]' + password validation
 -done- separate search filter in user-view
 
 
@@ -37,3 +37,6 @@ in availability add a div displaying working days in a graphical way
 
 create admin calendar page, to view a calendar with all bookings on a selected week or month
 add possibility to select week when setting availability
+
+
+make server available through ip

@@ -1,7 +1,7 @@
-import template from './default-modal.template.html'
+import template from './modal-container.template.html'
 import {ApiUrl} from '../../../ApiUrl.constants'
 
-class DefaultModalController {
+class ModalContainerController {
 	constructor($http) {
 		this._http = $http
 		this.step = 1;
@@ -58,8 +58,8 @@ const bindings = {
 	service: '<'
 }
 
-export const defaultModalComponent = {
-	controller: DefaultModalController,
+export const modalContainerComponent = {
+	controller: ModalContainerController,
 	controllerAs: '$ctrl',
 	bindings,
 	template
