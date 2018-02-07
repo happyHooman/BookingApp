@@ -14,6 +14,7 @@ import {editServiceComponent} from './Service/edit-service/edit-service.componen
 
 //PROFILE
 import {profileComponent} from './profile/profile.component'
+import {experimentalComponent} from './profile/experimental.component'
 
 export default angular.module('Admin', [])
     .component('navbarComponent', navbarComponent)
@@ -23,3 +24,4 @@ export default angular.module('Admin', [])
     .component('adminBookingListComponent', adminBookingListComponent)
     .component('editServiceComponent', editServiceComponent)
     .component('profileComponent', profileComponent)
+    .component('experimentalComponent', experimentalComponent)

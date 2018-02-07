@@ -1,0 +1,44 @@
+<div style="padding:20px">
+  <div class="row">
+    <div class="col-sm-1">
+      <button class="btn btn-primary" ng-click="$ctrl.login()" ng-disabled="$ctrl.loggedIn">Login</button>
+    </div>
+    <div class="col-sm-1">
+      <button class="btn btn-primary" ng-click="$ctrl.logout()" ng-disabled="!$ctrl.loggedIn">Logout</button>
+    </div>
+    <div class="col-sm-2">
+      <button class="btn btn-primary" ng-click="$ctrl.getCompanies()">Get Companies</button>
+    </div>
+    <div class="col-sm-2">
+      <button class="btn btn-primary" ng-click="$ctrl.getServices()">Get Users</button>
+    </div>
+    <div class="col-sm-1">
+      <button class="btn btn-primary" ng-click="$ctrl.createUser()">SigUp</button>
+    </div>
+    <div class="col-sm-1">
+      <button class="btn btn-primary" ng-click="$ctrl.getCurrentUser()">Current User</button>
+    </div>
+  </div>
+
+  <br>
+
+  <div class="row">
+    <div class="col-md-4">
+      <form>
+        <div class="from-group">
+          <label>username</label>
+          <input type="text" class="form-control" ng-model="$ctrl.username">
+        </div>
+        <div class="from-group">
+          <label>password</label>
+          <input type="text" class="form-control" ng-model="$ctrl.password">
+        </div>
+      </form>
+    </div>
+    <div class="col-md-8">
+      <h1>Hello!!!</h1>
+      <p ng-bind="$ctrl.info"></p>
+    </div>
+  </div>
+
+</div>

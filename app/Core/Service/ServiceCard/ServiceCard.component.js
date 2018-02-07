@@ -1,8 +1,6 @@
 import template from './ServiceCard.template.html'
 import componentStyle from './ServiceCard.scss'
-import {
-	ApiUrl
-} from '../../../ApiUrl.constants'
+import {ApiUrl} from '../../../ApiUrl.constants'
 
 class ServiceCardController {
 	constructor($http) {
