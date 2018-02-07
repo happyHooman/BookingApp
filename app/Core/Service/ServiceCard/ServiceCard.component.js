@@ -46,9 +46,7 @@ class ServiceCardController {
 }
 
 const bindings = {
-	service: '<',
-	deleteService: '&',
-	editService: '&'
+	service: '<'
 }
 
 export const serviceCardComponent = {

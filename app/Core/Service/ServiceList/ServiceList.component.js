@@ -23,21 +23,15 @@ class ServiceListController {
 
 	selectServices(){
 		if (this.isLoggedIn) {
-			let companyId = JSON.parse(localStorage.getItem('userInfo')).id
-			let url = ApiUrl.base + ApiUrl.services + '?companyId=' + companyId
-			this._http.get(url).then(res=>{
-				this.services = res.data
-			})
+			const companyId = JSON.parse(localStorage.getItem('userInfo')).id
+			const url = ApiUrl.base + ApiUrl.services + '?companyId=' + companyId
+			this.loadServices(url)
 		} else if (this._routeParams.id) {
-			let url = ApiUrl.base + ApiUrl.services + '?companyId=' + this._routeParams.id
-			this._http.get(url).then(res=>{
-				this.services = res.data
-			})
+			const url = ApiUrl.base + ApiUrl.services + '?companyId=' + this._routeParams.id
+			this.loadServices(url)
 		} else {
-			let url = ApiUrl.base + ApiUrl.services
-			this._http.get(url).then(res=>{
-				this.services = res.data
-			})
+			const url = ApiUrl.base + ApiUrl.services
+			this.loadServices(url)
 		}
 	}
 
@@ -45,20 +39,20 @@ class ServiceListController {
 		this._http.get(url).then(res=>{
 			this.services = res.data
 		}, err => {
-			console.log('errror loadin services', err);
+			console.log('errror loading services', err);
 		})
 	}
 
 
-	deleteService(service) {
+	deleteService(id) {
 		if (confirm('Are you sure you want to delete this service?')) {
-			this.services.splice(this.services.indexOf(service), 1);
-			this._http.delete(ApiUrl.base + ApiUrl.services + service.id);
+			this.services.splice(this.services.indexOf(id), 1);
+			this._http.delete(ApiUrl.base + ApiUrl.services + id);
 		}
 	}
 
-	editService(service) {
-		this.location.path('/edit-service/' + service.id);
+	editService(id) {
+		this.location.path('/edit-service/' + id);
 	}
 }
 
