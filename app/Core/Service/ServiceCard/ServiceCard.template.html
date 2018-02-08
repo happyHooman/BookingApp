@@ -4,8 +4,8 @@
     <div class="row" style="margin: 0">
       <div class="col-md-6 service-card-title">{{$ctrl.service.name}}</div>
       <div class="col-m-6 options-buttons" align="right" ng-show="{{$ctrl.loggedIn}}">
-        <button class="clean-button" ng-click="$parent.$ctrl.editService($ctrl.service.id)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
-        <button class="clean-button" ng-click="$parent.$ctrl.deleteService($ctrl.service.id)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
+        <button class="clean-button" ng-click="$parent.$ctrl.editService($ctrl.service._id)"><i class="fa fa-pencil" aria-hidden="true"></i></button>
+        <button class="clean-button" ng-click="$parent.$ctrl.deleteService($ctrl.service._id)"><i class="fa fa-trash-o" aria-hidden="true"></i></button>
       </div>
     </div>
   </h2>

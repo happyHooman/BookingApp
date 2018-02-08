@@ -2,8 +2,7 @@ import template from './create-service.template.html'
 import { API } from '../../../api.url'
 
 class CreateServiceController {
-	constructor($http, $location, $routeParams) {
-		this._routeParams = $routeParams;
+	constructor($http, $location) {
 		this._location = $location;
 		this._http = $http;
 		this.service = {};
@@ -83,28 +82,12 @@ class CreateServiceController {
 	}
 
 	initService() {
-		this.getCompanyId()
+		this.service.userId = localStorage.getItem('UID')
 		this.service.duration = {
 			hours: 1,
 			minutes: 0
 		}
 		this.setDurationValue();
-	}
-
-	getCompanyId() {
-		const url = API.base + API.companies
-		const userId = localStorage.getItem('UID')
-		this._http({
-			method: 'GET',
-			params: {
-				userId
-			},
-			url
-		}).then(res => {
-			this.companyId = res.data.id
-		}, err => {
-			console.log(err);
-		})
 	}
 
 	setDurationValue() {
@@ -113,11 +96,23 @@ class CreateServiceController {
 	}
 
 	saveService() {
-
+		const url = API.base + API.services
+		const token = localStorage.getItem('auth-token')
+		const data = this.service
+		this._http({
+			method: 'POST',
+			headers: {'Authorization': token},
+			data,
+			url
+		}).then(res=>{
+			console.log(res.data);
+			this._location.path('/dashboard')
+		},err =>{
+			console.log(err.data);
+		})
 	}
 
 }
-
 
 export const createServiceComponent = {
 	controller: CreateServiceController,

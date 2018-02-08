@@ -1,5 +1,5 @@
 import template from './day-picker.template.html'
-import { ApiUrl } from '../../ApiUrl.constants'
+import { API } from '../../api.url'
 
 class DayPickerController {
 	constructor($http, $scope) {
@@ -8,8 +8,12 @@ class DayPickerController {
 	}
 
 	$onInit() {
+		this.checkLogin()
 		this.loadData()
-		if (localStorage.getItem('userInfo')) {
+	}
+
+	checkLogin(){
+		if (localStorage.getItem('auth-token')) {
 			this.loggedIn = true;
 		} else {
 			this.loggedIn = false;
@@ -17,22 +21,22 @@ class DayPickerController {
 	}
 
 	loadData() {
-		if (localStorage.getItem('userInfo')) {
-			this._http.get(ApiUrl.base + ApiUrl.companies + JSON.parse(localStorage.getItem(
-					'userInfo')).id)
-				.then(res => {
-					let company = res.data;
-					this.workingHours = company.workingHours;
-					this.workingDays = company.workingDays;
-					this.setBookingTimes();
-					this.length = this.workingHours.end - this.workingHours.start;
-					if (!this.availability) {
-						this.setAvailability()
-					}
-				}, err => {
-					console.log("error loading company", err);
-				})
-		}
+		const url = API.base + API.companies
+		const userId = localStorage.getItem('UID')
+		this._http({
+			method: 'GET',
+			params: {userId},
+			url
+		}).then(res => {
+						this.workingHours = res.data.workingHours;
+						this.workingDays = res.data.workingDays;
+						this.setBookingTimes();
+						if (!this.availability) {
+							this.setAvailability()
+						}
+		}, err=>{
+			console.log(err);
+		})
 	}
 
 	setBookingTimes(){
@@ -116,8 +120,6 @@ class DayPickerController {
 		}
 
 	}
-
-
 }
 
 const bindings = {

@@ -1,6 +1,6 @@
 import template from './ServiceCard.template.html'
 import componentStyle from './ServiceCard.scss'
-import {ApiUrl} from '../../../ApiUrl.constants'
+import { API } from '../../../api.url'
 
 class ServiceCardController {
 	constructor($http) {
@@ -8,20 +8,26 @@ class ServiceCardController {
 	}
 
 	$onInit() {
-		this.loggedIn = localStorage.getItem('userInfo') ? true : false;
+		this.loggedIn = localStorage.getItem('auth-token') ? true : false
 		this.loadCompanyDetails()
 		this.stringifyDuration()
 	}
 
 	loadCompanyDetails() {
-		this._http.get(ApiUrl.base + ApiUrl.companies + this.service.companyId).then(
-			res => {
-				let company = res.data;
-				this.service.logo = company.logo;
-				this.service.workingHours = company.workingHours;
-				this.service.company = company.name;
-				this.availability = company.workingHours.start + ':00 - ' + company.workingHours.end + ':00';
-			})
+		const url = API.base + API.companies
+		const userId = localStorage.getItem('UID')
+		this._http({
+			method: 'GET',
+			params: {userId},
+			url
+		}).then(res => {
+			this.service.logo = res.data.logo;
+			this.service.workingHours = res.data.workingHours;
+			this.service.company = res.data.name;
+			this.availability = res.data.workingHours.start + ':00 - ' + res.data.workingHours.end + ':00';
+		}, err=>{
+			console.log('Could not load company details',err);
+		})
 	}
 
 	stringifyDuration() {

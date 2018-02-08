@@ -1,36 +1,29 @@
 import template from './ServiceList.template.html'
-import { ApiUrl } from '../../../ApiUrl.constants';
+import { API } from '../../../api.url';
 
 class ServiceListController {
 	constructor($location, $http, $routeParams) {
 		this.location = $location;
 		this._http = $http;
 		this._routeParams = $routeParams;
-		this.isLoggedIn = false;
 		this.services = [];
 	}
 
 	$onInit() {
-		this.checkLoggedIn()
+		this.isLoggedIn = localStorage.getItem('auth-token') ? true : false
 		this.selectServices()
-	}
-
-	checkLoggedIn(){
-		if(localStorage.getItem('userInfo')){
-			this.isLoggedIn = true
-		}
 	}
 
 	selectServices(){
 		if (this.isLoggedIn) {
-			const companyId = JSON.parse(localStorage.getItem('userInfo')).id
-			const url = ApiUrl.base + ApiUrl.services + '?companyId=' + companyId
+			const userId = localStorage.getItem('UID')
+			const url = API.base + API.services	+ '?userId=' + userId
 			this.loadServices(url)
 		} else if (this._routeParams.id) {
-			const url = ApiUrl.base + ApiUrl.services + '?companyId=' + this._routeParams.id
+			const url = API.base + API.services + '?userId=' + this._routeParams.id
 			this.loadServices(url)
 		} else {
-			const url = ApiUrl.base + ApiUrl.services
+			const url = API.base + API.services
 			this.loadServices(url)
 		}
 	}
@@ -52,6 +45,7 @@ class ServiceListController {
 	}
 
 	editService(id) {
+		console.log(id);
 		this.location.path('/edit-service/' + id);
 	}
 }
