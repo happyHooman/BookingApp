@@ -11,6 +11,7 @@ import {adminBookingListComponent} from './Booking/AdminBookingList/AdminBooking
 
 // SERVICE
 import {editServiceComponent} from './Service/edit-service/edit-service.component'
+import {createServiceComponent} from './Service/edit-service/create-service.component'
 
 //PROFILE
 import {profileComponent} from './profile/profile.component'
@@ -23,5 +24,6 @@ export default angular.module('Admin', [])
     .component('adminRegisterComponent', adminRegisterComponent)
     .component('adminBookingListComponent', adminBookingListComponent)
     .component('editServiceComponent', editServiceComponent)
+    .component('createServiceComponent', createServiceComponent)
     .component('profileComponent', profileComponent)
     .component('experimentalComponent', experimentalComponent)

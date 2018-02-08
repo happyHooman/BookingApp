@@ -1,0 +1,5 @@
+register component
+login componentName
+profile  - needs return userId
+navbar - needs return company name
+create service -  needs return companyId

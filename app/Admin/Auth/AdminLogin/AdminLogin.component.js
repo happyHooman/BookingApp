@@ -1,6 +1,6 @@
 import template from './AdminLogin.template.html'
 import componentStyles from './AdminLogin.scss'
-import { ApiUrl } from '../../../ApiUrl.constants'
+import { API } from '../../../api.url'
 
 class AdminLoginController {
 	constructor($http, $location) {
@@ -11,31 +11,17 @@ class AdminLoginController {
 
 	$onInit() {  }
 
-	verifyCompany() {
-		let url = ApiUrl.base + ApiUrl.companies + '?email=' + this.credentials.email
-		let companyExists
-		this._http.get(url).then(res=>{
-			companyExists = res.data[0]
-			if (companyExists) {
-				if (companyExists.password === this.credentials.password) {
-					this.login(companyExists)
-				} else {
-					alert('wrong password');
-				}
-			} else {
-				alert('This user does not exist')
-			}
-		})
-	}
-
 	login(company){
-		let credentials = {
-			id: company.id,
-			email: company.email,
-			name: company.name
-		}
-		localStorage.setItem('userInfo', JSON.stringify(credentials))
-		this._location.path('/dashboard')
+		const url = API.base + API.signin
+		const data = this.credentials
+		this._http.post(url,data).then(res=>{
+			localStorage.setItem('auth-token',res.data.token)
+			localStorage.setItem('UID',res.data.uid)
+			this._location.path('/dashboard')
+		},err=>{
+			console.log(err.data);
+			alert('Wrong username or password!');
+		})
 	}
 
 }

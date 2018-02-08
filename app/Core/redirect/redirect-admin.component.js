@@ -4,7 +4,7 @@ class RedirectAdminController {
 	}
 
 	$onInit() {
-		if (localStorage.getItem('userInfo')) {
+		if (localStorage.getItem('auth-token')) {
 			this._location.path('/dashboard')
 		}
 	}

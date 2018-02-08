@@ -93,7 +93,6 @@ class EditServiceController {
 					console.log("error loading service", err);
 				});
 		} else {
-			this.service.companyId = JSON.parse(localStorage.getItem('userInfo')).id
 			this.service.duration = {hours: 1, minutes: 0}
 			this.setDurationValue();
 		}

@@ -1,5 +1,5 @@
 import template from './profile.template.html'
-import { ApiUrl } from '../../ApiUrl.constants'
+import { API } from '../../api.url'
 
 class ProfileController {
 	constructor($http, $location) {
@@ -13,22 +13,39 @@ class ProfileController {
 
   signOut(){
 		if(confirm("Are You Shure You Want To Sign Out?")){
-    localStorage.removeItem('userInfo')
+    localStorage.removeItem('auth-token')
+    localStorage.removeItem('UID')
 		this._location.path('/')
 		}
   }
 
 	loadProfile(){
-		let email = JSON.parse(localStorage.getItem('userInfo')).email
-		let url = ApiUrl.base + ApiUrl.companies + '?email=' + email
-		this._http.get(url).then(res=>{
-			this.company = res.data[0]
-		})
+			const url = API.base + API.companies
+			const userId = localStorage.getItem('UID')
+			this._http({
+				method: 'GET',
+				params: {userId},
+				url
+			}).then(res => {
+				this.company = res.data
+			}, err=>{
+				console.log(err);
+			})
 	}
 
 	saveSettings(){
-		this._http.put(ApiUrl.base + ApiUrl.companies + this.company.id, this.company)
-		alert("Profile Saved");
+		const url = API.base + API.companies
+		const token = localStorage.getItem('auth-token')
+		const data = this.company
+		this._http({
+			method: 'PUT',
+			headers: {'Authorization': token},
+			data,
+			url
+		}).then(res=>{
+			console.log(res.data);
+			alert('Your changes have been saved!')
+		})
 	}
 }
 

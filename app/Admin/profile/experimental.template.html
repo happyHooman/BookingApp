@@ -7,16 +7,19 @@
       <button class="btn btn-primary" ng-click="$ctrl.logout()" ng-disabled="!$ctrl.loggedIn">Logout</button>
     </div>
     <div class="col-sm-2">
-      <button class="btn btn-primary" ng-click="$ctrl.getCompanies()">Get Companies</button>
+      <button class="btn btn-primary" ng-click="$ctrl.getCompany()">Get Company</button>
     </div>
     <div class="col-sm-2">
-      <button class="btn btn-primary" ng-click="$ctrl.getServices()">Get Users</button>
+      <button class="btn btn-primary" ng-click="$ctrl.getServices()">Get Services</button>
     </div>
     <div class="col-sm-1">
-      <button class="btn btn-primary" ng-click="$ctrl.createUser()">SigUp</button>
+      <button class="btn btn-primary" ng-click="$ctrl.createUser()" ng-disabled="$ctrl.loggedIn">SigUp</button>
     </div>
-    <div class="col-sm-1">
-      <button class="btn btn-primary" ng-click="$ctrl.getCurrentUser()">Current User</button>
+    <div class="col-sm-2">
+      <button class="btn btn-primary" ng-click="$ctrl.saveCompany()">Save Company Info</button>
+    </div>
+    <div class="col-sm-2">
+      <button class="btn btn-primary" ng-click="$ctrl.createService()">Create Service</button>
     </div>
   </div>
 
@@ -38,7 +41,11 @@
     <div class="col-md-8">
       <h1>Hello!!!</h1>
       <p ng-bind="$ctrl.info"></p>
+      <img ng-src="{{$ctrl.info.logo}}">
     </div>
   </div>
+
+  <service-list-component services="$ctrl.services"></service-list-component>
+  <!-- <edit-service-component service="$ctrl.service"></edit-service-component> -->
 
 </div>

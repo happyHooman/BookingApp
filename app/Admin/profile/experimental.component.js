@@ -27,8 +27,10 @@ class ExperimentalController {
 		this._http.post(url,userdata).then(res => {
 			this.info = 'success'
 			if (res.data.token) {
-				localStorage.setItem('auth-token', res.data.token)
+
 				this.loggedIn = true
+				localStorage.setItem('auth-token', res.data.token)
+				this.getCurrentUser()
 			}
 		}, err=>{
 			console.log(err);
@@ -39,17 +41,45 @@ class ExperimentalController {
 	logout(){
 		this.info=''
 		localStorage.removeItem('auth-token')
+		localStorage.removeItem('UID')
 		this.loggedIn = false
 	}
 
-	getCompanies(){
+	getCompany(){
+		if (this.loggedIn) {
+			const url = API.base + API.companies
+			const userId = localStorage.getItem('UID')
+			this._http({
+				method: 'GET',
+				params: {userId},
+				url
+			}).then(res => {
+				console.log(res.data);
+				this.company = res.data
+				this.info = 'success'
+			}, err=>{
+				console.log(err);
+				this.info = err.data
+			})
+		} else {
+			console.log('please log in first');
+			this.info = 'please log in first'
+		}
+	}
+
+	saveCompany(){
 		const url = API.base + API.companies
-		this._http.get(url).then(res => {
+		const token = localStorage.getItem('auth-token')
+		const data = this.company
+		this._http({
+			method: 'PUT',
+			headers: {'Authorization': token},
+			data,
+			url
+		}).then(res=>{
+			console.log('success');
+			this.info = res.data
 			console.log(res.data);
-			this.info = res.data.data
-		}, err=>{
-			console.log(err);
-			this.info = err.data
 		})
 	}
 
@@ -57,11 +87,35 @@ class ExperimentalController {
 		const url = API.base + API.services
 		this._http.get(url).then(res => {
 			console.log(res.data);
-			this.info = res.data.data
+			this.services = res.data
 		}, err=>{
 			console.log(err);
 			this.info = err.data
 		})
+	}
+
+	createService(){
+		if (this.loggedIn) {
+			const url = API.base + API.services
+			const token = localStorage.getItem('auth-token')
+
+			// add companyId before call to server
+			const data = this.service
+			this._http({
+				method: 'POST',
+				headers: {'Authorization': token},
+				data,
+				url
+			}).then(res => {
+				console.log(res.data);
+				this.info = res.data
+			}, err=>{
+				console.log(err);
+				this.info = err.data
+			})
+		} else {
+			console.log('please log in first');
+		}
 	}
 
 	getCurrentUser(){
@@ -73,7 +127,8 @@ class ExperimentalController {
 				headers: {'Authorization': token},
 				url
 			}).then(res=>{
-				this.info = res.data
+				this.info = res.data.id
+				localStorage.setItem('UID', res.data.id)
 			})
 		} else {
 			this.info = 'log in first!'
@@ -87,11 +142,10 @@ class ExperimentalController {
 			password: this.password
 		}
 		this._http.post(url, userdata).then(res => {
-			console.log(res.data);
-			this.info = res.data.msg
+			this.info = res.data
 		}, err=>{
 			console.log(err);
-			this.info = err.data.error
+			this.info = err.data
 		})
 	}
 

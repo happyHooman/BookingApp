@@ -1,0 +1,69 @@
+<div class="container-fluid">
+
+  <div class="container services-list" ng-hide='false'>
+    <div>
+      <h1>Add a service</h1>
+      <div id="new-service-button-container" align="center">
+        <button type="submit" class="btn new-service-btn" ng-click="$ctrl.saveService()">+</button>
+        <p>Save service</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container services-list" ng-hide='false'>
+    <form action="#">
+
+      <div class="row">
+
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Service name</label>
+            <input type="text" class="form-control has-error" ng-model="$ctrl.service.name">
+          </div>
+          <div class="form-group">
+            <label>Service description</label>
+            <textarea class="form-control" rows="5 " ng-model="$ctrl.service.description"></textarea>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="form-group" style="margin-bottom: 0px">
+            <label>Service duration</label>
+            <div class="row">
+              <div class="col-sm-6">
+                <select class="form-control"
+                        ng-init="$ctrl.service.duration.hours = $ctrl.service.duration.hours || $ctrl.hourOptions[0].value"
+                        ng-model="$ctrl.service.duration.hours"
+                        ng-options="option.value as option.name for option in $ctrl.hourOptions"
+                        ng-change="$ctrl.setDurationValue()">
+                </select>
+              </div>
+              <div class="col-sm-6">
+                <div class="form-group">
+                  <select class="form-control"
+                          ng-init="$ctrl.service.duration.minutes = $ctrl.service.duration.minutes || $ctrl.minuteOptions[0].value"
+                          ng-model="$ctrl.service.duration.minutes"
+                          ng-options="option.value as option.name for option in $ctrl.minuteOptions"
+                          ng-change="$ctrl.setDurationValue()">
+                  </select>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Spaces</label>
+            <input type="number" class="form-control" ng-model="$ctrl.service.spaces">
+          </div>
+          <div class="form-group">
+            <label>Price</label>
+            <input type="number" class="form-control" ng-model="$ctrl.service.price">
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+
+  <div class="container services-list" ng-hide="false">
+    <day-picker-component availability="$ctrl.service.availability" duration="$ctrl.dur"></day-picker-component>
+  </div>
+</div>
