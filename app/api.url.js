@@ -4,5 +4,6 @@ export const API = {
 	signup: 'users/signup',
 	me: 'users/me',
 	companies: 'db/companies',
-	services: 'db/services'
+	services: 'db/services',
+	bookings: 'db/bookings'
 }

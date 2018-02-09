@@ -1,5 +1,5 @@
 import template from './company-profile.template.html'
-import {ApiUrl} from '../../ApiUrl.constants'
+import { API } from '../../api.url'
 
 class CompanyProfileController {
   constructor($routeParams, $http){
@@ -11,7 +11,8 @@ class CompanyProfileController {
   }
 
   loadCompany(){
-    this._http.get(ApiUrl.base + ApiUrl.companies + this._routeParams.id).then(res=>{
+    const url = API.base + API.companies + '?userId=' + this._routeParams.id
+    this._http.get(url).then(res=>{
       this.company = res.data;
     })
   }

@@ -4,7 +4,13 @@ profile  - needs return userId
 navbar - needs return company name
 create service -  needs return userId
 dayPickerComponent - need company info
-ServiceList
+ServiceList, return services by userId done
 servicecard
+edit service
+company profile
+modal
+bookings page - sorted return from server, the server knows who you are so he returns only your services
+add booking
+delete service
 
-??????edit service
+???delete all associated bookings when removing a service???

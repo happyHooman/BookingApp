@@ -3,24 +3,22 @@ import componentStyle from './ServiceCard.scss'
 import { API } from '../../../api.url'
 
 class ServiceCardController {
-	constructor($http) {
+	constructor($http, $routeParams) {
 		this._http = $http;
+		this._routeParams = $routeParams
 	}
 
 	$onInit() {
 		this.loggedIn = localStorage.getItem('auth-token') ? true : false
+		this.companyProfile = this._routeParams.id ? true : false
 		this.loadCompanyDetails()
 		this.stringifyDuration()
 	}
 
 	loadCompanyDetails() {
-		const url = API.base + API.companies
-		const userId = localStorage.getItem('UID')
-		this._http({
-			method: 'GET',
-			params: {userId},
-			url
-		}).then(res => {
+		const userId = this.service.userId
+		const url = API.base + API.companies + '?userId=' + userId
+		this._http.get(url).then(res => {
 			this.service.logo = res.data.logo;
 			this.service.workingHours = res.data.workingHours;
 			this.service.company = res.data.name;

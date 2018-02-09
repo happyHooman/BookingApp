@@ -91,25 +91,30 @@ class EditServiceController {
 			url
 		}).then(res => {
 			this.service = res.data
-			console.log(res.data);
 		}, err => {
 			console.log(err);
 		})
 	}
 
 	setDurationValue() {
-		this.dur = (this.service.duration.hours * 60 + this.service.duration.minutes) *
-			60000;
+		this.dur = (this.service.duration.hours * 60 + this.service.duration.minutes) * 60000;
 	}
 
 	saveService() {
-		if (this.service.id) { //uptade the current service
-			this._http.put(ApiUrl.base + ApiUrl.services + this.service.id, this.service)
-				.then(() => this._location.path('/dashboard'));
-		} else { //create a new service
-			this._http.post(ApiUrl.base + ApiUrl.services, this.service)
-				.then(() => this._location.path('/dashboard'));
-		}
+		const url = API.base + API.services
+		const token = localStorage.getItem('auth-token')
+		const data = this.service
+		this._http({
+			method: 'PUT',
+			headers: {'Authorization': token},
+			data,
+			url
+		}).then(res=>{
+			console.log(res.data);
+			this._location.path('/dashboard')
+		},err=>{
+			console.log(err.data);
+		})
 	}
 
 }

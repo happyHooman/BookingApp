@@ -8,35 +8,25 @@ class DayPickerController {
 	}
 
 	$onInit() {
-		this.checkLogin()
+		this.loggedIn = localStorage.getItem('auth-token') ? true : false
 		this.loadData()
 	}
 
-	checkLogin(){
-		if (localStorage.getItem('auth-token')) {
-			this.loggedIn = true;
-		} else {
-			this.loggedIn = false;
-		}
-	}
-
 	loadData() {
-		const url = API.base + API.companies
-		const userId = localStorage.getItem('UID')
-		this._http({
-			method: 'GET',
-			params: {userId},
-			url
-		}).then(res => {
-						this.workingHours = res.data.workingHours;
-						this.workingDays = res.data.workingDays;
-						this.setBookingTimes();
-						if (!this.availability) {
-							this.setAvailability()
-						}
-		}, err=>{
-			console.log(err);
-		})
+		if (this.loggedIn) {
+			const userId = localStorage.getItem('UID')
+			const url = API.base + API.companies + '?userId=' + userId
+			this._http.get(url).then(res => {
+							this.workingHours = res.data.workingHours;
+							this.workingDays = res.data.workingDays;
+							this.setBookingTimes();
+							if (!this.availability) {
+								this.setAvailability()
+							}
+			}, err=>{
+				console.log(err);
+			})
+		}
 	}
 
 	setBookingTimes(){

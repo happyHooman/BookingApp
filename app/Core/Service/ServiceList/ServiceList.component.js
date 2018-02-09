@@ -1,5 +1,5 @@
 import template from './ServiceList.template.html'
-import { API } from '../../../api.url';
+import {API} from '../../../api.url';
 
 class ServiceListController {
 	constructor($location, $http, $routeParams) {
@@ -14,10 +14,10 @@ class ServiceListController {
 		this.selectServices()
 	}
 
-	selectServices(){
+	selectServices() {
 		if (this.isLoggedIn) {
 			const userId = localStorage.getItem('UID')
-			const url = API.base + API.services	+ '?userId=' + userId
+			const url = API.base + API.services + '?userId=' + userId
 			this.loadServices(url)
 		} else if (this._routeParams.id) {
 			const url = API.base + API.services + '?userId=' + this._routeParams.id
@@ -28,8 +28,8 @@ class ServiceListController {
 		}
 	}
 
-	loadServices(url){
-		this._http.get(url).then(res=>{
+	loadServices(url) {
+		this._http.get(url).then(res => {
 			this.services = res.data
 		}, err => {
 			console.log('errror loading services', err);
@@ -39,13 +39,23 @@ class ServiceListController {
 
 	deleteService(id) {
 		if (confirm('Are you sure you want to delete this service?')) {
-			this.services.splice(this.services.indexOf(id), 1);
-			this._http.delete(ApiUrl.base + ApiUrl.services + id);
+			this.services.splice(this.services.indexOf(this.services.find(srv => srv._id ===id)), 1); //remove from view without page reloading
+
+			const url = API.base + API.services + '?id=' + id
+			const token = localStorage.getItem('auth-token')
+			this._http({
+				method: 'DELETE',
+				headers: {'Authorization': token},
+				url
+			}).then(res => {
+				console.log(res.data);
+			}, err => {
+				console.log(err.data);
+			})
 		}
 	}
 
 	editService(id) {
-		console.log(id);
 		this.location.path('/edit-service/' + id);
 	}
 }

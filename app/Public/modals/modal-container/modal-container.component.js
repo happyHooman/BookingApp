@@ -1,5 +1,5 @@
 import template from './modal-container.template.html'
-import {ApiUrl} from '../../../ApiUrl.constants'
+import { API } from '../../../api.url'
 
 class ModalContainerController {
 	constructor($http) {
@@ -20,17 +20,31 @@ class ModalContainerController {
 		if(this.selectedDate){
 			this.setBookingTime()
 			this.booking.serviceId = this.service.id
-			this.booking.companyId = this.service.companyId
+			this.booking.userId = this.service.userId
 			this.booking.serviceName = this.service.name
 
-			this._http.post(ApiUrl.base + ApiUrl.bookings, this.booking) // add booking to database
-
-			this.service.availability.slots[this.selectedDate.h][this.selectedDate.d]=3; // update availability slots
-			this._http.put(ApiUrl.base + ApiUrl.services + this.service.id, this.service); // update service in db
-			this.step=3
+			this.addBooking()
+			this.updateService()
+			this.step=3 //move to next slide
 		} else {
 			console.log("please select a time for your booking");
 		}
+	}
+
+	addBooking(){
+		const url = API.base + API.bookings
+		this._http.post(url, this.booking).then(res =>{
+			console.log(res.data);
+		},err=>{
+			console.log(err.data);
+		}) // add booking to database
+	}
+
+	updateService(){
+		this.service.availability.slots[this.selectedDate.h][this.selectedDate.d]=3; // update availability slots; 3 is for occupied slots
+
+		const url = API.base + API.services
+		this._http.put(url, this.service); // update service in db
 	}
 
 	close(){
@@ -42,7 +56,7 @@ class ModalContainerController {
 			time: 0
 		}
 		this.selectedDate = undefined;
-		$('#modal_'+ this.service.id).modal("hide")
+		$('#modal_'+ this.service._id).modal("hide")
 	}
 
 	setBookingTime(){
