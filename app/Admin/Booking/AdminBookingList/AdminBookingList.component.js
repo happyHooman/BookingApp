@@ -3,7 +3,7 @@ import componentStyles from './AdminBookingList.scss'
 import { API } from '../../../api.url'
 
 class AdminBookingListController {
-	constructor($http, $scope) {
+	constructor($http) {
 		this.orderProp = 'time';
 		this.reverseOrder = false;
 		this._http = $http;
@@ -22,14 +22,13 @@ class AdminBookingListController {
 			url
 		}).then(res => {
 			this.bookings = res.data;
-			console.log("bookings loaded");
 			this.filterServices();
 		}, err => {
 			console.log('Error loading bookings. Please check server status. ', err);
 		})
 	}
 
-	// SAVE ALL UNIQUE SERVICES IN THE SERVICES VARIABLE
+	// create services list
 	filterServices() {
 		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) => array.indexOf(x) == pos);
 	}
