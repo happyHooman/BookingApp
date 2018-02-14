@@ -152,3 +152,350 @@ webpack: wait until bundle finished: /
 [0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]      + 81 hidden modules
 [0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m5a0891e348774377695d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m77[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2a89389f234631b76eee.hot-update.js[39m[22m   3.41 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2a89389f234631b76eee.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2a89389f234631b76eee.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.23 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 81 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m2af5b601da3525761376[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m88[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.5a0891e348774377695d.hot-update.js[39m[22m  995 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m5a0891e348774377695d.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.5a0891e348774377695d.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]     [7] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/Booking/AdminBookingList/AdminBookingList.scss[39m[22m 179 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 81 hidden modules
+[0] 
+[0] [1m[31mERROR in ./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/Booking/AdminBookingList/AdminBookingList.scss
+[0] Module build failed: Error: ENOENT: no such file or directory, open '/home/assist/Projects/BookingApp/app/Admin/Booking/AdminBookingList/AdminBookingList.scss'
+[0]  @ ./app/Admin/Booking/AdminBookingList/AdminBookingList.scss 4:14-146 13:2-17:4 14:20-152
+[0]  @ ./app/Admin/Booking/AdminBookingList/AdminBookingList.component.js
+[0]  @ ./app/Admin/Main.module.js
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1me25059e83322a262010e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m95[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2af5b601da3525761376.hot-update.js[39m[22m   3.61 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2af5b601da3525761376.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2af5b601da3525761376.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]     [7] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/Booking/AdminBookingList/AdminBookingList.scss[39m[22m 179 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [53] [1m./app/Admin/Booking/AdminBookingList/AdminBookingList.template.html[39m[22m 188 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 80 hidden modules
+[0] 
+[0] [1m[31mERROR in ./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/Booking/AdminBookingList/AdminBookingList.scss
+[0] Module build failed: Error: ENOENT: no such file or directory, open '/home/assist/Projects/BookingApp/app/Admin/Booking/AdminBookingList/AdminBookingList.scss'
+[0]  @ ./app/Admin/Booking/AdminBookingList/AdminBookingList.scss 4:14-146 13:2-17:4 14:20-152
+[0]  @ ./app/Admin/Booking/AdminBookingList/AdminBookingList.component.js
+[0]  @ ./app/Admin/Main.module.js
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Booking/AdminBookingList/AdminBookingList.template.html
+[0] Module build failed: Error: ENOENT: no such file or directory, open '/home/assist/Projects/BookingApp/app/Admin/Booking/AdminBookingList/AdminBookingList.template.html'
+[0]  @ ./app/Admin/Booking/AdminBookingList/AdminBookingList.component.js 1:0-56
+[0]  @ ./app/Admin/Main.module.js
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m24d4313a7475121fb55e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m50[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.85 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e25059e83322a262010e.hot-update.js[39m[22m    4.5 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me25059e83322a262010e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e25059e83322a262010e.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [21] [1m./app/Admin/Booking/AdminBookingList/AdminBookingList.component.js[39m[22m 187 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 78 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Booking/AdminBookingList/AdminBookingList.component.js
+[0] Module build failed: Error: ENOENT: no such file or directory, open '/home/assist/Projects/BookingApp/app/Admin/Booking/AdminBookingList/AdminBookingList.component.js'
+[0]  @ ./app/Admin/Main.module.js 10:0-98
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m4a6969ad4542b1c1df8f[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m201[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.24d4313a7475121fb55e.hot-update.js[39m[22m   12.8 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m24d4313a7475121fb55e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.24d4313a7475121fb55e.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.23 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [85] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/Booking/AdminBookingList/bookings-list.scss[39m[22m 644 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [86] [1m./app/Admin/Booking/AdminBookingList/bookings-list.component.js[39m[22m 1.1 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [87] [1m./app/Admin/Booking/AdminBookingList/bookings-list.template.html[39m[22m 2.66 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [88] [1m./app/Admin/Booking/AdminBookingList/bookings-list.scss[39m[22m 1.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 77 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m6a2c86da1c0f4216472e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m217[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.4a6969ad4542b1c1df8f.hot-update.js[39m[22m   4.79 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m4a6969ad4542b1c1df8f.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.4a6969ad4542b1c1df8f.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [32] [1m./app/Core/day-picker/day-picker.component.js[39m[22m 3.13 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 81 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m8206fb26559bdc00ffbf[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m70[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.6a2c86da1c0f4216472e.hot-update.js[39m[22m   1.26 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m6a2c86da1c0f4216472e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.6a2c86da1c0f4216472e.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [61] [1m./app/Core/day-picker/day-picker.template.html[39m[22m 669 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 81 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mbe981387132fbffb6006[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m67[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m1.8 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.8206fb26559bdc00ffbf.hot-update.js[39m[22m   1.27 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m8206fb26559bdc00ffbf.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.8206fb26559bdc00ffbf.hot-update.js[39m[22m (index) 1.68 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 357 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 55 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Main.module.js
+[0] Module build failed: SyntaxError: Unexpected token, expected , (10:16)
+[0] 
+[0]    8 | 
+[0]    9 | // BOOKING
+[0] > 10 | import {bookings-list} from './Booking/AdminBookingList/bookings-list.component';
+[0]      |                 ^
+[0]   11 | 
+[0]   12 | // SERVICE
+[0]   13 | import {editServiceComponent} from './Service/edit-service/edit-service.component'
+[0] 
+[0]  @ ./app/App.js 4:0-40
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1me067af3ba7d930c411df[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m166[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m     [1m[33m1.8 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.be981387132fbffb6006.hot-update.js[39m[22m  800 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mbe981387132fbffb6006.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.be981387132fbffb6006.hot-update.js[39m[22m (index) 1.68 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 354 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 55 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Main.module.js
+[0] Module build failed: SyntaxError: Unexpected token, expected , (10:16)
+[0] 
+[0]    8 | 
+[0]    9 | // BOOKING
+[0] > 10 | import {bookings-list} from './Booking/bookings-list/bookings-list.component';
+[0]      |                 ^
+[0]   11 | 
+[0]   12 | // SERVICE
+[0]   13 | import {editServiceComponent} from './Service/edit-service/edit-service.component'
+[0] 
+[0]  @ ./app/App.js 4:0-40
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1me11f90e792ebc31fb750[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m231[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e067af3ba7d930c411df.hot-update.js[39m[22m   58.3 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me067af3ba7d930c411df.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e067af3ba7d930c411df.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [18] [1m./app/Admin/Auth/AdminLogin/AdminLogin.component.js[39m[22m 792 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [19] [1m./app/Admin/Auth/AdminRecover/AdminRecover.component.js[39m[22m 284 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [20] [1m./app/Admin/Auth/AdminRegister/AdminRegister.component.js[39m[22m 619 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.21 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [23] [1m./app/Admin/Navbar/Navbar.component.js[39m[22m 286 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.94 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 2.08 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [27] [1m./app/Admin/profile/profile.component.js[39m[22m 1.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [50] [1m./app/Admin/Auth/AdminLogin/AdminLogin.template.html[39m[22m 834 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [51] [1m./app/Admin/Auth/AdminRecover/AdminRecover.template.html[39m[22m 560 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [52] [1m./app/Admin/Auth/AdminRegister/AdminRegister.template.html[39m[22m 1 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [54] [1m./app/Admin/Navbar/Navbar.template.html[39m[22m 629 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [55] [1m./app/Admin/Service/edit-service/create-service.template.html[39m[22m 2.89 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [90] [1m./app/Admin/Booking/bookings-list/bookings-list.component.js[39m[22m 1.08 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 68 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1ma813d40576921ec7064e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m63[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e11f90e792ebc31fb750.hot-update.js[39m[22m   4.37 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me11f90e792ebc31fb750.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e11f90e792ebc31fb750.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [18] [1m./app/Admin/Auth/AdminLogin/AdminLogin.component.js[39m[22m 172 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 78 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Auth/AdminLogin/AdminLogin.component.js
+[0] Module build failed: Error: ENOENT: no such file or directory, open '/home/assist/Projects/BookingApp/app/Admin/Auth/AdminLogin/AdminLogin.component.js'
+[0]  @ ./app/Admin/Main.module.js 5:0-77
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m68b9cab559e987af5ee4[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m123[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.85 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a813d40576921ec7064e.hot-update.js[39m[22m   3.23 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma813d40576921ec7064e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a813d40576921ec7064e.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.19 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 77 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Main.module.js
+[0] Module not found: Error: Can't resolve './Auth/login/login.component' in '/home/assist/Projects/BookingApp/app/Admin'
+[0]  @ ./app/Admin/Main.module.js 5:0-62
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m062995674af871c54021[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m137[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.68b9cab559e987af5ee4.hot-update.js[39m[22m   9.34 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m68b9cab559e987af5ee4.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.68b9cab559e987af5ee4.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.18 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [93] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/auth/login/login.scss[39m[22m 168 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [94] [1m./app/Admin/auth/login/login.component.js[39m[22m 767 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [95] [1m./app/Admin/auth/login/login.template.html[39m[22m 834 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [96] [1m./app/Admin/auth/login/login.scss[39m[22m 1.09 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 77 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m515372f0d54bc2463225[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m66[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.062995674af871c54021.hot-update.js[39m[22m   4.34 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m062995674af871c54021.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.062995674af871c54021.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [19] [1m./app/Admin/Auth/AdminRecover/AdminRecover.component.js[39m[22m 176 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 78 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Auth/AdminRecover/AdminRecover.component.js
+[0] Module build failed: Error: ENOENT: no such file or directory, open '/home/assist/Projects/BookingApp/app/Admin/Auth/AdminRecover/AdminRecover.component.js'
+[0]  @ ./app/Admin/Main.module.js 6:0-83
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m3ff0b429812c29d8df44[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m90[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.515372f0d54bc2463225.hot-update.js[39m[22m   5.67 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m515372f0d54bc2463225.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.515372f0d54bc2463225.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.16 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [97] [1m./app/Admin/auth/recover/recover.component.js[39m[22m 213 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [98] [1m./app/Admin/auth/recover/recover.template.html[39m[22m 560 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 77 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mf9a7580def255d2536e3[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m60[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.85 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.3ff0b429812c29d8df44.hot-update.js[39m[22m   4.32 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m3ff0b429812c29d8df44.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.3ff0b429812c29d8df44.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [20] [1m./app/Admin/Auth/AdminRegister/AdminRegister.component.js[39m[22m 178 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 76 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Auth/AdminRegister/AdminRegister.component.js
+[0] Module build failed: Error: ENOENT: no such file or directory, open '/home/assist/Projects/BookingApp/app/Admin/Auth/AdminRegister/AdminRegister.component.js'
+[0]  @ ./app/Admin/Main.module.js 7:0-86
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1m8fa346139f8cc4edce73[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m114[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.f9a7580def255d2536e3.hot-update.js[39m[22m   9.59 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mf9a7580def255d2536e3.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.f9a7580def255d2536e3.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.13 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [99] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/auth/register/register.scss[39m[22m 304 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [100] [1m./app/Admin/auth/register/register.component.js[39m[22m 594 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [101] [1m./app/Admin/auth/register/register.template.html[39m[22m 1 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [102] [1m./app/Admin/auth/register/register.scss[39m[22m 1.1 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 75 hidden modules
+[0] webpack: Compiling...
+[0] Hash: [1m8a1d331846d2ec0567ac[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m205[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.8fa346139f8cc4edce73.hot-update.js[39m[22m   12.7 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m8fa346139f8cc4edce73.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.8fa346139f8cc4edce73.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.13 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [103] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 644 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [104] [1m./app/Admin/booking/bookings-list/bookings-list.component.js[39m[22m 1.08 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [105] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.66 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [106] [1m./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 1.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 75 hidden modules
+[0] webpack: Compiled successfully.

@@ -1,8 +1,8 @@
-import template from './AdminBookingList.template.html'
-import componentStyles from './AdminBookingList.scss'
+import template from './bookings-list.template.html'
+import componentStyles from './bookings-list.scss'
 import { API } from '../../../api.url'
 
-class AdminBookingListController {
+class BookingListController {
 	constructor($http) {
 		this.orderProp = 'time';
 		this.reverseOrder = false;
@@ -41,8 +41,8 @@ class AdminBookingListController {
 
 }
 
-export const adminBookingListComponent = {
-	controller: AdminBookingListController,
+export const bookingListComponent = {
+	controller: BookingListController,
 	controllerAs: '$ctrl',
 	template
 }

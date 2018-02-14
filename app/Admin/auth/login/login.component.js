@@ -1,8 +1,8 @@
-import template from './AdminLogin.template.html'
-import componentStyles from './AdminLogin.scss'
+import template from './login.template.html'
+import componentStyles from './login.scss'
 import { API } from '../../../api.url'
 
-class AdminLoginController {
+class LoginController {
 	constructor($http, $location) {
     this._http = $http;
     this._location = $location;
@@ -26,8 +26,8 @@ class AdminLoginController {
 
 }
 
-export const adminLoginComponent = {
-	controller: AdminLoginController,
+export const loginComponent = {
+	controller: LoginController,
 	controllerAs: '$ctrl',
 	template,
 }

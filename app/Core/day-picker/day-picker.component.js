@@ -2,7 +2,7 @@ import template from './day-picker.template.html'
 import { API } from '../../api.url'
 
 class DayPickerController {
-	constructor($http, $scope) {
+	constructor($http) {
 		this._http = $http;
 		this.weekdays = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
 	}

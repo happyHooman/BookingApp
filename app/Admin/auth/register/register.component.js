@@ -1,16 +1,14 @@
-import template from './AdminRegister.template.html'
-import componentStyles from './AdminRegister.scss'
+import template from './register.template.html'
+import componentStyles from './register.scss'
 import { API } from '../../../api.url'
 
-class AdminRegisterController {
+class RegisterController {
 	constructor($http, $location) {
 		this._http = $http
 		this._location = $location
 	}
 
-	$onInit() {
-
-	}
+	$onInit() {	}
 
 	createUser() {
 		const url = API.base + API.signup
@@ -24,8 +22,8 @@ class AdminRegisterController {
 	}
 }
 
-export const adminRegisterComponent = {
-	controller: AdminRegisterController,
+export const registerComponent = {
+	controller: RegisterController,
 	controllerAs: '$ctrl',
 	template
 }
