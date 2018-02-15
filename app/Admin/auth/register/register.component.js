@@ -1,24 +1,14 @@
 import template from './register.template.html'
 import componentStyles from './register.scss'
-import { API } from '../../../api.url'
+import RegisterService from './register.service'
 
 class RegisterController {
-	constructor($http, $location) {
-		this._http = $http
-		this._location = $location
+	constructor(RegisterService) {
+		this.registerService = RegisterService
 	}
 
-	$onInit() {	}
-
 	createUser() {
-		const url = API.base + API.signup
-		const data = this.user
-		this._http.post(url, data).then(res => {
-			alert(res.data)
-			this._location.path('/login')
-		}, err => {
-			alert(err.data)
-		})
+		this.registerService.register(this.user)
 	}
 }
 

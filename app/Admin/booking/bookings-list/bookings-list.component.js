@@ -1,12 +1,12 @@
 import template from './bookings-list.template.html'
 import componentStyles from './bookings-list.scss'
-import { API } from '../../../api.url'
+import BookingListService from './bookings-list.service'
 
 class BookingListController {
-	constructor($http) {
+	constructor(BookingListService) {
 		this.orderProp = 'time';
 		this.reverseOrder = false;
-		this._http = $http;
+		this.loadService = BookingListService.loadBookings();
 	}
 
 	$onInit() {
@@ -14,31 +14,21 @@ class BookingListController {
 	}
 
 	loadBookings(){
-		const url = API.base + API.bookings
-		const token = localStorage.getItem('auth-token')
-		this._http({
-			method: 'GET',
-			headers: {'Authorization':token},
-			url
-		}).then(res => {
-			this.bookings = res.data;
+		this.loadService.then(res => {
+			this.bookings = res;
 			this.filterServices();
-		}, err => {
-			console.log('Error loading bookings. Please check server status. ', err);
 		})
 	}
 
 	// create services list
 	filterServices() {
-		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) => array.indexOf(x) == pos);
+		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) => array.indexOf(x) === pos);
 	}
 
 	sortBy(newProp) {
 		this.reverseOrder = (this.orderProp === newProp) ? !this.reverseOrder : false;
 		this.orderProp = newProp;
 	}
-
-
 }
 
 export const bookingListComponent = {
