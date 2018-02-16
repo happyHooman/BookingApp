@@ -1,12 +1,12 @@
 import template from './edit-service.template.html'
-import { API } from '../../../api.url'
+import ServicesService from './services.service'
 
 class EditServiceController {
-	constructor($http, $location, $routeParams) {
-		this._routeParams = $routeParams;
-		this._location = $location;
-		this._http = $http;
-		this.service = {};
+	constructor(ServicesService) {
+		this.servicesService = ServicesService
+		this.duration = 3600000
+		this.title = 'Edit Service'
+		this.buttonName = 'Save Changes'
 		this.hourOptions = [
 			{
 				name: '0 hours',
@@ -79,48 +79,30 @@ class EditServiceController {
 	}
 
 	$onInit() {
-		this.loadService();
+		this.loadService()
 	}
 
 	loadService() {
-		const serviceId = this._routeParams.id
-		const url = API.base + API.services
-		this._http({
-			method: 'GET',
-			params: {id: serviceId},
-			url
-		}).then(res => {
+		this.servicesService.loadService().then(res => {
 			this.service = res.data
-		}, err => {
-			console.log(err);
+			if (!this.service.name) {
+				this.title = 'Add Service'
+				this.buttonName = 'Save Service'
+			}
 		})
 	}
 
 	setDurationValue() {
-		this.dur = (this.service.duration.hours * 60 + this.service.duration.minutes) * 60000;
+		this.duration = (this.service.duration.hours * 60 + this.service.duration.minutes) * 60000;
 	}
 
 	saveService() {
-		const url = API.base + API.services
-		const token = localStorage.getItem('auth-token')
-		const data = this.service
-		this._http({
-			method: 'PUT',
-			headers: {'Authorization': token},
-			data,
-			url
-		}).then(res=>{
-			console.log(res.data);
-			this._location.path('/dashboard')
-		},err=>{
-			console.log(err.data);
-		})
+		this.servicesService.saveService(this.service)
 	}
 
 }
 
 export const editServiceComponent = {
 	controller: EditServiceController,
-	controllerAs: '$ctrl',
 	template
 }

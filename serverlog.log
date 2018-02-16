@@ -3853,3 +3853,1626 @@ webpack: Compiling...
 [0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]      + 81 hidden modules
 [0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m80530fc076eba3fe7927[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m114[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.87d32cdfbe41405a1a38.hot-update.js[39m[22m   1.71 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m87d32cdfbe41405a1a38.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.87d32cdfbe41405a1a38.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [27] [1m./app/Admin/profile/profile.component.js[39m[22m 603 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 81 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m0b28c15495cfaeda5c5c[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m104[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.80530fc076eba3fe7927.hot-update.js[39m[22m   4.64 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m80530fc076eba3fe7927.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.80530fc076eba3fe7927.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 2.05 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 141 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 81 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m317e1cf44b8dfa3b861e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m68[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.0b28c15495cfaeda5c5c.hot-update.js[39m[22m   1.34 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m0b28c15495cfaeda5c5c.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.0b28c15495cfaeda5c5c.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 491 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mb9b4d23f258208d2262f[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m159[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.317e1cf44b8dfa3b861e.hot-update.js[39m[22m   4.51 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m317e1cf44b8dfa3b861e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.317e1cf44b8dfa3b861e.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Main.module.js
+[0] Module not found: Error: Can't resolve './Service/services.service' in '/home/assist/Projects/BookingApp/app/Admin'
+[0]  @ ./app/Admin/Main.module.js 16:0-57
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1m692909762b2fbaffee16[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m113[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.b9b4d23f258208d2262f.hot-update.js[39m[22m   5.96 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mb9b4d23f258208d2262f.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.b9b4d23f258208d2262f.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.66 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiling...
+[0] Hash: [1m0a2c07f803f048faddfe[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m91[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.692909762b2fbaffee16.hot-update.js[39m[22m   3.27 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m692909762b2fbaffee16.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.692909762b2fbaffee16.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.69 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m0750ec8eab47b2134eff[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m68[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.0a2c07f803f048faddfe.hot-update.js[39m[22m   1.43 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m0a2c07f803f048faddfe.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.0a2c07f803f048faddfe.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 561 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+Hash: [1m32b8f684b41ff4f42f9f[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m63[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.0750ec8eab47b2134eff.hot-update.js[39m[22m   1.43 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m0750ec8eab47b2134eff.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.0750ec8eab47b2134eff.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 561 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1m65bad3df26ec228d0c07[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m89[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.32b8f684b41ff4f42f9f.hot-update.js[39m[22m   3.08 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m32b8f684b41ff4f42f9f.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.32b8f684b41ff4f42f9f.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiling...
+[0] Hash: [1m5ecea1f6a92e63819fb9[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m80[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.65bad3df26ec228d0c07.hot-update.js[39m[22m   3.08 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m65bad3df26ec228d0c07.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.65bad3df26ec228d0c07.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1meccc9759b25107e4f5fa[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m95[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.5ecea1f6a92e63819fb9.hot-update.js[39m[22m   3.77 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m5ecea1f6a92e63819fb9.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.5ecea1f6a92e63819fb9.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [55] [1m./app/Admin/Service/edit-service/create-service.template.html[39m[22m 2.9 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1me986e7c9abb91094cd95[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m98[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.eccc9759b25107e4f5fa.hot-update.js[39m[22m   3.16 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32meccc9759b25107e4f5fa.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.eccc9759b25107e4f5fa.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1me986e7c9abb91094cd95[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m45[39m[22mms
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m1d1f27cdeffb4846a5a2[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m73[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e986e7c9abb91094cd95.hot-update.js[39m[22m   3.16 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me986e7c9abb91094cd95.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e986e7c9abb91094cd95.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.66 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+webpack: Compiling...
+[0] [0] Hash: [1m2dda17fa8f3dc3f4d382[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m67[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.1d1f27cdeffb4846a5a2.hot-update.js[39m[22m   1.43 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m1d1f27cdeffb4846a5a2.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.1d1f27cdeffb4846a5a2.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 563 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m41af35bef13c193cfc34[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m115[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2dda17fa8f3dc3f4d382.hot-update.js[39m[22m   1.88 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2dda17fa8f3dc3f4d382.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2dda17fa8f3dc3f4d382.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 896 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1md1dc1c1eae897443d296[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m76[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.41af35bef13c193cfc34.hot-update.js[39m[22m   1.96 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m41af35bef13c193cfc34.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.41af35bef13c193cfc34.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 976 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiling...
+[0] [0] Hash: [1m10914284098642fd28c1[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m84[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d1dc1c1eae897443d296.hot-update.js[39m[22m   4.03 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md1dc1c1eae897443d296.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d1dc1c1eae897443d296.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 2.19 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mbd7cd7e89bd7200d7fda[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m112[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.10914284098642fd28c1.hot-update.js[39m[22m   3.74 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m10914284098642fd28c1.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.10914284098642fd28c1.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 2.03 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m13f61655100133bc138a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m223[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.bd7cd7e89bd7200d7fda.hot-update.js[39m[22m   2.45 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mbd7cd7e89bd7200d7fda.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.bd7cd7e89bd7200d7fda.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.34 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m8554e8d11cc583d5f543[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m81[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.13f61655100133bc138a.hot-update.js[39m[22m   2.45 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m13f61655100133bc138a.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.13f61655100133bc138a.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.34 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mb8335d4bb255a8ed9e8c[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m78[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.8554e8d11cc583d5f543.hot-update.js[39m[22m    3.3 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m8554e8d11cc583d5f543.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.8554e8d11cc583d5f543.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.74 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m83f9052d59e090d973be[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m146[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.b8335d4bb255a8ed9e8c.hot-update.js[39m[22m   2.45 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mb8335d4bb255a8ed9e8c.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.b8335d4bb255a8ed9e8c.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.34 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1ma27dd63d47e2856dec99[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m124[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.83f9052d59e090d973be.hot-update.js[39m[22m   3.06 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m83f9052d59e090d973be.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.83f9052d59e090d973be.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.58 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m563c61b572c9137b4582[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m165[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a27dd63d47e2856dec99.hot-update.js[39m[22m   2.61 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma27dd63d47e2856dec99.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a27dd63d47e2856dec99.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+Hash: [1m93d171f587c6f474853b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m75[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.563c61b572c9137b4582.hot-update.js[39m[22m   2.61 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m563c61b572c9137b4582.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.563c61b572c9137b4582.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.5 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m42a7657d6e5af10667fe[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m91[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.93d171f587c6f474853b.hot-update.js[39m[22m   2.57 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m93d171f587c6f474853b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.93d171f587c6f474853b.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.46 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m3f2ee46048c5ecf6c0be[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m160[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.42a7657d6e5af10667fe.hot-update.js[39m[22m   2.75 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m42a7657d6e5af10667fe.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.42a7657d6e5af10667fe.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.63 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m79fcd64cf73fe85ba7dc[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m80[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.3f2ee46048c5ecf6c0be.hot-update.js[39m[22m   3.07 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m3f2ee46048c5ecf6c0be.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.3f2ee46048c5ecf6c0be.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.58 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m0a40a630dcf81653440b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m125[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.79fcd64cf73fe85ba7dc.hot-update.js[39m[22m    2.8 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m79fcd64cf73fe85ba7dc.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.79fcd64cf73fe85ba7dc.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.68 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1me4e44382357e7122f33d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m107[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.0a40a630dcf81653440b.hot-update.js[39m[22m   2.81 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m0a40a630dcf81653440b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.0a40a630dcf81653440b.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.69 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m9fc0afe0da15240f6e23[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m82[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e4e44382357e7122f33d.hot-update.js[39m[22m   2.85 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me4e44382357e7122f33d.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e4e44382357e7122f33d.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.73 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1m9ef55dbb2eac5b6da1d8[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m76[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.9fc0afe0da15240f6e23.hot-update.js[39m[22m   3.12 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m9fc0afe0da15240f6e23.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.9fc0afe0da15240f6e23.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.62 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiling...
+[0] Hash: [1m0704b496badc43b3d976[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m114[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.9ef55dbb2eac5b6da1d8.hot-update.js[39m[22m   3.12 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m9ef55dbb2eac5b6da1d8.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.9ef55dbb2eac5b6da1d8.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.62 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1md76484c4536f0a1e7947[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m116[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.0704b496badc43b3d976.hot-update.js[39m[22m   2.76 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m0704b496badc43b3d976.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.0704b496badc43b3d976.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.64 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mc0a39b7e3eddb431515a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m88[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d76484c4536f0a1e7947.hot-update.js[39m[22m   2.93 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md76484c4536f0a1e7947.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d76484c4536f0a1e7947.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.81 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mfc82efc49fb9fcd3d603[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m130[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c0a39b7e3eddb431515a.hot-update.js[39m[22m   2.99 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc0a39b7e3eddb431515a.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c0a39b7e3eddb431515a.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.86 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mab510f60a5a6f01737e0[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m91[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.fc82efc49fb9fcd3d603.hot-update.js[39m[22m   3.02 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mfc82efc49fb9fcd3d603.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.fc82efc49fb9fcd3d603.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.89 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mc3e5acfa90a6dba875f3[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m81[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.ab510f60a5a6f01737e0.hot-update.js[39m[22m   3.08 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mab510f60a5a6f01737e0.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.ab510f60a5a6f01737e0.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.6 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m8943584503138e5f8c6b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m182[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c3e5acfa90a6dba875f3.hot-update.js[39m[22m   3.11 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc3e5acfa90a6dba875f3.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c3e5acfa90a6dba875f3.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.63 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mae4986d6e3d41dd5d894[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m105[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.8943584503138e5f8c6b.hot-update.js[39m[22m   3.06 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m8943584503138e5f8c6b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.8943584503138e5f8c6b.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.93 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1md426fba96312742db772[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m86[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.ae4986d6e3d41dd5d894.hot-update.js[39m[22m   3.12 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mae4986d6e3d41dd5d894.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.ae4986d6e3d41dd5d894.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.99 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+Hash: [1mb7ebd62aa6d3b7d593b0[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m78[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d426fba96312742db772.hot-update.js[39m[22m   3.16 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md426fba96312742db772.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d426fba96312742db772.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.03 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m789d7aa365361a677092[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m109[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.b7ebd62aa6d3b7d593b0.hot-update.js[39m[22m   3.15 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mb7ebd62aa6d3b7d593b0.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.b7ebd62aa6d3b7d593b0.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m6d4ac14da734a6f492d1[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m84[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.789d7aa365361a677092.hot-update.js[39m[22m   3.17 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m789d7aa365361a677092.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.789d7aa365361a677092.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.68 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m6c8880573924995ff1e4[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m111[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.6d4ac14da734a6f492d1.hot-update.js[39m[22m   3.18 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m6d4ac14da734a6f492d1.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.6d4ac14da734a6f492d1.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.05 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m398cb924258a3462746e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m93[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.6c8880573924995ff1e4.hot-update.js[39m[22m   3.18 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m6c8880573924995ff1e4.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.6c8880573924995ff1e4.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.05 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m40e8d3a26100d11d60b8[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m75[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.398cb924258a3462746e.hot-update.js[39m[22m   3.17 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m398cb924258a3462746e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.398cb924258a3462746e.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.68 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1md5179e260b9bdafefeea[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m67[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.40e8d3a26100d11d60b8.hot-update.js[39m[22m   3.16 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m40e8d3a26100d11d60b8.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.40e8d3a26100d11d60b8.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.68 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mbc83a402dfdf48e131fc[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m191[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d5179e260b9bdafefeea.hot-update.js[39m[22m   3.22 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md5179e260b9bdafefeea.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d5179e260b9bdafefeea.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.73 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+webpack: Compiling...
+[0] [0] webpack: Compiled successfully.
+[0] Hash: [1me2f2d87f0862550984ae[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m196[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.bc83a402dfdf48e131fc.hot-update.js[39m[22m   3.81 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mbc83a402dfdf48e131fc.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.bc83a402dfdf48e131fc.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.56 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiling...
+[0] Hash: [1m3465fd438f6a399d9218[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m88[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e2f2d87f0862550984ae.hot-update.js[39m[22m   3.81 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me2f2d87f0862550984ae.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e2f2d87f0862550984ae.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.56 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mb5ab1dc747bd5a1842a5[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m85[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.3465fd438f6a399d9218.hot-update.js[39m[22m   3.85 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m3465fd438f6a399d9218.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.3465fd438f6a399d9218.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.6 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+Hash: [1md5c14244b4f7d8fb3ade[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m164[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.b5ab1dc747bd5a1842a5.hot-update.js[39m[22m   3.88 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mb5ab1dc747bd5a1842a5.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.b5ab1dc747bd5a1842a5.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.63 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1ma46874e663ba7cccddbb[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m75[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d5c14244b4f7d8fb3ade.hot-update.js[39m[22m   3.88 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md5c14244b4f7d8fb3ade.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d5c14244b4f7d8fb3ade.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.63 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mda5d453f30af66856b68[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m106[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a46874e663ba7cccddbb.hot-update.js[39m[22m   3.88 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma46874e663ba7cccddbb.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a46874e663ba7cccddbb.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.63 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m5f281bc66c704b9e7d4d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m77[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.da5d453f30af66856b68.hot-update.js[39m[22m   3.57 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mda5d453f30af66856b68.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.da5d453f30af66856b68.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.33 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m87c629ed71048c0b04c2[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m87[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.5f281bc66c704b9e7d4d.hot-update.js[39m[22m   3.22 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m5f281bc66c704b9e7d4d.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.5f281bc66c704b9e7d4d.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.74 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m0ca84fa027f5c1393e64[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m82[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.87c629ed71048c0b04c2.hot-update.js[39m[22m   3.58 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m87c629ed71048c0b04c2.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.87c629ed71048c0b04c2.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.34 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m3d217128a6a0e689226f[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m141[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.0ca84fa027f5c1393e64.hot-update.js[39m[22m    3.2 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m0ca84fa027f5c1393e64.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.0ca84fa027f5c1393e64.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.71 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1ma571d1942ee5b61aa89d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m118[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.3d217128a6a0e689226f.hot-update.js[39m[22m   3.06 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m3d217128a6a0e689226f.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.3d217128a6a0e689226f.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiling...
+[0] Hash: [1m1254181fa01f318134a0[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m94[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a571d1942ee5b61aa89d.hot-update.js[39m[22m   3.51 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma571d1942ee5b61aa89d.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a571d1942ee5b61aa89d.hot-update.js[39m[22m (index) 1.72 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.27 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m6339b138b5a5f7d3ba3e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m73[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.1254181fa01f318134a0.hot-update.js[39m[22m   3.18 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m1254181fa01f318134a0.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.1254181fa01f318134a0.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.95 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+webpack: Compiling...
+[0] [0] Hash: [1mbba8a99d0e70286190c6[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m153[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.6339b138b5a5f7d3ba3e.hot-update.js[39m[22m   3.08 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m6339b138b5a5f7d3ba3e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.6339b138b5a5f7d3ba3e.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.61 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mfd0b3f8b5192edf88bc8[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m123[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.bba8a99d0e70286190c6.hot-update.js[39m[22m   3.06 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mbba8a99d0e70286190c6.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.bba8a99d0e70286190c6.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1me312e5573c2357d61382[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m81[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.fd0b3f8b5192edf88bc8.hot-update.js[39m[22m   2.81 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mfd0b3f8b5192edf88bc8.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.fd0b3f8b5192edf88bc8.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.69 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m2370f729229b4c187211[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m82[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e312e5573c2357d61382.hot-update.js[39m[22m   2.85 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me312e5573c2357d61382.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e312e5573c2357d61382.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.73 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1ma2b2f97f76967fe2e1df[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m175[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2370f729229b4c187211.hot-update.js[39m[22m   2.86 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2370f729229b4c187211.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2370f729229b4c187211.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.74 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+webpack: Compiling...
+[0] Hash: [1m6e9a16177cc3f25368b2[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m153[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a2b2f97f76967fe2e1df.hot-update.js[39m[22m   2.88 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma2b2f97f76967fe2e1df.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a2b2f97f76967fe2e1df.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.75 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m680bf5d5571b5a6a4303[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m111[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.6e9a16177cc3f25368b2.hot-update.js[39m[22m   2.83 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m6e9a16177cc3f25368b2.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.6e9a16177cc3f25368b2.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.71 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1m82c57add6a6e5b53496f[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m83[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.680bf5d5571b5a6a4303.hot-update.js[39m[22m   2.84 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m680bf5d5571b5a6a4303.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.680bf5d5571b5a6a4303.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.71 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiling...
+[0] Hash: [1m5d49fb65d2df67c1ff98[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m73[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.82c57add6a6e5b53496f.hot-update.js[39m[22m   3.12 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m82c57add6a6e5b53496f.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.82c57add6a6e5b53496f.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.63 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mea7df531b5b98e8d00e4[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m89[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.5d49fb65d2df67c1ff98.hot-update.js[39m[22m   2.85 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m5d49fb65d2df67c1ff98.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.5d49fb65d2df67c1ff98.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.72 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mc61b5a15551226640659[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m113[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.ea7df531b5b98e8d00e4.hot-update.js[39m[22m   3.03 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mea7df531b5b98e8d00e4.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.ea7df531b5b98e8d00e4.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.56 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m4b0f8719539d7fd5448b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m79[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c61b5a15551226640659.hot-update.js[39m[22m   3.15 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc61b5a15551226640659.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c61b5a15551226640659.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m41d24c8912977411a1ca[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m79[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.4b0f8719539d7fd5448b.hot-update.js[39m[22m   2.88 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m4b0f8719539d7fd5448b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.4b0f8719539d7fd5448b.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.75 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m3347f5d69cdacd650367[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m79[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.41d24c8912977411a1ca.hot-update.js[39m[22m   2.93 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m41d24c8912977411a1ca.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.41d24c8912977411a1ca.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.8 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+webpack: Compiling...
+[0] Hash: [1m6c8a2e3a694cb5713485[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m192[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.3347f5d69cdacd650367.hot-update.js[39m[22m   2.91 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m3347f5d69cdacd650367.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.3347f5d69cdacd650367.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.78 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+Hash: [1mfc274901c8f1c05f0a60[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m198[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.6c8a2e3a694cb5713485.hot-update.js[39m[22m   2.94 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m6c8a2e3a694cb5713485.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.6c8a2e3a694cb5713485.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.81 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+Hash: [1m88c048ed384580796b76[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m82[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.fc274901c8f1c05f0a60.hot-update.js[39m[22m   2.95 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mfc274901c8f1c05f0a60.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.fc274901c8f1c05f0a60.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.82 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] [0] Hash: [1m2da5dd3401ac3f709670[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m78[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.88c048ed384580796b76.hot-update.js[39m[22m   3.17 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m88c048ed384580796b76.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.88c048ed384580796b76.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m44eb7b4f140406489bd5[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m116[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2da5dd3401ac3f709670.hot-update.js[39m[22m   3.18 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2da5dd3401ac3f709670.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2da5dd3401ac3f709670.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mb211dec7bcd65f8c264d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m92[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.44eb7b4f140406489bd5.hot-update.js[39m[22m   2.96 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m44eb7b4f140406489bd5.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.44eb7b4f140406489bd5.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.83 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m1f7a57013c95a6166c0c[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m89[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.b211dec7bcd65f8c264d.hot-update.js[39m[22m      3 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mb211dec7bcd65f8c264d.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.b211dec7bcd65f8c264d.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.87 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+Hash: [1ma7f78623154ab487105b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m87[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.1f7a57013c95a6166c0c.hot-update.js[39m[22m   2.94 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m1f7a57013c95a6166c0c.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.1f7a57013c95a6166c0c.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.81 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1md9abaa29c4d0a5f7bf27[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m86[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a7f78623154ab487105b.hot-update.js[39m[22m    2.9 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma7f78623154ab487105b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a7f78623154ab487105b.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.78 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mae2e42b60f6ec8e868e4[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m101[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d9abaa29c4d0a5f7bf27.hot-update.js[39m[22m   2.87 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md9abaa29c4d0a5f7bf27.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d9abaa29c4d0a5f7bf27.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.75 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1ma8792c843bd2e68e3285[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m94[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.ae2e42b60f6ec8e868e4.hot-update.js[39m[22m   3.15 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mae2e42b60f6ec8e868e4.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.ae2e42b60f6ec8e868e4.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mad119ca678018083a3d5[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m135[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a8792c843bd2e68e3285.hot-update.js[39m[22m   2.99 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma8792c843bd2e68e3285.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a8792c843bd2e68e3285.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.86 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mcd77729eacf483c9c87b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m78[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.ad119ca678018083a3d5.hot-update.js[39m[22m   3.13 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mad119ca678018083a3d5.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.ad119ca678018083a3d5.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m4cde946c8e42ff728317[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m74[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.cd77729eacf483c9c87b.hot-update.js[39m[22m   3.15 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mcd77729eacf483c9c87b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.cd77729eacf483c9c87b.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mc39e63c8b04362ae0008[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m77[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.4cde946c8e42ff728317.hot-update.js[39m[22m   5.84 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m4cde946c8e42ff728317.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.4cde946c8e42ff728317.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 349 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 81 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Service/edit-service/create-service.component.js
+[0] Module build failed: SyntaxError: Unexpected token (94:1)
+[0] 
+[0]   92 | 		this.duration = (this.service.duration.hours * 60 + this.service.duration.minutes) *	60000;
+[0]   93 | 		this.duration = servicesService.
+[0] > 94 | 	}
+[0]      | 	^
+[0]   95 | 
+[0]   96 | 	saveService() {
+[0]   97 | 		this.servicesService.saveService(this.service)
+[0] 
+[0]  @ ./app/Admin/Main.module.js 18:0-89
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m9d8d909469e4616d0a3d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m110[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c39e63c8b04362ae0008.hot-update.js[39m[22m   11.5 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc39e63c8b04362ae0008.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c39e63c8b04362ae0008.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.69 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m8b272be22139026410d3[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m80[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.9d8d909469e4616d0a3d.hot-update.js[39m[22m   3.22 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m9d8d909469e4616d0a3d.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.9d8d909469e4616d0a3d.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.09 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m6414eea2bff8f0b0187a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m79[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.8b272be22139026410d3.hot-update.js[39m[22m   3.19 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m8b272be22139026410d3.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.8b272be22139026410d3.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.06 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+Hash: [1mb85394f08510d3f0264a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m79[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.6414eea2bff8f0b0187a.hot-update.js[39m[22m   3.07 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m6414eea2bff8f0b0187a.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.6414eea2bff8f0b0187a.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.6 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m7833affee7d321712106[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m76[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.b85394f08510d3f0264a.hot-update.js[39m[22m   3.15 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mb85394f08510d3f0264a.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.b85394f08510d3f0264a.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.02 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mad934c8fe017ee4a0d07[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m133[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.7833affee7d321712106.hot-update.js[39m[22m   3.17 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m7833affee7d321712106.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.7833affee7d321712106.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mc1092437670d02474b71[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m79[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.ad934c8fe017ee4a0d07.hot-update.js[39m[22m   3.04 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mad934c8fe017ee4a0d07.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.ad934c8fe017ee4a0d07.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.57 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m2e5550672e202afe96a7[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m83[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c1092437670d02474b71.hot-update.js[39m[22m   3.15 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc1092437670d02474b71.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c1092437670d02474b71.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1m3e2f78404b05faacb603[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m117[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2e5550672e202afe96a7.hot-update.js[39m[22m   3.19 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2e5550672e202afe96a7.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2e5550672e202afe96a7.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.06 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiling...
+[0] Hash: [1me1362dcf6779012ec53e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m142[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.3e2f78404b05faacb603.hot-update.js[39m[22m   3.15 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m3e2f78404b05faacb603.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.3e2f78404b05faacb603.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.02 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m9010c35e2ef76877d1fa[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m76[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e1362dcf6779012ec53e.hot-update.js[39m[22m    3.1 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me1362dcf6779012ec53e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e1362dcf6779012ec53e.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.61 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1me0acda93184d45a80ce9[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m112[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.9010c35e2ef76877d1fa.hot-update.js[39m[22m   3.08 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m9010c35e2ef76877d1fa.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.9010c35e2ef76877d1fa.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.61 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m25d0ac091487994720f9[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m120[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e0acda93184d45a80ce9.hot-update.js[39m[22m   3.14 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me0acda93184d45a80ce9.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e0acda93184d45a80ce9.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.64 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mf5b9a919b20ec65aee1f[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m77[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.25d0ac091487994720f9.hot-update.js[39m[22m   3.14 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m25d0ac091487994720f9.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.25d0ac091487994720f9.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.64 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1md33317d99a8304456b05[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m87[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.f5b9a919b20ec65aee1f.hot-update.js[39m[22m   3.14 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mf5b9a919b20ec65aee1f.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.f5b9a919b20ec65aee1f.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.64 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+webpack: Compiling...
+[0] [0] Hash: [1m56ecbb3def4455e981f0[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m77[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d33317d99a8304456b05.hot-update.js[39m[22m   3.16 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md33317d99a8304456b05.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d33317d99a8304456b05.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 2.03 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1ma98ca552d3703d668066[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m159[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.56ecbb3def4455e981f0.hot-update.js[39m[22m   3.08 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m56ecbb3def4455e981f0.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.56ecbb3def4455e981f0.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.96 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mcca01f02ba82731aab94[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m89[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a98ca552d3703d668066.hot-update.js[39m[22m   3.76 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma98ca552d3703d668066.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a98ca552d3703d668066.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [56] [1m./app/Admin/Service/edit-service/edit-service.template.html[39m[22m 2.89 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: wait until bundle finished: /pages/profile.html
+[0] Hash: [1m778b85266908e80b3982[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m100[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.cca01f02ba82731aab94.hot-update.js[39m[22m   2.98 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mcca01f02ba82731aab94.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.cca01f02ba82731aab94.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [111] [1m./app/Admin/Service/edit-service/services.service.js[39m[22m 1.86 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mc4a138e4d9cd62c11859[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m76[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.778b85266908e80b3982.hot-update.js[39m[22m   3.04 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m778b85266908e80b3982.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.778b85266908e80b3982.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.58 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m5b470c2ff65d2a44b318[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m120[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c4a138e4d9cd62c11859.hot-update.js[39m[22m    3.1 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc4a138e4d9cd62c11859.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c4a138e4d9cd62c11859.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.61 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1ma26b21e871c5ca4f1925[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m80[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.5b470c2ff65d2a44b318.hot-update.js[39m[22m    3.1 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m5b470c2ff65d2a44b318.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.5b470c2ff65d2a44b318.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.61 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1ma26b21e871c5ca4f1925[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m97[39m[22mms
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 1.61 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1ma26b21e871c5ca4f1925[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m35[39m[22mms
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.58 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m87bbdfed4251fac507af[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m96[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a26b21e871c5ca4f1925.hot-update.js[39m[22m   3.15 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma26b21e871c5ca4f1925.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a26b21e871c5ca4f1925.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1macd29caaa070dcbfe35a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m85[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.87bbdfed4251fac507af.hot-update.js[39m[22m   3.24 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m87bbdfed4251fac507af.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.87bbdfed4251fac507af.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.75 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m119b0f102c81ddfcbfee[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m102[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.acd29caaa070dcbfe35a.hot-update.js[39m[22m   3.77 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32macd29caaa070dcbfe35a.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.acd29caaa070dcbfe35a.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [56] [1m./app/Admin/Service/edit-service/edit-service.template.html[39m[22m 2.9 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mf52fb6b3eab2aa072ed0[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m85[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.119b0f102c81ddfcbfee.hot-update.js[39m[22m   3.24 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m119b0f102c81ddfcbfee.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.119b0f102c81ddfcbfee.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [25] [1m./app/Admin/Service/edit-service/edit-service.component.js[39m[22m 1.75 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m39325c19108e194e3a7d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m103[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.f52fb6b3eab2aa072ed0.hot-update.js[39m[22m   3.88 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mf52fb6b3eab2aa072ed0.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.f52fb6b3eab2aa072ed0.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [55] [1m./app/Admin/Service/edit-service/create-service.template.html[39m[22m 182 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 82 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Service/edit-service/create-service.template.html
+[0] Module build failed: Error: ENOENT: no such file or directory, open '/home/assist/Projects/BookingApp/app/Admin/Service/edit-service/create-service.template.html'
+[0]  @ ./app/Admin/Service/edit-service/create-service.component.js 1:0-54
+[0]  @ ./app/Admin/Main.module.js
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m566041187cf42b1edde4[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m52[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.39325c19108e194e3a7d.hot-update.js[39m[22m   5.66 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m39325c19108e194e3a7d.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.39325c19108e194e3a7d.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [24] [1m./app/Admin/Service/edit-service/create-service.component.js[39m[22m 181 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 81 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Admin/Service/edit-service/create-service.component.js
+[0] Module build failed: Error: ENOENT: no such file or directory, open '/home/assist/Projects/BookingApp/app/Admin/Service/edit-service/create-service.component.js'
+[0]  @ ./app/Admin/Main.module.js 18:0-89
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1mf2966285dce5519aa973[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m71[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.566041187cf42b1edde4.hot-update.js[39m[22m    4.3 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m566041187cf42b1edde4.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.566041187cf42b1edde4.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [22] [1m./app/Admin/Main.module.js[39m[22m 1.51 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [82] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 80 hidden modules

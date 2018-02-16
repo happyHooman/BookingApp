@@ -3,7 +3,6 @@ import angular from 'angular'
 // AUTH
 import LoginService from './auth/login/login.service'
 import RegisterService from './auth/register/register.service'
-import ProfileService from './profile/profile.service'
 import {navbarComponent} from './Navbar/Navbar.component'
 import {loginComponent} from './auth/login/login.component'
 import {recoverComponent} from './auth/recover/recover.component'
@@ -14,10 +13,11 @@ import BookingListService from './booking/bookings-list/bookings-list.service'
 import {bookingListComponent} from './booking/bookings-list/bookings-list.component'
 
 // SERVICE
+import ServicesService from './Service/edit-service/services.service'
 import {editServiceComponent} from './Service/edit-service/edit-service.component'
-import {createServiceComponent} from './Service/edit-service/create-service.component'
 
 //PROFILE
+import ProfileService from './profile/profile.service'
 import {profileComponent} from './profile/profile.component'
 
 export default angular.module('Admin', [])
@@ -25,11 +25,11 @@ export default angular.module('Admin', [])
 	.service('LoginService', LoginService)
 	.service('RegisterService', RegisterService)
 	.service('ProfileService', ProfileService)
+	.service('ServicesService', ServicesService)
 	.component('navbarComponent', navbarComponent)
 	.component('loginComponent', loginComponent)
 	.component('recoverComponent', recoverComponent)
 	.component('registerComponent', registerComponent)
 	.component('bookingListComponent', bookingListComponent)
 	.component('editServiceComponent', editServiceComponent)
-	.component('createServiceComponent', createServiceComponent)
 	.component('profileComponent', profileComponent)

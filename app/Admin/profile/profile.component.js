@@ -1,5 +1,4 @@
 import template from './profile.template.html'
-import {API} from '../../api.url'
 import ProfileService from './profile.service'
 
 class ProfileController {
