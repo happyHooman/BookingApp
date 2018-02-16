@@ -3,7 +3,7 @@ import angular from 'angular'
 // AUTH
 import LoginService from './auth/login/login.service'
 import RegisterService from './auth/register/register.service'
-import {navbarComponent} from './Navbar/Navbar.component'
+import {navbarComponent} from './navbar/navbar.component'
 import {loginComponent} from './auth/login/login.component'
 import {recoverComponent} from './auth/recover/recover.component'
 import {registerComponent} from './auth/register/register.component'
@@ -13,8 +13,8 @@ import BookingListService from './booking/bookings-list/bookings-list.service'
 import {bookingListComponent} from './booking/bookings-list/bookings-list.component'
 
 // SERVICE
-import ServicesService from './Service/edit-service/services.service'
-import {editServiceComponent} from './Service/edit-service/edit-service.component'
+import ServicesService from './service/edit-service/services.service'
+import {editServiceComponent} from './service/edit-service/edit-service.component'
 
 //PROFILE
 import ProfileService from './profile/profile.service'

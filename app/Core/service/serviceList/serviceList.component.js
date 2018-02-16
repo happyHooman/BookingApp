@@ -1,4 +1,4 @@
-import template from './ServiceList.template.html'
+import template from './serviceList.template.html'
 import {API} from '../../../api.url';
 
 class ServiceListController {
@@ -17,10 +17,12 @@ class ServiceListController {
 	selectServices() {
 		if (this.isLoggedIn) {
 			const userId = localStorage.getItem('UID')
-			const url = API.base + API.services + '?userId=' + userId
+			// const url = API.base + API.services + '?userId=' + userId
+			const url = API.base + API.services + '/company/' + userId
+			// const url = 'http://localhost:3800/db/services/company/' + userId
 			this.loadServices(url)
 		} else if (this._routeParams.id) {
-			const url = API.base + API.services + '?userId=' + this._routeParams.id
+			const url = API.base + API.services + '/company/' + this._routeParams.id
 			this.loadServices(url)
 		} else {
 			const url = API.base + API.services
@@ -29,8 +31,11 @@ class ServiceListController {
 	}
 
 	loadServices(url) {
+		console.log('time before call:',Date.now().valueOf()-1518788000000);
 		this._http.get(url).then(res => {
 			this.services = res.data
+			console.log(res.data);
+			console.log('time of response:',Date.now().valueOf()-1518788000000);
 		}, err => {
 			console.log('errror loading services', err);
 		})

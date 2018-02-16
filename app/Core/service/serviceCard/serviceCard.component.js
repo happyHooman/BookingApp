@@ -1,24 +1,23 @@
-import template from './ServiceCard.template.html'
-import componentStyle from './ServiceCard.scss'
+import template from './serviceCard.template.html'
+import componentStyle from './serviceCard.scss'
 import { API } from '../../../api.url'
+import ServiceCardService from './serviceCard.service'
 
 class ServiceCardController {
-	constructor($http, $routeParams) {
-		this._http = $http;
-		this._routeParams = $routeParams
+	constructor(ServiceCardService) {
+		this.serviceCardService = ServiceCardService
 	}
 
 	$onInit() {
 		this.loggedIn = localStorage.getItem('auth-token') ? true : false
-		this.companyProfile = this._routeParams.id ? true : false
-		this.loadCompanyDetails()
+		this.companyProfile = this.serviceCardService.isCompanyProfile()
+		// this.loadCompanyDetails()
 		this.stringifyDuration()
 	}
 
 	loadCompanyDetails() {
 		const userId = this.service.userId
-		const url = API.base + API.companies + '?userId=' + userId
-		this._http.get(url).then(res => {
+		this.serviceCardService.loadCompanyDetails(userId).then(res => {
 			this.service.logo = res.data.logo;
 			this.service.workingHours = res.data.workingHours;
 			this.service.company = res.data.name;
@@ -53,7 +52,6 @@ const bindings = {
 
 export const serviceCardComponent = {
 	controller: ServiceCardController,
-	controllerAs: '$ctrl',
 	template,
 	bindings
 }

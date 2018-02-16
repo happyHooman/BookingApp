@@ -1,9 +1,9 @@
 import template from './day-picker.template.html'
-import { API } from '../../api.url'
+import DayPickerService from './day-picker.service'
 
 class DayPickerController {
-	constructor($http) {
-		this._http = $http;
+	constructor(DayPickerService) {
+		this.dayPickerService = DayPickerService
 		this.weekdays = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
 	}
 
@@ -14,9 +14,7 @@ class DayPickerController {
 
 	loadData() {
 		if (this.loggedIn) {
-			const userId = localStorage.getItem('UID')
-			const url = API.base + API.companies + '?userId=' + userId
-			this._http.get(url).then(res => {
+			this.dayPickerService.loadData().then(res => {
 							this.workingHours = res.data.workingHours;
 							this.workingDays = res.data.workingDays;
 							this.setBookingTimes();
@@ -120,7 +118,6 @@ const bindings = {
 
 export const dayPickerComponent = {
 	controller: DayPickerController,
-	controllerAs: '$ctrl',
 	bindings,
 	template
 }

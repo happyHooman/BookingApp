@@ -26,7 +26,7 @@ class ServicesService {
   loadService() {
     if(this.$routeParams.id){
       const serviceId = this.$routeParams.id
-      const url = API.base + API.services + '?id=' + serviceId
+      const url = API.base + API.services + '/' + serviceId
       return this.$http.get(url)
     } else {
       let service = this.initService()
