@@ -38,7 +38,6 @@ const bindings = {
 
 export const serviceListComponent = {
 	controller: ServiceListController,
-	controllerAs: '$ctrl',
 	bindings,
 	template
 }

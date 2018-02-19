@@ -1,25 +1,22 @@
 import template from './company-profile.template.html'
-import { API } from '../../api.url'
+import CompanyProfileService from './company-profile.service'
 
 class CompanyProfileController {
-  constructor($routeParams, $http){
-    this._routeParams = $routeParams
-    this._http = $http
+  constructor(CompanyProfileService){
+    this.companyProfileService = CompanyProfileService
   }
   $onInit(){
-    this.loadCompany()
-  }
-
-  loadCompany(){
-    const url = API.base + API.companies + '?userId=' + this._routeParams.id
-    this._http.get(url).then(res=>{
-      this.company = res.data;
+    this.companyProfileService.loadCompany().then(res=>{
+      this.company = res.data
+    }, err =>{
+      console.log(err.data)
     })
   }
+
+
 }
 
 export const companyProfileComponent = {
   controller: CompanyProfileController,
-  controllerAs: '$ctrl',
   template
 }
