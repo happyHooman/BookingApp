@@ -2,7 +2,7 @@
 
   <div class="container services-list" ng-hide='false'>
     <div>
-      <h1>{{$ctrl.title}}</h1>
+      <h1 ng-click="$ctrl.fakeService()">{{$ctrl.title}}</h1>
       <div id="new-service-button-container" align="center">
         <button type="submit" class="btn new-service-btn" ng-click="$ctrl.saveService()">+</button>
         <p>{{$ctrl.buttonName}}</p>

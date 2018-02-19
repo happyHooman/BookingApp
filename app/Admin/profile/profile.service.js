@@ -1,22 +1,15 @@
 import { API } from '../../api.url'
 
 class ProfileService {
-  constructor($http, $q, $location) {
+  constructor($http, $location) {
     this.$http = $http
-    this.deffered = $q.defer()
     this.$location = $location
   }
 
   loadProfile(){
     const userId = localStorage.getItem('UID')
     const url = API.base + API.companies + '/' + userId
-    this.$http.get(url).then(res => {
-      this.deffered.resolve(res.data)
-    }, err=>{
-      this.deffered.reject(err.data)
-      console.log(err);
-    })
-    return this.deffered.promise
+    return this.$http.get(url)
   }
 
   saveProfile(data){

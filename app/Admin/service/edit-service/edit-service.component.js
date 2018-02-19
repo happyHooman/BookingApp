@@ -1,5 +1,6 @@
 import template from './edit-service.template.html'
 import ServicesService from './services.service'
+import faker from 'faker'
 
 class EditServiceController {
 	constructor(ServicesService) {
@@ -90,6 +91,19 @@ class EditServiceController {
 				this.buttonName = 'Save Service'
 			}
 		})
+	}
+
+	fakeService(){
+		this.service.name = this.toTitleCase(faker.lorem.words(2))
+		this.service.description = faker.lorem.paragraph()
+		this.service.price = faker.random.number(300)
+		this.service.spaces = faker.random.number(5)
+	}
+
+	toTitleCase(str) {
+		return str.replace(/\w\S*/g, txt => {
+			return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
+		});
 	}
 
 	setDurationValue() {
