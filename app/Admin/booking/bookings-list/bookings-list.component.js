@@ -13,6 +13,10 @@ class BookingListController {
 		this.loadBookings()
 	}
 
+	$onDestroy(){
+		this.bookings = []
+	}
+
 	loadBookings(){
 		this.loadService.then(res => {
 			this.bookings = res;

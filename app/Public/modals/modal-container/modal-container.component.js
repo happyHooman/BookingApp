@@ -6,9 +6,9 @@ class ModalContainerController {
 		this.modalService = ModalService
 		this.step = 1;
 		this.booking = {
-			name: '',
-			email: '',
-			phone: '',
+			name: 'va',
+			email: 'email@email',
+			phone: '095255',
 			time: 0
 		}
 	}
@@ -19,13 +19,13 @@ class ModalContainerController {
 	sendBooking(){
 		if(this.selectedDate){
 			this.setBookingTime()
-			this.booking.serviceId = this.service.id
+			this.booking.serviceId = this.service._id
 			this.booking.userId = this.service.userId
 			this.booking.serviceName = this.service.name
 
 			this.addBooking()
 			this.updateService()
-			this.step=3
+			this.step = 3
 		} else {
 			console.log("please select a time for your booking");
 		}

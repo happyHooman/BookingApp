@@ -5,12 +5,7 @@ class PersonalDetailsController {
 	}
 }
 
-const bindings = {
-	 personalDetails: '='
-}
-
 export const personalDetailsComponent = {
 	controller: PersonalDetailsController,
-	bindings,
 	template
 }
