@@ -7,7 +7,7 @@ class DayPickerService {
 
   loadData(){
     const userId = localStorage.getItem('UID')
-    const url = API.base + API.companies + '?userId=' + userId
+    const url = API.base + API.companies + '/' + userId
     return this.$http.get(url)
   }
 }

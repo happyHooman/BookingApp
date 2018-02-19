@@ -9,7 +9,7 @@ class ProfileService {
 
   loadProfile(){
     const userId = localStorage.getItem('UID')
-    const url = API.base + API.companies + '?userId=' + userId
+    const url = API.base + API.companies + '/' + userId
     this.$http.get(url).then(res => {
       this.deffered.resolve(res.data)
     }, err=>{
