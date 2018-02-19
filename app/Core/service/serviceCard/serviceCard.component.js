@@ -1,31 +1,20 @@
 import template from './serviceCard.template.html'
 import componentStyle from './serviceCard.scss'
-import { API } from '../../../api.url'
-import ServiceCardService from './serviceCard.service'
 
 class ServiceCardController {
-	constructor(ServiceCardService) {
-		this.serviceCardService = ServiceCardService
+	constructor($routeParams) {
+		this.$routeParams = $routeParams
 	}
 
 	$onInit() {
 		this.loggedIn = localStorage.getItem('auth-token') ? true : false
-		this.companyProfile = this.serviceCardService.isCompanyProfile()
-		// this.loadCompanyDetails()
+		this.companyProfile = this.isCompanyProfile()
 		this.stringifyDuration()
 	}
 
-	loadCompanyDetails() {
-		const userId = this.service.userId
-		this.serviceCardService.loadCompanyDetails(userId).then(res => {
-			this.service.logo = res.data.logo;
-			this.service.workingHours = res.data.workingHours;
-			this.service.company = res.data.name;
-			this.availability = res.data.workingHours.start + ':00 - ' + res.data.workingHours.end + ':00';
-		}, err=>{
-			console.log('Could not load company details',err);
-		})
-	}
+	isCompanyProfile(){
+    return this.$routeParams.id ? true : false
+  }
 
 	stringifyDuration() {
 		if (this.service.duration.hours === 0) {
