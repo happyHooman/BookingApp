@@ -5,7 +5,6 @@ import faker from 'faker'
 class EditServiceController {
 	constructor(ServicesService) {
 		this.servicesService = ServicesService
-		this.duration = 3600000
 		this.title = 'Edit Service'
 		this.buttonName = 'Save Changes'
 		this.hourOptions = [
@@ -86,11 +85,27 @@ class EditServiceController {
 	loadService() {
 		this.servicesService.loadService().then(res => {
 			this.service = res.data
+			this.setDurationValue()
 			if (!this.service.name) {
 				this.title = 'Add Service'
 				this.buttonName = 'Save Service'
 			}
+			this.durationDisable = this.preventDurationChange()
+			console.log(this.durationDisable);
 		})
+	}
+
+	preventDurationChange(){
+		let returnValue = false
+		if (this.service.availability) {
+			let slots = this.service.availability.slots
+			slots.forEach(slot=>{
+				if (slot.indexOf(3)!==-1) {
+					returnValue = true
+				}
+			})
+		}
+		return returnValue
 	}
 
 	fakeService(){
@@ -111,7 +126,11 @@ class EditServiceController {
 	}
 
 	saveService() {
-		this.servicesService.saveService(this.service)
+		if (this.duration === this.service.availability.times[1] - this.service.availability.times[0]) {
+			this.servicesService.saveService(this.service)
+		} else {
+			alert(`don't be kidding me! Please reset services duration or booking times`)
+		}
 	}
 
 }

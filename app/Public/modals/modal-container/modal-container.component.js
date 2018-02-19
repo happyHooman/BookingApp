@@ -22,7 +22,6 @@ class ModalContainerController {
 			this.setBookingTime()
 			this.booking.serviceId = this.service._id
 			this.booking.userId = this.service.userId
-			this.booking.serviceName = this.service.name
 
 			this.addBooking()
 			this.updateService()

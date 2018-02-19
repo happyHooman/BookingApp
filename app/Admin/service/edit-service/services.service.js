@@ -40,6 +40,9 @@ class ServicesService {
   initService() {
     let service = {}
 		service.userId = localStorage.getItem('UID')
+    service.duration = {}
+    service.duration.hours = 0
+    service.duration.minutes = 15
     return service
 	}
 
@@ -52,7 +55,7 @@ class ServicesService {
       data,
       url
     }).then(res=>{
-      console.log(res.data);
+      // console.log(res.data);
       this.$location.path('/dashboard')
     },err=>{
       console.log(err.data);

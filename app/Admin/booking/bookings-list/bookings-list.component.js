@@ -19,19 +19,19 @@ class BookingListController {
 
 	loadBookings(){
 		this.loadService.then(res => {
-			this.bookings = res;
-			this.filterServices();
+			this.bookings = res.data
+			this.filterServices()
 		})
 	}
 
 	// create services list
 	filterServices() {
-		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) => array.indexOf(x) === pos);
+		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) => array.indexOf(x) === pos)
 	}
 
 	sortBy(newProp) {
-		this.reverseOrder = (this.orderProp === newProp) ? !this.reverseOrder : false;
-		this.orderProp = newProp;
+		this.reverseOrder = (this.orderProp === newProp) ? !this.reverseOrder : false
+		this.orderProp = newProp
 	}
 }
 

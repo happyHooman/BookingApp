@@ -35,7 +35,8 @@
                         ng-init="$ctrl.service.duration.hours = $ctrl.service.duration.hours || $ctrl.hourOptions[0].value"
                         ng-model="$ctrl.service.duration.hours"
                         ng-options="option.value as option.name for option in $ctrl.hourOptions"
-                        ng-change="$ctrl.setDurationValue()">
+                        ng-change="$ctrl.setDurationValue()"
+                        ng-disabled="$ctrl.durationDisable">
                 </select>
               </div>
               <div class="col-sm-6">
@@ -44,7 +45,8 @@
                           ng-init="$ctrl.service.duration.minutes = $ctrl.service.duration.minutes || $ctrl.minuteOptions[0].value"
                           ng-model="$ctrl.service.duration.minutes"
                           ng-options="option.value as option.name for option in $ctrl.minuteOptions"
-                          ng-change="$ctrl.setDurationValue()">
+                          ng-change="$ctrl.setDurationValue()"
+                          ng-disabled="$ctrl.durationDisable">
                   </select>
                 </div>
               </div>
