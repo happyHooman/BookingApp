@@ -1,9 +1,9 @@
 import template from './modal-container.template.html'
-import { API } from '../../../api.url'
+import ModalService from './modal.service'
 
 class ModalContainerController {
-	constructor($http) {
-		this._http = $http
+	constructor(ModalService) {
+		this.modalService = ModalService
 		this.step = 1;
 		this.booking = {
 			name: '',
@@ -25,26 +25,23 @@ class ModalContainerController {
 
 			this.addBooking()
 			this.updateService()
-			this.step=3 //move to next slide
+			this.step=3
 		} else {
 			console.log("please select a time for your booking");
 		}
 	}
 
 	addBooking(){
-		const url = API.base + API.bookings
-		this._http.post(url, this.booking).then(res =>{
+		this.modalService.addBooking(this.booking).then(res =>{
 			console.log(res.data);
 		},err=>{
 			console.log(err.data);
-		}) // add booking to database
+		})
 	}
 
 	updateService(){
-		this.service.availability.slots[this.selectedDate.h][this.selectedDate.d]=3; // update availability slots; 3 is for occupied slots
-
-		const url = API.base + API.services
-		this._http.put(url, this.service); // update service in db
+		this.service.availability.slots[this.selectedDate.h][this.selectedDate.d] = 3
+		this.modalService.updateService(this.service)
 	}
 
 	close(){
@@ -74,7 +71,6 @@ const bindings = {
 
 export const modalContainerComponent = {
 	controller: ModalContainerController,
-	controllerAs: '$ctrl',
 	bindings,
 	template
 }

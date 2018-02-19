@@ -1,15 +1,10 @@
 import template from './success.template.html'
 
 class SuccessController {
-	constructor() {
-	}
-
-	$onInit() {
-	}
+	constructor() {}
 }
 
 export const successComponent = {
 	controller: SuccessController,
-	controllerAs: '$ctrl',
 	template
 }

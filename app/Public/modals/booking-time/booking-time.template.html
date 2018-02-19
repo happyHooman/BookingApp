@@ -11,10 +11,10 @@
     <day-picker-component availability="$ctrl.availability" selected="$parent.$ctrl.selectedDate"></day-picker-component>
     <div class="row" >
       <div class="col-md-6">
-        <button class="btn default-button form-control" ng-click="$ctrl.changeStep({val:1})">Back</button>
+        <button type="button" class="btn default-button form-control" ng-click="$parent.$ctrl.step=1">Back</button>
       </div>
       <div class="col-md-6">
-        <button class="btn default-button form-control" ng-click="$parent.$ctrl.sendBooking()">Send booking</button>
+        <button type="button" class="btn default-button form-control" ng-click="$parent.$ctrl.sendBooking()" ng-disabled="!$parent.$ctrl.selectedDate">Send booking</button>
       </div>
     </div>
   </div>

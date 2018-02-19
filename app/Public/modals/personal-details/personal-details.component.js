@@ -3,7 +3,6 @@ import template from './personal-details.template.html'
 class PersonalDetailsController {
 	constructor() {
 	}
-	$onInit() {}
 }
 
 const bindings = {
@@ -12,7 +11,6 @@ const bindings = {
 
 export const personalDetailsComponent = {
 	controller: PersonalDetailsController,
-	controllerAs: '$ctrl',
 	bindings,
 	template
 }

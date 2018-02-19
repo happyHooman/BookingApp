@@ -32,7 +32,9 @@
 
 -done- create and integrate another CRUD API wich requires authentication
 
+-done- create services
 
+create interceptor
 
 add booking end Time
 select week in bookings
