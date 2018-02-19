@@ -1,14 +1,15 @@
 import template from './modal-container.template.html'
 import ModalService from './modal.service'
+import faker from 'faker'
 
 class ModalContainerController {
 	constructor(ModalService) {
 		this.modalService = ModalService
 		this.step = 1;
 		this.booking = {
-			name: 'va',
-			email: 'email@email',
-			phone: '095255',
+			name: '',
+			email: '',
+			phone: '',
 			time: 0
 		}
 	}
@@ -29,6 +30,12 @@ class ModalContainerController {
 		} else {
 			console.log("please select a time for your booking");
 		}
+	}
+
+	fakeUser(){
+		this.booking.name = faker.name.findName()
+		this.booking.email = faker.internet.email()
+		this.booking.phone = faker.phone.phoneNumberFormat()
 	}
 
 	addBooking(){

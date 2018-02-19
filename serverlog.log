@@ -1469,3 +1469,102 @@ webpack: Compiling...
 [0]    [81] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]      + 84 hidden modules
 [0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mdeef729c21aabb51f6f8[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m113[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m1.86 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c979f04b3a71e5f486c3.hot-update.js[39m[22m   3.43 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc979f04b3a71e5f486c3.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c979f04b3a71e5f486c3.hot-update.js[39m[22m (index) 1.71 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [41] [1m./app/Public/modals/modal-container/modal-container.component.js[39m[22m 1.98 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [81] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 84 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Public/modals/modal-container/modal-container.component.js
+[0] Module not found: Error: Can't resolve './faker' in '/home/assist/Projects/BookingApp/app/Public/modals/modal-container'
+[0]  @ ./app/Public/modals/modal-container/modal-container.component.js 3:0-28
+[0]  @ ./app/Public/Main.module.js
+[0]  @ ./app/App.js
+[0]  @ multi (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m3d13d473eaaebac76fbc[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m1736[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.02 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[33m0.deef729c21aabb51f6f8.hot-update.js[39m[22m   [1m[33m2.16 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32mdeef729c21aabb51f6f8.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.deef729c21aabb51f6f8.hot-update.js[39m[22m (index) 3.07 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [41] [1m./app/Public/modals/modal-container/modal-container.component.js[39m[22m 2.09 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [81] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [88] [1m./~/faker/index.js[39m[22m 196 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [90] [1m./~/faker/lib/commerce.js[39m[22m 2.73 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [91] [1m./~/faker/lib/company.js[39m[22m 2.61 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [92] [1m./~/faker/lib/database.js[39m[22m 1.35 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [93] [1m./~/faker/lib/date.js[39m[22m 2.92 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [94] [1m./~/faker/lib/fake.js[39m[22m 3.17 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [95] [1m./~/faker/lib/finance.js[39m[22m 5.83 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [96] [1m./~/faker/lib/hacker.js[39m[22m 2.28 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [97] [1m./~/faker/lib/helpers.js[39m[22m 7.53 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [99] [1m./~/faker/lib/image.js[39m[22m 5.6 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [100] [1m./~/faker/lib/index.js[39m[22m 4.75 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [102] [1m./~/faker/lib/locales.js[39m[22m 1.64 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]   [947] [1m./~/faker/lib/locales/sk/index.js[39m[22m 273 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1119 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m782a9a92d6ef7ca23234[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m259[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.02 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.3d13d473eaaebac76fbc.hot-update.js[39m[22m   1.25 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m3d13d473eaaebac76fbc.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.3d13d473eaaebac76fbc.hot-update.js[39m[22m (index) 3.07 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [65] [1m./app/Public/modals/modal-container/modal-container.template.html[39m[22m 564 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [81] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1132 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m69301b4bd5044d5c0ae1[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m281[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.02 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.782a9a92d6ef7ca23234.hot-update.js[39m[22m    3.9 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m782a9a92d6ef7ca23234.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.782a9a92d6ef7ca23234.hot-update.js[39m[22m (index) 3.07 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [41] [1m./app/Public/modals/modal-container/modal-container.component.js[39m[22m 2.14 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [81] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1132 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1meec4c317e7fff3f92c20[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m296[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.02 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.69301b4bd5044d5c0ae1.hot-update.js[39m[22m    3.9 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m69301b4bd5044d5c0ae1.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.69301b4bd5044d5c0ae1.hot-update.js[39m[22m (index) 3.07 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [41] [1m./app/Public/modals/modal-container/modal-container.component.js[39m[22m 2.15 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [81] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1132 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m5c6f2bb8f734c792aa9a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m311[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.02 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.eec4c317e7fff3f92c20.hot-update.js[39m[22m   3.89 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32meec4c317e7fff3f92c20.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.eec4c317e7fff3f92c20.hot-update.js[39m[22m (index) 3.07 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [41] [1m./app/Public/modals/modal-container/modal-container.component.js[39m[22m 2.13 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [81] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1132 hidden modules
+webpack: Compiled successfully.
+[0] 
