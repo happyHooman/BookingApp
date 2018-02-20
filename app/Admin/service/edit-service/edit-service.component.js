@@ -91,7 +91,6 @@ class EditServiceController {
 				this.buttonName = 'Save Service'
 			}
 			this.durationDisable = this.preventDurationChange()
-			console.log(this.durationDisable);
 		})
 	}
 
@@ -112,7 +111,7 @@ class EditServiceController {
 		this.service.name = this.toTitleCase(faker.lorem.words(2))
 		this.service.description = faker.lorem.paragraph()
 		this.service.price = faker.random.number(300)
-		this.service.spaces = faker.random.number(5)
+		this.service.spaces = faker.random.number(5)+1
 	}
 
 	toTitleCase(str) {

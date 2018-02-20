@@ -12,7 +12,7 @@ class ProfileController {
 	}
 
 	fakeCompany(){
-		this.company.name = this.toTitleCase(faker.lorem.words(2))
+		this.company.name = faker.company.companyName()
 		this.company.description = faker.lorem.paragraph()
 		this.company.logo = faker.image.avatar()
 	}

@@ -35,9 +35,9 @@
 -done- create services
 
 create interceptor
+select week in bookings
 
 add booking end Time
-select week in bookings
 in availability add a div displaying working days in a graphical way
 
 create admin calendar page, to view a calendar with all bookings on a selected week or month

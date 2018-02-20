@@ -12,5 +12,4 @@ modal
 bookings page - sorted return from server, the server knows who you are so he returns only your services
 add booking
 delete service
-
-???delete all associated bookings when removing a service???
+delete all associated bookings when removing a service
