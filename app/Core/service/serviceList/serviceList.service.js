@@ -23,12 +23,7 @@ class ServiceListService {
 
   deleteService(id) {
     const url = API.base + API.services + '/' + id
-    const token = localStorage.getItem('auth-token')
-    this.$http({
-      method: 'DELETE',
-      headers: {'Authorization': token},
-      url
-    }).then(res => {
+    this.$http.delete(url).then(res => {
       console.log(res.data);
     }, err => {
       console.log(err.data);

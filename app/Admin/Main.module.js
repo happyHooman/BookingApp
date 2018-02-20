@@ -21,11 +21,11 @@ import ProfileService from './profile/profile.service'
 import {profileComponent} from './profile/profile.component'
 
 // INTERCEPTOR
-import adminModuleConfig from './module.config'
+import adminModuleConfig from './admin.config'
 import AdminInterceptor from './admin.interceptor'
 
 export default angular.module('Admin', [])
-.config(adminModuleConfig)
+	.config(adminModuleConfig)
 	.factory('AdminInterceptor', AdminInterceptor)
 	.service('BookingListService', BookingListService)
 	.service('LoginService', LoginService)

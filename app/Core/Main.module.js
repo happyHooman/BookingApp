@@ -10,11 +10,17 @@ import {dayPickerComponent} from './day-picker/day-picker.component'
 import {redirectAdminComponent} from './redirect/redirect-admin.component'
 import {redirectUserComponent} from './redirect/redirect-user.component'
 
+// INTERCEPTOR
+import CoreInterceptor from './core.interceptor'
+import coreModuleConfig from './core.config'
+
 export default angular.module('Core', [])
-    .service('ServiceListService', ServiceListService)
-    .service('DayPickerService', DayPickerService)
-    .component('serviceCardComponent', serviceCardComponent)
-    .component('serviceListComponent', serviceListComponent)
-    .component('dayPickerComponent', dayPickerComponent)
-    .component('redirectAdminComponent', redirectAdminComponent)
-    .component('redirectUserComponent', redirectUserComponent)
+	.config(coreModuleConfig)
+	.factory('CoreInterceptor', CoreInterceptor)
+	.service('ServiceListService', ServiceListService)
+	.service('DayPickerService', DayPickerService)
+	.component('serviceCardComponent', serviceCardComponent)
+	.component('serviceListComponent', serviceListComponent)
+	.component('dayPickerComponent', dayPickerComponent)
+	.component('redirectAdminComponent', redirectAdminComponent)
+	.component('redirectUserComponent', redirectUserComponent)
