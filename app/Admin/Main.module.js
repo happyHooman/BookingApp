@@ -20,7 +20,13 @@ import {editServiceComponent} from './service/edit-service/edit-service.componen
 import ProfileService from './profile/profile.service'
 import {profileComponent} from './profile/profile.component'
 
+// INTERCEPTOR
+import adminModuleConfig from './module.config'
+import AdminInterceptor from './admin.interceptor'
+
 export default angular.module('Admin', [])
+.config(adminModuleConfig)
+	.factory('AdminInterceptor', AdminInterceptor)
 	.service('BookingListService', BookingListService)
 	.service('LoginService', LoginService)
 	.service('RegisterService', RegisterService)

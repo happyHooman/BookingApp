@@ -7,12 +7,7 @@ class BookingListService {
 
 	loadBookings() {
 		const url = API.base + API.bookings
-		const token = localStorage.getItem('auth-token')
-		return this.$http({
-			method: 'GET',
-			headers: {'Authorization': token},
-			url
-		})
+		return this.$http.get(url)
 	}
 }
 
