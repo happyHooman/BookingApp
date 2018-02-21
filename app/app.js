@@ -3,11 +3,14 @@ import angular from 'angular';
 import Core from './Core/Main.module';
 import Admin from './Admin/Main.module';
 import Public from './Public/Main.module';
-import appConfig from './App.config'
+import appConfig from './app.config'
 
 
 class IndexController {
     constructor() { }
+    $onInit(){
+      console.log('Index controller initialized');
+    }
 }
 
 angular.module('App', [
