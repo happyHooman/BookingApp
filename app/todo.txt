@@ -33,15 +33,14 @@
 -done- create and integrate another CRUD API wich requires authentication
 
 -done- create services
+-done- create interceptor
 
-create interceptor
 select week in bookings
+admin redirect should check if token is still validation
+add an apendix to take you to the top, and back when looking at a company profile
+
 
 add booking end Time
 in availability add a div displaying working days in a graphical way
 
 create admin calendar page, to view a calendar with all bookings on a selected week or month
-add possibility to select week when setting availability
-
-
-make server available through ip
