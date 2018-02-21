@@ -27,3 +27,15 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.custom-striped-table tr:nth-child(4n+1){
+  background-color: #f8effc;
+}
+
+.custom-striped-table tr:nth-child(4n+3){
+  background-color: #e7ebf7;
+}
+
+.custom-striped-table tr:hover {
+  background-color: #afafaf;
+}

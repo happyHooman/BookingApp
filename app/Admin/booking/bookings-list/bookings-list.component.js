@@ -33,6 +33,19 @@ class BookingListController {
 		this.reverseOrder = (this.orderProp === newProp) ? !this.reverseOrder : false
 		this.orderProp = newProp
 	}
+
+	arrowClass(){
+		if(this.reverseOrder){
+			return 'fa-chevron-up'
+		} else {
+			return 'fa-chevron-down'
+		}
+	}
+
+	rowClass(index){
+		return 'table-purple-row'
+	}
+
 }
 
 export const bookingListComponent = {

@@ -517,3 +517,400 @@ webpack: Compiling...
 [0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 716 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]      + 1138 hidden modules
 [0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mcd082934bdab8286da03[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m253[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.159fe86de365a2b832b9.hot-update.js[39m[22m   3.55 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m159fe86de365a2b832b9.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.159fe86de365a2b832b9.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.68 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m5431842860d54c95a9bd[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m286[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.cd082934bdab8286da03.hot-update.js[39m[22m   3.57 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mcd082934bdab8286da03.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.cd082934bdab8286da03.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.69 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mdbfc7ac670026faede55[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m247[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.5431842860d54c95a9bd.hot-update.js[39m[22m    3.5 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m5431842860d54c95a9bd.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.5431842860d54c95a9bd.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.65 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mff1319391fd1f7fe225d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m255[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.dbfc7ac670026faede55.hot-update.js[39m[22m   1.37 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mdbfc7ac670026faede55.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.dbfc7ac670026faede55.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 716 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m3e6af81ed71f2e8629a8[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m248[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.ff1319391fd1f7fe225d.hot-update.js[39m[22m   1.38 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mff1319391fd1f7fe225d.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.ff1319391fd1f7fe225d.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 728 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m92eae347434e576689b8[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m280[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.3e6af81ed71f2e8629a8.hot-update.js[39m[22m   2.54 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m3e6af81ed71f2e8629a8.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.3e6af81ed71f2e8629a8.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [34] [1m./app/Admin/booking/bookings-list/bookings-list.component.js[39m[22m 1.01 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m587cfbf3cad85943821b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m275[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.92eae347434e576689b8.hot-update.js[39m[22m    2.6 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m92eae347434e576689b8.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.92eae347434e576689b8.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [34] [1m./app/Admin/booking/bookings-list/bookings-list.component.js[39m[22m 1.06 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mec5368af228d4889df4e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m265[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.587cfbf3cad85943821b.hot-update.js[39m[22m   3.44 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m587cfbf3cad85943821b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.587cfbf3cad85943821b.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.59 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m25be23976ea3499e6077[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m260[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.ec5368af228d4889df4e.hot-update.js[39m[22m   3.21 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mec5368af228d4889df4e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.ec5368af228d4889df4e.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.35 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m5c2afe29de8e89949795[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m265[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.25be23976ea3499e6077.hot-update.js[39m[22m   3.24 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m25be23976ea3499e6077.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.25be23976ea3499e6077.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.38 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mbd7aaa9bc45b71388e0c[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m264[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.5c2afe29de8e89949795.hot-update.js[39m[22m   3.24 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m5c2afe29de8e89949795.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.5c2afe29de8e89949795.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.38 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1md057cec3184a02f6b61a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m254[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.bd7aaa9bc45b71388e0c.hot-update.js[39m[22m   3.23 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mbd7aaa9bc45b71388e0c.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.bd7aaa9bc45b71388e0c.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.37 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m138e6e5dc127a4a89b30[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m270[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d057cec3184a02f6b61a.hot-update.js[39m[22m   2.62 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md057cec3184a02f6b61a.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d057cec3184a02f6b61a.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [34] [1m./app/Admin/booking/bookings-list/bookings-list.component.js[39m[22m 1.08 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m92fa3713bad53018489b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m256[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.138e6e5dc127a4a89b30.hot-update.js[39m[22m   3.25 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m138e6e5dc127a4a89b30.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.138e6e5dc127a4a89b30.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.39 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mf4365506c209aa852647[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m286[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.92fa3713bad53018489b.hot-update.js[39m[22m   2.62 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m92fa3713bad53018489b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.92fa3713bad53018489b.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [34] [1m./app/Admin/booking/bookings-list/bookings-list.component.js[39m[22m 1.08 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mc7357a331ea3d83c01ba[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m305[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.f4365506c209aa852647.hot-update.js[39m[22m   2.66 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mf4365506c209aa852647.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.f4365506c209aa852647.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [34] [1m./app/Admin/booking/bookings-list/bookings-list.component.js[39m[22m 1.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mdd70dbe00cd84aa66166[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m240[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c7357a331ea3d83c01ba.hot-update.js[39m[22m   3.23 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc7357a331ea3d83c01ba.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c7357a331ea3d83c01ba.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.37 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m2dc9dde3b4a7bd8d7604[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m341[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.dd70dbe00cd84aa66166.hot-update.js[39m[22m   2.69 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mdd70dbe00cd84aa66166.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.dd70dbe00cd84aa66166.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [34] [1m./app/Admin/booking/bookings-list/bookings-list.component.js[39m[22m 1.14 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m1f0abf054e529688eebe[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m274[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2dc9dde3b4a7bd8d7604.hot-update.js[39m[22m   2.66 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2dc9dde3b4a7bd8d7604.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2dc9dde3b4a7bd8d7604.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [34] [1m./app/Admin/booking/bookings-list/bookings-list.component.js[39m[22m 1.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1md9f36b2e10fa9c3775a5[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m267[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.1f0abf054e529688eebe.hot-update.js[39m[22m   3.19 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m1f0abf054e529688eebe.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.1f0abf054e529688eebe.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.34 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m2bb94f1d3e19eb4f91f2[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m291[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d9f36b2e10fa9c3775a5.hot-update.js[39m[22m   3.23 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md9f36b2e10fa9c3775a5.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d9f36b2e10fa9c3775a5.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1110] [1m./app/Admin/booking/bookings-list/bookings-list.template.html[39m[22m 2.37 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m2bb94f1d3e19eb4f91f2[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m74[39m[22mms
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m
+[0]     [5] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 644 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mba9c4504d42598cf9718[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m259[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2bb94f1d3e19eb4f91f2.hot-update.js[39m[22m   1.09 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2bb94f1d3e19eb4f91f2.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2bb94f1d3e19eb4f91f2.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]     [5] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 296 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] 
+[0] [1m[31mERROR in ./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss
+[0] Module build failed: 
+[0]   background-color: 
+[0]                   ^
+[0]       Invalid CSS after "...ckground-color:": expected expression (e.g. 1px, bold), was "}"
+[0]       in /home/assist/Projects/BookingApp/app/Admin/booking/bookings-list/bookings-list.scss (line 32, column 20)
+[0]  @ ./app/Admin/booking/bookings-list/bookings-list.scss 4:14-143 13:2-17:4 14:20-149
+[0]  @ ./app/Admin/booking/bookings-list/bookings-list.component.js
+[0]  @ ./app/Admin/Main.module.js
+[0]  @ ./app/app.js
+[0]  @ multi (webpack)-dev-server/client?http://localhost:8080 ./app/app.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m875dfe34869c93fc9114[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m255[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.ba9c4504d42598cf9718.hot-update.js[39m[22m   1.09 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mba9c4504d42598cf9718.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.ba9c4504d42598cf9718.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]     [5] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 295 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] 
+[0] [1m[31mERROR in ./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss
+[0] Module build failed: 
+[0]   background-color:
+[0]                   ^
+[0]       Invalid CSS after "...ckground-color:": expected expression (e.g. 1px, bold), was "}"
+[0]       in /home/assist/Projects/BookingApp/app/Admin/booking/bookings-list/bookings-list.scss (line 32, column 20)
+[0]  @ ./app/Admin/booking/bookings-list/bookings-list.scss 4:14-143 13:2-17:4 14:20-149
+[0]  @ ./app/Admin/booking/bookings-list/bookings-list.component.js
+[0]  @ ./app/Admin/Main.module.js
+[0]  @ ./app/app.js
+[0]  @ multi (webpack)-dev-server/client?http://localhost:8080 ./app/app.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+Hash: [1m88f696694ae72d6e635e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m253[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.875dfe34869c93fc9114.hot-update.js[39m[22m   1.65 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m875dfe34869c93fc9114.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.875dfe34869c93fc9114.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]     [5] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 800 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+Hash: [1m1d7c673e7b15dceb7cff[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m254[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.88f696694ae72d6e635e.hot-update.js[39m[22m   1.65 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m88f696694ae72d6e635e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.88f696694ae72d6e635e.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]     [5] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 800 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] [0] webpack: Compiling...
+[0] Hash: [1m9bff470894abc757c4c8[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m278[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.1d7c673e7b15dceb7cff.hot-update.js[39m[22m   1.73 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m1d7c673e7b15dceb7cff.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.1d7c673e7b15dceb7cff.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]     [5] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 868 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m8c5529db243425fad3fe[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m256[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.9bff470894abc757c4c8.hot-update.js[39m[22m   1.73 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m9bff470894abc757c4c8.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.9bff470894abc757c4c8.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]     [5] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 868 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+webpack: Compiling...
+[0] [0] [0] webpack: Compiled successfully.
+Hash: [1m6b5b27fca2007d1c6ae3[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m255[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.8c5529db243425fad3fe.hot-update.js[39m[22m   1.73 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m8c5529db243425fad3fe.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.8c5529db243425fad3fe.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]     [5] [1m./~/css-loader!./~/sass-loader/lib/loader.js!./app/Admin/booking/bookings-list/bookings-list.scss[39m[22m 868 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
