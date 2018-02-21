@@ -8,9 +8,6 @@ import appConfig from './app.config'
 
 class IndexController {
     constructor() { }
-    $onInit(){
-      console.log('Index controller initialized');
-    }
 }
 
 angular.module('App', [

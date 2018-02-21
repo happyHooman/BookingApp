@@ -1,23 +1,23 @@
 
 > angularjs-starter@0.0.1 dev /home/assist/Projects/BookingApp
-> concurrently --kill-others "webpack-dev-server --host 0.0.0.0" 
+> concurrently --kill-others webpack-dev-server --host 0.0.0.0
 
-Project is running at [1m[34mhttp://0.0.0.0:8080/[39m[22m
-[0] [0] webpack output is served from [1m[34m/[39m[22m
+[0] Project is running at [1m[34mhttp://localhost:8080/[39m[22m
+[0] webpack output is served from [1m[34m/[39m[22m
 [0] Content not from webpack is served from [1m[34m/home/assist/Projects/BookingApp/app[39m[22m
-Hash: [1m77de002cbd4c94fb2feb[39m[22m
+[0] Hash: [1mb2128f134cc462f76707[39m[22m
 [0] Version: webpack [1m2.7.0[39m[22m
-[0] Time: [1m2794[39m[22mms
+[0] Time: [1m2694[39m[22mms
 [0]           [1mAsset[39m[22m     [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
 [0] [1m[33mindex-bundle.js[39m[22m  [1m[33m4.02 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
 [0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
 [0]     [1] [1m./~/angular/index.js[39m[22m 48 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
-[0]    [23] [1m./app/App.js[39m[22m 369 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
-[0]    [24] [1m(webpack)-dev-server/client?http://0.0.0.0:8080[39m[22m 7.91 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [23] [1m./app/app.js[39m[22m 369 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [24] [1m(webpack)-dev-server/client?http://localhost:8080[39m[22m 7.91 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]    [29] [1m./app/Admin/Main.module.js[39m[22m 1.7 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
-[0]    [38] [1m./app/App.config.js[39m[22m 1.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
-[0]    [39] [1m./app/Core/Main.module.js[39m[22m 1.17 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
-[0]    [46] [1m./app/Public/Main.module.js[39m[22m 1.04 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [38] [1m./app/Core/Main.module.js[39m[22m 1.17 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [45] [1m./app/Public/Main.module.js[39m[22m 1.04 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]    [51] [1m./app/app.config.js[39m[22m 1.11 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]  [1102] [1m./~/loglevel/lib/loglevel.js[39m[22m 7.86 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]  [1128] [1m./~/url/url.js[39m[22m 23.3 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]  [1130] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.67 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
@@ -25,8 +25,40 @@ Hash: [1m77de002cbd4c94fb2feb[39m[22m
 [0]  [1133] [1m(webpack)-dev-server/~/strip-ansi/index.js[39m[22m 150 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]  [1136] [1m(webpack)/hot/emitter.js[39m[22m 77 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
-[0]  [1137] [1mmulti (webpack)-dev-server/client?http://0.0.0.0:8080 ./app/App.js[39m[22m 40 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1137] [1mmulti (webpack)-dev-server/client?http://localhost:8080 ./app/app.js[39m[22m 40 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]      + 1123 hidden modules
 [0] webpack: Compiled successfully.
-[0] Terminated
-[0] webpack-dev-server --host 0.0.0.0 exited with code null
+[0] webpack: Compiling...
+[0] Hash: [1m037ff09f1d00eb15c09b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m311[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.02 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.b2128f134cc462f76707.hot-update.js[39m[22m    3.6 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mb2128f134cc462f76707.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.b2128f134cc462f76707.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [38] [1m./app/Core/Main.module.js[39m[22m 1.31 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1136 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Core/Main.module.js
+[0] Module not found: Error: Can't resolve './week-selector/weeke-selector.component' in '/home/assist/Projects/BookingApp/app/Core'
+[0]  @ ./app/Core/Main.module.js 13:0-81
+[0]  @ ./app/app.js
+[0]  @ multi (webpack)-dev-server/client?http://localhost:8080 ./app/app.js[39m[22m
+[0] webpack: Failed to compile.
+[0] webpack: Compiling...
+[0] Hash: [1m4f9563903e099fdbc64e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m360[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.037ff09f1d00eb15c09b.hot-update.js[39m[22m   5.87 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m037ff09f1d00eb15c09b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.037ff09f1d00eb15c09b.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [38] [1m./app/Core/Main.module.js[39m[22m 1.31 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 178 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 353 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1136 hidden modules
+[0] webpack: Compiled successfully.

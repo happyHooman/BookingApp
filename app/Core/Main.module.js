@@ -10,6 +10,8 @@ import {dayPickerComponent} from './day-picker/day-picker.component'
 import {redirectAdminComponent} from './redirect/redirect-admin.component'
 import {redirectUserComponent} from './redirect/redirect-user.component'
 
+import {weekSelectorComponent} from './week-selector/week-selector.component'
+
 // INTERCEPTOR
 import CoreInterceptor from './core.interceptor'
 import coreModuleConfig from './core.config'
@@ -24,3 +26,4 @@ export default angular.module('Core', [])
 	.component('dayPickerComponent', dayPickerComponent)
 	.component('redirectAdminComponent', redirectAdminComponent)
 	.component('redirectUserComponent', redirectUserComponent)
+	.component('weekSelectorComponent', weekSelectorComponent)

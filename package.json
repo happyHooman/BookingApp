@@ -4,7 +4,7 @@
     "description": "Angularjs-starter",
     "main": "index.js",
     "scripts": {
-        "dev": "concurrently --kill-others \"webpack-dev-server --host 0.0.0.0\" ",
+        "dev": "concurrently --kill-others webpack-dev-server --host 0.0.0.0",
         "webpack": "webpack",
         "test": "mocha-webpack public/**/*.spec.js"
     },
