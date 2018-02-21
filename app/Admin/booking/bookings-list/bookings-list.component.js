@@ -4,9 +4,9 @@ import BookingListService from './bookings-list.service'
 
 class BookingListController {
 	constructor(BookingListService) {
-		this.orderProp = 'time';
-		this.reverseOrder = false;
-		this.loadService = BookingListService.loadBookings();
+		this.orderProp = 'time'
+		this.reverseOrder = false
+		this.loadService = BookingListService.loadBookings()
 	}
 
 	$onInit() {
