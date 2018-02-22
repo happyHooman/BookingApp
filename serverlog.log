@@ -2259,3 +2259,740 @@ webpack: Compiled successfully.
 [0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 727 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
 [0]      + 1138 hidden modules
 [0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mf433a33e0749c7ab0cb1[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m294[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d5f280f901f7f8851077.hot-update.js[39m[22m   1.85 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md5f280f901f7f8851077.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d5f280f901f7f8851077.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 751 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1me8cf31d0651903af0797[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m277[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.f433a33e0749c7ab0cb1.hot-update.js[39m[22m   1.84 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mf433a33e0749c7ab0cb1.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.f433a33e0749c7ab0cb1.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 744 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiling...
+Hash: [1mc94361188c22f7081436[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m262[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e8cf31d0651903af0797.hot-update.js[39m[22m   1.87 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me8cf31d0651903af0797.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e8cf31d0651903af0797.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 771 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1ma6c29c12b0b81b52188a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m265[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c94361188c22f7081436.hot-update.js[39m[22m   1.42 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc94361188c22f7081436.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c94361188c22f7081436.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 754 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mb03e46430603cc1e995b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m346[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a6c29c12b0b81b52188a.hot-update.js[39m[22m   1.84 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma6c29c12b0b81b52188a.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a6c29c12b0b81b52188a.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 744 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mf37ff018b04361685b25[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m340[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.b03e46430603cc1e995b.hot-update.js[39m[22m   1.88 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mb03e46430603cc1e995b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.b03e46430603cc1e995b.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 781 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m51e93249fa494a3c482a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m288[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.f37ff018b04361685b25.hot-update.js[39m[22m   1.95 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mf37ff018b04361685b25.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.f37ff018b04361685b25.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 845 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m9da35f7ddb0f1ac8c8ed[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m268[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.51e93249fa494a3c482a.hot-update.js[39m[22m   2.05 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m51e93249fa494a3c482a.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.51e93249fa494a3c482a.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 945 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1m69725a93348bf4d3cc68[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m281[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.9da35f7ddb0f1ac8c8ed.hot-update.js[39m[22m   1.95 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m9da35f7ddb0f1ac8c8ed.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.9da35f7ddb0f1ac8c8ed.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 844 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiling...
+[0] Hash: [1m2232c119342b35afe655[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m275[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.69725a93348bf4d3cc68.hot-update.js[39m[22m   1.96 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m69725a93348bf4d3cc68.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.69725a93348bf4d3cc68.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 854 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m327b4c9532e98fa3c8a3[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m253[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2232c119342b35afe655.hot-update.js[39m[22m   1.42 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2232c119342b35afe655.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2232c119342b35afe655.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 756 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1me50de9d0d23babf295f1[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m281[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.327b4c9532e98fa3c8a3.hot-update.js[39m[22m   1.89 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m327b4c9532e98fa3c8a3.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.327b4c9532e98fa3c8a3.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 785 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m6cd98cb2144b7818084b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m291[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e50de9d0d23babf295f1.hot-update.js[39m[22m   1.84 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me50de9d0d23babf295f1.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e50de9d0d23babf295f1.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 713 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m2a2db5b60c51cc01d50b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m288[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.6cd98cb2144b7818084b.hot-update.js[39m[22m   1.93 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m6cd98cb2144b7818084b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.6cd98cb2144b7818084b.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 792 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1ma517aa0d61cd1a41778f[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m296[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2a2db5b60c51cc01d50b.hot-update.js[39m[22m   1.91 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2a2db5b60c51cc01d50b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2a2db5b60c51cc01d50b.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 774 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m143068088b321c96d130[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m287[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.a517aa0d61cd1a41778f.hot-update.js[39m[22m    1.9 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32ma517aa0d61cd1a41778f.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.a517aa0d61cd1a41778f.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 770 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+Hash: [1m22658973592a20c7fdf9[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m272[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.143068088b321c96d130.hot-update.js[39m[22m   1.47 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m143068088b321c96d130.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.143068088b321c96d130.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 802 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+Hash: [1mfe3c01bf91bee6c640d8[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m290[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.22658973592a20c7fdf9.hot-update.js[39m[22m   1.48 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m22658973592a20c7fdf9.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.22658973592a20c7fdf9.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 807 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+Hash: [1m0a81b710b803ce74c0fd[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m262[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.fe3c01bf91bee6c640d8.hot-update.js[39m[22m   1.48 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mfe3c01bf91bee6c640d8.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.fe3c01bf91bee6c640d8.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 810 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m264eefd6c7a34e016057[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m272[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.0a81b710b803ce74c0fd.hot-update.js[39m[22m   1.48 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m0a81b710b803ce74c0fd.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.0a81b710b803ce74c0fd.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 812 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1me32718d795c63686602e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m257[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.264eefd6c7a34e016057.hot-update.js[39m[22m   1.49 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m264eefd6c7a34e016057.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.264eefd6c7a34e016057.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 820 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m7bf6c74dc600b5395ce6[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m252[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e32718d795c63686602e.hot-update.js[39m[22m   1.49 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me32718d795c63686602e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e32718d795c63686602e.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 820 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m094339d6940a14e225e6[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m300[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.7bf6c74dc600b5395ce6.hot-update.js[39m[22m   1.49 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m7bf6c74dc600b5395ce6.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.7bf6c74dc600b5395ce6.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 824 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+webpack: Compiling...
+[0] [0] Hash: [1m8be6dbf0f023ecd30a5e[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m267[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.094339d6940a14e225e6.hot-update.js[39m[22m   1.49 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m094339d6940a14e225e6.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.094339d6940a14e225e6.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 824 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m644c379ab46d87d83993[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m259[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.8be6dbf0f023ecd30a5e.hot-update.js[39m[22m   1.49 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m8be6dbf0f023ecd30a5e.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.8be6dbf0f023ecd30a5e.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 820 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m4dab4019c4b3ebdbe85b[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m291[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.644c379ab46d87d83993.hot-update.js[39m[22m   4.68 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m644c379ab46d87d83993.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.644c379ab46d87d83993.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [38] [1m./app/Core/Main.module.js[39m[22m 1.42 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 77 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1138 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mc5cf624c2d21b672fbf8[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m279[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.4dab4019c4b3ebdbe85b.hot-update.js[39m[22m   3.97 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m4dab4019c4b3ebdbe85b.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.4dab4019c4b3ebdbe85b.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [38] [1m./app/Core/Main.module.js[39m[22m 1.42 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+webpack: Compiled successfully.
+Hash: [1m2c7e79f6252bed58bdde[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m270[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.c5cf624c2d21b672fbf8.hot-update.js[39m[22m  707 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mc5cf624c2d21b672fbf8.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.c5cf624c2d21b672fbf8.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 55 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] [0] [0] webpack: Compiling...
+[0] Hash: [1m82e1523ab2801e92ef48[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m274[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2c7e79f6252bed58bdde.hot-update.js[39m[22m   1.84 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2c7e79f6252bed58bdde.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2c7e79f6252bed58bdde.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1138] [1m./app/Core/week-selector/week-selector.component.js[39m[22m 713 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m7c5c64efeceaa0e357cd[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m254[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.82e1523ab2801e92ef48.hot-update.js[39m[22m   1.49 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m82e1523ab2801e92ef48.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.82e1523ab2801e92ef48.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 819 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m4689e13c3ffb0fb23e4a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m308[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.7c5c64efeceaa0e357cd.hot-update.js[39m[22m   3.97 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m7c5c64efeceaa0e357cd.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.7c5c64efeceaa0e357cd.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]    [38] [1m./app/Core/Main.module.js[39m[22m 1.4 kB {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m1065a07ee986d7e66b6d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m270[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.4689e13c3ffb0fb23e4a.hot-update.js[39m[22m  729 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m4689e13c3ffb0fb23e4a.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.4689e13c3ffb0fb23e4a.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 74 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m877da42677e4bdc4756d[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m263[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.1065a07ee986d7e66b6d.hot-update.js[39m[22m  778 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m1065a07ee986d7e66b6d.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.1065a07ee986d7e66b6d.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 117 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m90170495754af29384a4[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m297[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.877da42677e4bdc4756d.hot-update.js[39m[22m  785 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m877da42677e4bdc4756d.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.877da42677e4bdc4756d.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 124 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m55a97361da84895c96ce[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m277[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.90170495754af29384a4.hot-update.js[39m[22m   1.53 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m90170495754af29384a4.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.90170495754af29384a4.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 862 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: wait until bundle finished: /pages/bookings.html
+[0] Hash: [1mbe16bd1634d5127f9974[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m206[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.55a97361da84895c96ce.hot-update.js[39m[22m   1.53 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m55a97361da84895c96ce.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.55a97361da84895c96ce.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1139] [1m./app/Core/week-selector/week-selector.template.html[39m[22m 863 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+Hash: [1m9d1c035234af82ca791a[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m270[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.be16bd1634d5127f9974.hot-update.js[39m[22m  786 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mbe16bd1634d5127f9974.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.be16bd1634d5127f9974.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 125 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] [0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m8ce16f1f060b22c62dfb[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m277[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.9d1c035234af82ca791a.hot-update.js[39m[22m  785 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m9d1c035234af82ca791a.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.9d1c035234af82ca791a.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 124 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m8ce16f1f060b22c62dfb[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m165[39m[22mms
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 124 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mfdf0e7027590608123f6[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m284[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.8ce16f1f060b22c62dfb.hot-update.js[39m[22m  783 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m8ce16f1f060b22c62dfb.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.8ce16f1f060b22c62dfb.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 124 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m2a146d3406d883e480e3[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m333[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.fdf0e7027590608123f6.hot-update.js[39m[22m  831 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mfdf0e7027590608123f6.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.fdf0e7027590608123f6.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 169 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m51c4b945b50b3bb23c43[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m281[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.2a146d3406d883e480e3.hot-update.js[39m[22m  858 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m2a146d3406d883e480e3.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.2a146d3406d883e480e3.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 195 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mbd8ac7cdcc48828ad575[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m271[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.51c4b945b50b3bb23c43.hot-update.js[39m[22m  883 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m51c4b945b50b3bb23c43.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.51c4b945b50b3bb23c43.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 219 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mf054249f69eadab58dff[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m257[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.bd8ac7cdcc48828ad575.hot-update.js[39m[22m  893 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mbd8ac7cdcc48828ad575.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.bd8ac7cdcc48828ad575.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 229 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1me9a2754ffe26f3a36682[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m275[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.f054249f69eadab58dff.hot-update.js[39m[22m  892 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mf054249f69eadab58dff.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.f054249f69eadab58dff.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 228 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+Hash: [1m9ae77566d1e6b84393fc[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m270[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.e9a2754ffe26f3a36682.hot-update.js[39m[22m   5.09 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32me9a2754ffe26f3a36682.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.e9a2754ffe26f3a36682.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 355 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m[1m[31m [failed][39m[22m[1m[31m [1 error][39m[22m
+[0]      + 1139 hidden modules
+[0] 
+[0] [1m[31mERROR in ./app/Core/date-range-filter/date-range.filter.js
+[0] Module build failed: SyntaxError: Unexpected token (6:33)
+[0] 
+[0]   4 |     let month = $filter("date")(input, 'MMM')
+[0]   5 |     console.log('', input.getDay());
+[0] > 6 |     console.log(input.getDay() + );
+[0]     |                                  ^
+[0]   7 |     console.log(month);
+[0]   8 |     return $filter("date")(input, 'd')
+[0]   9 |   }
+[0] 
+[0]  @ ./app/Core/Main.module.js 14:0-62
+[0]  @ ./app/app.js
+[0]  @ multi (webpack)-dev-server/client?http://localhost:8080 ./app/app.js[39m[22m
+[0] webpack: Failed to compile.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m3db68d52442fcf4a88d4[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m381[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.9ae77566d1e6b84393fc.hot-update.js[39m[22m   4.88 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m9ae77566d1e6b84393fc.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.9ae77566d1e6b84393fc.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 271 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mb3c9ea2a25c3a845fbbd[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m322[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.3db68d52442fcf4a88d4.hot-update.js[39m[22m  943 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m3db68d52442fcf4a88d4.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.3db68d52442fcf4a88d4.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 278 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1mb3c9ea2a25c3a845fbbd[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m83[39m[22mms
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 278 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] webpack: Compiled successfully.
+[0] Hash: [1m59f3cd3f7801c765e689[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m271[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.b3c9ea2a25c3a845fbbd.hot-update.js[39m[22m  969 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32mb3c9ea2a25c3a845fbbd.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.b3c9ea2a25c3a845fbbd.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 303 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiling...
+Hash: [1m40231fb2116adebaee62[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m386[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.59f3cd3f7801c765e689.hot-update.js[39m[22m  969 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m59f3cd3f7801c765e689.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.59f3cd3f7801c765e689.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 303 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+[0] Hash: [1m86a59cc028f4aca9a737[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m294[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.40231fb2116adebaee62.hot-update.js[39m[22m  977 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m40231fb2116adebaee62.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.40231fb2116adebaee62.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 311 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1m4c60c737c01d0e2b1ed7[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m325[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.86a59cc028f4aca9a737.hot-update.js[39m[22m  983 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m86a59cc028f4aca9a737.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.86a59cc028f4aca9a737.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 317 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+webpack: Compiled successfully.
+[0] [0] webpack: Compiling...
+Hash: [1m0519a5aa49b4f2948808[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m312[39m[22mms
+[0]                                [1mAsset[39m[22m       [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m    [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.4c60c737c01d0e2b1ed7.hot-update.js[39m[22m  981 bytes       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m4c60c737c01d0e2b1ed7.hot-update.json[39m[22m   43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.4c60c737c01d0e2b1ed7.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 316 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] [0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1md365abfcdb359bf837df[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m347[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.0519a5aa49b4f2948808.hot-update.js[39m[22m   1.01 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32m0519a5aa49b4f2948808.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.0519a5aa49b4f2948808.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 341 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.
+[0] webpack: Compiling...
+[0] Hash: [1me09c978ad134f49daafd[39m[22m
+[0] Version: webpack [1m2.7.0[39m[22m
+[0] Time: [1m265[39m[22mms
+[0]                                [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m       [1mChunk Names[39m[22m
+[0]                      [1m[33mindex-bundle.js[39m[22m   [1m[33m4.03 MB[39m[22m       [1m0[39m[22m  [1m[32m[emitted][39m[22m  [1m[33m[big][39m[22m  index
+[0] [1m[32m0.d365abfcdb359bf837df.hot-update.js[39m[22m   1.03 kB       [1m0[39m[22m  [1m[32m[emitted][39m[22m         index
+[0] [1m[32md365abfcdb359bf837df.hot-update.json[39m[22m  43 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m         
+[0] chunk    {[1m[33m0[39m[22m} [1m[32mindex-bundle.js, 0.d365abfcdb359bf837df.hot-update.js[39m[22m (index) 3.08 MB[1m[33m [entry][39m[22m[1m[32m [rendered][39m[22m
+[0]  [1135] [1m(webpack)/hot nonrecursive ^\.\/log$[39m[22m 160 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]  [1140] [1m./app/Core/date-range-filter/date-range.filter.js[39m[22m 365 bytes {[1m[33m0[39m[22m}[1m[32m [built][39m[22m
+[0]      + 1139 hidden modules
+[0] webpack: Compiled successfully.

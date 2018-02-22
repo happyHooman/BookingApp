@@ -6,8 +6,9 @@
               <i class="fa fa-chevron-left fa-lg"></i>
           </button>
   </div>
-  <div class="col-md-10 col-sm-10 col-xs-10" align="center" style="padding:0">
-    {{$ctrl.week}}
+  <div class="col-md-10 col-sm-10 col-xs-10" align="center" style="padding:0" ng-click="$ctrl.monday = $ctrl.getMonday()">
+    <!-- {{$ctrl.monday | date:'d - d MMM yyyy'}} -->
+    {{$ctrl.monday | dateRange }}
   </div>
   <div class="col-md-1 col-sm-1 col-xs-1" align="right" style="padding:0">
     <button type="button"

@@ -11,6 +11,7 @@ import {redirectAdminComponent} from './redirect/redirect-admin.component'
 import {redirectUserComponent} from './redirect/redirect-user.component'
 
 import {weekSelectorComponent} from './week-selector/week-selector.component'
+import dateRange from './date-range-filter/date-range.filter'
 
 // INTERCEPTOR
 import CoreInterceptor from './core.interceptor'
@@ -18,6 +19,7 @@ import coreModuleConfig from './core.config'
 
 export default angular.module('Core', [])
 	.config(coreModuleConfig)
+	.filter('dateRange', dateRange)
 	.factory('CoreInterceptor', CoreInterceptor)
 	.service('ServiceListService', ServiceListService)
 	.service('DayPickerService', DayPickerService)
