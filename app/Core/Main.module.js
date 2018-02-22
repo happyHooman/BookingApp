@@ -13,6 +13,8 @@ import {redirectUserComponent} from './redirect/redirect-user.component'
 import {weekSelectorComponent} from './week-selector/week-selector.component'
 import dateRange from './date-range-filter/date-range.filter'
 
+import {goTopComponent} from './apendixes/go-top/go-top.component'
+
 // INTERCEPTOR
 import CoreInterceptor from './core.interceptor'
 import coreModuleConfig from './core.config'
@@ -29,3 +31,4 @@ export default angular.module('Core', [])
 	.component('redirectAdminComponent', redirectAdminComponent)
 	.component('redirectUserComponent', redirectUserComponent)
 	.component('weekSelectorComponent', weekSelectorComponent)
+	.component('goTopComponent', goTopComponent)

@@ -6,21 +6,22 @@
 }
 
 .bookings-list {
-    max-width: 1000px;
-    min-width: 500px;
-    margin-left: auto;
-    margin-right: auto;
+  max-width: 1000px;
+  min-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .bookings-list tbody {
-    display:block;
-    overflow:auto;
+  display: block;
+  overflow: auto;
 }
 
-.bookings-list thead, tbody tr {
-    display:table;
-    width:100%;
-    table-layout:fixed;
+.bookings-list thead,
+tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
 }
 
 .bookings-list tr td {
@@ -28,11 +29,11 @@
   text-overflow: ellipsis;
 }
 
-.custom-striped-table tr:nth-child(4n+1){
+.custom-striped-table tr:nth-child(4n+1) {
   background-color: #f8effc;
 }
 
-.custom-striped-table tr:nth-child(4n+3){
+.custom-striped-table tr:nth-child(4n+3) {
   background-color: #e7ebf7;
 }
 

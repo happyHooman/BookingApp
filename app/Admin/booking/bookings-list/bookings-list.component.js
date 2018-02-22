@@ -50,6 +50,5 @@ class BookingListController {
 
 export const bookingListComponent = {
 	controller: BookingListController,
-	controllerAs: '$ctrl',
 	template
 }
