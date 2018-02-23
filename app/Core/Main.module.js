@@ -14,6 +14,7 @@ import {weekSelectorComponent} from './week-selector/week-selector.component'
 import dateRange from './date-range-filter/date-range.filter'
 
 import {goTopComponent} from './apendixes/go-top/go-top.component'
+import {goBackComponent} from './apendixes/go-back/go-back.component'
 
 // INTERCEPTOR
 import CoreInterceptor from './core.interceptor'
@@ -32,3 +33,4 @@ export default angular.module('Core', [])
 	.component('redirectUserComponent', redirectUserComponent)
 	.component('weekSelectorComponent', weekSelectorComponent)
 	.component('goTopComponent', goTopComponent)
+	.component('goBackComponent', goBackComponent)

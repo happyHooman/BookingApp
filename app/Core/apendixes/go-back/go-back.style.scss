@@ -1,0 +1,19 @@
+.go-back {
+  position: fixed;
+  bottom: 80px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: red;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.go-back:hover {
+  background-color: #555;
+  color: white;
+  text-decoration: none;
+}

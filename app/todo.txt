@@ -35,11 +35,13 @@
 -done- create services
 -done- create interceptor
 -done- select week in bookings
+-done- add an apendix to take you to the top, and back when looking at a company profile
 
-connect bookings list with bookings and also with availability table
+connect week selector with bookings and also with availability table
 
 admin redirect should check if token is still validation
-add an apendix to take you to the top, and back when looking at a company profile
+
+
 
 
 add booking end Time
