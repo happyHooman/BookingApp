@@ -1,6 +1,5 @@
 import { API } from '../api.url'
 
-
 class AdminInterceptor {
 	constructor() {
 
@@ -16,17 +15,21 @@ class AdminInterceptor {
 		function checkConditions() {
 			if (config.url === API.base + API.bookings) {
 				return true
-			} else if (config.url === API.base + API.companies && config.method === 'PUT') {
+			} else if (config.url === API.base + API.companies && config.method ===
+				'PUT') {
 				return true
-			} else if (config.url === API.base + API.services && config.method === 'POST') {
+			} else if (config.url === API.base + API.services && config.method ===
+				'POST') {
 				return true
-			} else if (config.url === API.base + API.services && config.method === 'PUT') {
+			} else if (config.url === API.base + API.services && config.method ===
+				'PUT') {
 				return true
 			} else {
 				return false
 			}
 		}
 	}
+
 }
 
 export default AdminInterceptor;

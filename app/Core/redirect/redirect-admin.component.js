@@ -1,11 +1,13 @@
+import RedirectService from './redirect.service'
+
 class RedirectAdminController {
-	constructor($location) {
-		this._location = $location;
+	constructor(RedirectService) {
+		this.redirectService = RedirectService
 	}
 
 	$onInit() {
 		if (localStorage.getItem('auth-token')) {
-			this._location.path('/dashboard')
+			this.redirectService.checkToken(true)
 		}
 	}
 }

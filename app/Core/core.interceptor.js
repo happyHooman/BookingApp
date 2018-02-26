@@ -1,10 +1,7 @@
 import { API } from '../api.url'
 
-
 class CoreInterceptor {
-	constructor() {
-
-	}
+	constructor() {}
 
 	request(config) {
 		if (checkConditions()) {
@@ -14,7 +11,10 @@ class CoreInterceptor {
 		return config
 
 		function checkConditions() {
-			if (config.url.startsWith(API.base + API.services) && config.method === 'DELETE') {
+			if (config.url.startsWith(API.base + API.services) && config.method ===
+				'DELETE') {
+				return true
+			} else if (config.url === (API.base + API.me) && config.method === 'GET') {
 				return true
 			} else {
 				return false

@@ -13,39 +13,39 @@ class BookingListController {
 		this.loadBookings()
 	}
 
-	$onDestroy(){
+	$onDestroy() {
 		this.bookings = []
 	}
 
-	loadBookings(){
+	loadBookings() {
 		this.loadService.then(res => {
 			this.bookings = res.data
 			this.filterServices()
+		}, err => {
+			this.bookings = []
+			console.log(err.data);
 		})
 	}
 
 	// create services list
 	filterServices() {
-		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) => array.indexOf(x) === pos)
+		this.services = this.bookings.map(x => x.serviceName).filter((x, pos, array) =>
+			array.indexOf(x) === pos)
 	}
 
 	sortBy(newProp) {
-		this.reverseOrder = (this.orderProp === newProp) ? !this.reverseOrder : false
+		this.reverseOrder = (this.orderProp === newProp) ? !this.reverseOrder :
+			false
 		this.orderProp = newProp
 	}
 
-	arrowClass(){
-		if(this.reverseOrder){
+	arrowClass() {
+		if (this.reverseOrder) {
 			return 'fa-chevron-up'
 		} else {
 			return 'fa-chevron-down'
 		}
 	}
-
-	rowClass(index){
-		return 'table-purple-row'
-	}
-
 }
 
 export const bookingListComponent = {

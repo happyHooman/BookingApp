@@ -9,6 +9,7 @@ import {dayPickerComponent} from './day-picker/day-picker.component'
 
 import {redirectAdminComponent} from './redirect/redirect-admin.component'
 import {redirectUserComponent} from './redirect/redirect-user.component'
+import RedirectService from './redirect/redirect.service'
 
 import {weekSelectorComponent} from './week-selector/week-selector.component'
 import dateRange from './date-range-filter/date-range.filter'
@@ -26,6 +27,7 @@ export default angular.module('Core', [])
 	.factory('CoreInterceptor', CoreInterceptor)
 	.service('ServiceListService', ServiceListService)
 	.service('DayPickerService', DayPickerService)
+	.service('RedirectService', RedirectService)
 	.component('serviceCardComponent', serviceCardComponent)
 	.component('serviceListComponent', serviceListComponent)
 	.component('dayPickerComponent', dayPickerComponent)

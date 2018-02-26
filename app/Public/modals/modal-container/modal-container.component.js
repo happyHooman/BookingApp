@@ -39,7 +39,7 @@ class ModalContainerController {
 
 	addBooking(){
 		this.modalService.addBooking(this.booking).then(res =>{
-			console.log(res.data);
+			// console.log(res.data);
 		},err=>{
 			console.log(err.data);
 		})
