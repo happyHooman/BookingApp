@@ -1,4 +1,5 @@
 import template from './profile.template.html'
+import componentStyle from './profile.style.scss'
 import ProfileService from './profile.service'
 import faker from 'faker'
 

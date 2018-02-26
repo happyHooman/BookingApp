@@ -1,0 +1,33 @@
+.modal {
+    margin-top: 150px;
+}
+
+.modal-lg {
+    max-width: 1000px;
+    width: 100%;
+}
+
+.modal-header {
+    text-align: center;
+    border: none;
+    padding-top: 5px;
+    padding-right: 8px;
+}
+
+.modal-title {
+    font-size: 30px;
+    color: #cb7de6;
+    font-weight: bolder;
+    padding-top: 40px;
+}
+
+.modal-subtitle {
+    font-size: 14px !important;
+    color: #afafaf;
+}
+
+.modal-body {
+    font-size: 20px;
+    font-weight: normal !important;
+    padding: 40px 150px 80px 150px;
+}

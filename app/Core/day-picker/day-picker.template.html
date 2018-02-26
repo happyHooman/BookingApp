@@ -6,6 +6,7 @@
       </button>
 
 <table class="table day-picker-table">
+  <week-selector-component></week-selector-component>
   <thead>
     <th>time\day</th>
     <th ng-repeat="day in $ctrl.weekdays">{{day}}</th>
@@ -14,8 +15,7 @@
     <tr ng-repeat="hour in $ctrl.availability.slots track by $index">
       <td>{{$ctrl.availability.times[$index] | date:'H:mm'}}</td>
       <td ng-repeat="day in hour track by $index">
-        <i ng-class="$ctrl.setClasses(day)"
-        ng-click="$ctrl.setAvailable($parent.$index, $index)"></i>
+        <i ng-class="$ctrl.setClasses(day)" ng-click="$ctrl.setAvailable($parent.$index, $index)"></i>
       </td>
     </tr>
   </tbody>

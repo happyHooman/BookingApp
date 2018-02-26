@@ -1,4 +1,5 @@
 import template from './modal-container.template.html'
+import componentStyle from './modal.style.scss'
 import ModalService from './modal.service'
 import faker from 'faker'
 

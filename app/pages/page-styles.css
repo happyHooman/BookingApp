@@ -15,7 +15,7 @@
     outline-style: none;
 }
 
-.new-service-btn:focus{
+.new-service-btn: focus{
   outline: none;
 }
 
@@ -29,32 +29,13 @@
     background-color: #fcfcfc;
 }
 
-#sv-descr {
-    height: 150px;
+.sv-descr {
+    height: 168px !important;
 }
 
 .form-control {
     height: 55px;
     font-size: 20px;
-}
-
-.profile-view {
-    max-width: 780px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 100px;
-    font-size: 20px !important;
-    font-weight: normal !important;
-}
-
-.profile-logo-img {
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 40px;
-    border: 1px solid #ccc;
 }
 
 .company-profile-logo {
@@ -89,68 +70,6 @@
     color: white;
 }
 
-.login-container {
-    width: 500px;
-    margin-top: 110px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.login-form {
-    width: 370px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 20px;
-    margin-top: 85px;
-}
-
-.login-form input.ng-invalid {
-  border: 1px solid red;
-}
-
-.login-form input.ng-pristine {
-  border: 1px solid #ccc;
-}
-
-.login-component {
-    height: 50px;
-    margin-top: 10px;
-}
-
-.modal {
-    margin-top: 150px;
-}
-
-.modal-lg {
-    max-width: 1000px;
-    width: 100%;
-}
-
-.modal-header {
-    text-align: center;
-    border: none;
-    padding-top: 5px;
-    padding-right: 8px;
-}
-
-.modal-title {
-    font-size: 30px;
-    color: #cb7de6;
-    font-weight: bolder;
-    padding-top: 40px;
-}
-
-.modal-subtitle {
-    font-size: 14px !important;
-    color: #afafaf;
-}
-
-.modal-body {
-    font-size: 20px;
-    font-weight: normal !important;
-    padding: 40px 150px 80px 150px;
-}
-
 .form-group {
     margin-bottom: 25px;
 }
@@ -173,102 +92,4 @@ label {
 
 .clean-button:active{
   color: #c97de5;
-}
-
-.week-selector {
-  height: 40px;
-  margin-top: 10px;
-  margin-left: 20px;
-  font-size: 20px;
-}
-
-
-.day-picker-table {
-  border: 1px solid #cfcfcf;
-  color: #777777;
-}
-
-.day-picker-table tr td{
-  width: 70px;
-  height: 30px;
-  text-align: center;
-}
-
-.day-picker-table tr th{
-  width: 70px;
-  height: 30px;
-  text-align: center;
-}
-
-.day-picker-table tbody {
-    display:block;
-    height:300px;
-    overflow:auto;
-}
-.day-picker-table thead, tbody tr {
-    display:table;
-    width:100%;
-    table-layout:fixed;
-}
-
-
-.clk{
-  color: #cb7de6;
-}
-
-.set{
-  color: #afafaf;
-}
-
-.available {
-  color: green;
-}
-
-.bkd{
-  color: blue;
-}
-
-input[type="checkbox"], input[type="radio"]{
-	position: absolute;
-	right: 9000px;
-}
-
-/*Check box*/
-input[type="checkbox"] + .label-text:before{
-	content: "\f096";
-	font-family: "FontAwesome";
-	speak: none;
-	font-style: normal;
-	font-weight: normal;
-	font-variant: normal;
-	text-transform: none;
-	line-height: 1;
-	-webkit-font-smoothing:antialiased;
-	width: 1em;
-	display: inline-block;
-	margin-right: 5px;
-}
-
-input[type="checkbox"]:checked + .label-text:before{
-	content: "\f14a";
-	color: #2980b9;
-	animation: effect 250ms ease-in;
-}
-
-input[type="checkbox"]:disabled + .label-text{
-	color: #aaa;
-}
-
-input[type="checkbox"]:disabled + .label-text:before{
-	content: "\f0c8";
-	color: #ccc;
-}
-
-
-
-@keyframes effect{
-	0%{transform: scale(0);}
-	25%{transform: scale(1.3);}
-	75%{transform: scale(1.4);}
-	100%{transform: scale(1);}
 }

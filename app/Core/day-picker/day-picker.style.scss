@@ -1,0 +1,47 @@
+
+.day-picker-table {
+  border: 1px solid #cfcfcf;
+  color: #777777;
+  font-size: 20px;
+}
+
+.day-picker-table tr td{
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
+
+.day-picker-table tr th{
+  width: 70px;
+  height: 30px;
+  text-align: center;
+}
+
+.day-picker-table tbody {
+    display:block;
+    height:300px;
+    overflow:auto;
+}
+
+.day-picker-table thead, tbody tr {
+    display:table;
+    width:100%;
+    table-layout:fixed;
+}
+
+
+.clk{
+  color: #cb7de6;
+}
+
+.set{
+  color: #afafaf;
+}
+
+.available {
+  color: green;
+}
+
+.bkd{
+  color: blue;
+}

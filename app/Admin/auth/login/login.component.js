@@ -1,4 +1,5 @@
 import template from './login.template.html'
+import componentStyle from './login.style.scss'
 import LoginService from './login.service'
 
 class LoginController {

@@ -1,0 +1,27 @@
+.login-container {
+    width: 500px;
+    margin-top: 110px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.login-form {
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    margin-top: 85px;
+}
+
+.login-form input.ng-invalid {
+  border: 1px solid red;
+}
+
+.login-form input.ng-pristine {
+  border: 1px solid #ccc;
+}
+
+.login-component {
+    height: 50px;
+    margin-top: 10px;
+}

@@ -1,4 +1,5 @@
 import template from './day-picker.template.html'
+import componentStyle from './day-picker.style.scss'
 import DayPickerService from './day-picker.service'
 
 class DayPickerController {
@@ -71,7 +72,7 @@ class DayPickerController {
 			if (this.availability.slots[hour][day]===0 || this.availability.slots[hour][day]===1) {
 				this.availability.slots[hour][day] = this.availability.slots[hour][day]===1 ? 0 : 1
 			} else if (this.availability.slots[hour][day] === 3 ) {
-				console.log('are you shure you want to remove this booking?');
+				console.log('are you shure you want to remove this booking?')
 			}
 		} else {
 			if (this.availability.slots[hour][day]===1) {

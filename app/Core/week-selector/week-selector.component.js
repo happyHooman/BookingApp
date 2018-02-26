@@ -1,4 +1,5 @@
 import template from './week-selector.template.html'
+import componentStyle from './week-selector.style.scss'
 
 class WeekSelector {
 	constructor() {
