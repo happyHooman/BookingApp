@@ -1,5 +1,6 @@
 function dateRange($filter){
   return input => {
+    input  = new Date(input)
     let month = $filter("date")(input, 'MMM')
     let year = input.getFullYear()
     let day = input.getDate()
