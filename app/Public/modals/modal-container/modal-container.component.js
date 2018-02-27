@@ -16,6 +16,7 @@ class ModalContainerController {
 	}
 
 	$onInit() {
+		this.i = 0
 	}
 
 	sendBooking(){
@@ -26,7 +27,7 @@ class ModalContainerController {
 
 			this.addBooking()
 			this.updateService()
-			this.step = 3
+			// this.step = 3
 		} else {
 			console.log("please select a time for your booking");
 		}
@@ -36,6 +37,36 @@ class ModalContainerController {
 		this.booking.name = faker.name.findName()
 		this.booking.email = faker.internet.email()
 		this.booking.phone = faker.phone.phoneNumberFormat()
+
+		this.fakeBooking()
+	}
+
+	fakeBooking(){
+		let random = faker.random.number
+		let weeks = []
+		for (let key in this.service.availability) {
+			weeks.push(key)
+		}
+		let l = weeks.length
+		let w = parseInt(weeks[random(l)])
+		let h = random(this.service.availability[w].slots.length)
+		let day = this.service.availability[w].slots[h]
+		let d
+		do {
+			d = random(day.length)
+		} while (day[d]!==1)
+		this.selectedDate = {h, d, w}
+		if (day[d]===1) {
+			this.setBookingTime()
+			console.log(this.booking.time);
+			this.sendBooking()
+		}
+
+		if (this.i<30) {
+			this.i++
+			console.log(this.i);
+			setInterval(this.fakeUser(),100)
+		}
 	}
 
 	addBooking(){
@@ -47,7 +78,7 @@ class ModalContainerController {
 	}
 
 	updateService(){
-		this.service.availability.slots[this.selectedDate.h][this.selectedDate.d] = 3
+		this.service.availability[this.selectedDate.w].slots[this.selectedDate.h][this.selectedDate.d] = 3
 		this.modalService.updateService(this.service)
 	}
 
@@ -64,9 +95,9 @@ class ModalContainerController {
 	}
 
 	setBookingTime(){
-		let monday = new Date(2018,1,5).valueOf() //this is the first day of the selected week
-		let dayOfTheWeek = this.selectedDate.d*86400000; // in milliseconds
-		let hour = new Date(this.service.availability.times[this.selectedDate.h]).valueOf() // all times in the times array are saved as a timestamp for the specific hour on January 1, 2010
+		let monday = this.selectedDate.w //selected week
+		let dayOfTheWeek = this.selectedDate.d * 86400000; // in milliseconds
+		let hour = new Date(this.service.availability[monday].times[this.selectedDate.h]).valueOf()
 		let reper = new Date(2010,0,1).valueOf() // this is the day all services are set to, only hour changes
 		this.booking.time = new Date(hour - reper + monday + dayOfTheWeek).valueOf() //save it in timestamp because it's easier to save and read without errors
 	}

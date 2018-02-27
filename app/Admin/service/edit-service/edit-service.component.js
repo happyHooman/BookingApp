@@ -111,7 +111,6 @@ class EditServiceController {
 	}
 
 	saveService() {
-		console.log(this.service);
 		this.servicesService.saveService(this.service)
 		// TODO before saving service add code to check if in all weeks duration coincides with declared duration
 	}
