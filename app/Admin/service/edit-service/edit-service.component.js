@@ -90,28 +90,14 @@ class EditServiceController {
 				this.title = 'Add Service'
 				this.buttonName = 'Save Service'
 			}
-			this.durationDisable = this.preventDurationChange()
 		})
-	}
-
-	preventDurationChange(){
-		let returnValue = false
-		if (this.service.availability) {
-			let slots = this.service.availability.slots
-			slots.forEach(slot=>{
-				if (slot.indexOf(3)!==-1) {
-					returnValue = true
-				}
-			})
-		}
-		return returnValue
 	}
 
 	fakeService(){
 		this.service.name = this.toTitleCase(faker.lorem.words(2))
 		this.service.description = faker.lorem.paragraph()
 		this.service.price = faker.random.number(300)
-		this.service.spaces = faker.random.number(5)+1
+		this.service.spaces = faker.random.number(5) + 1
 	}
 
 	toTitleCase(str) {
@@ -125,11 +111,9 @@ class EditServiceController {
 	}
 
 	saveService() {
-		if (this.duration === this.service.availability.times[1] - this.service.availability.times[0]) {
-			this.servicesService.saveService(this.service)
-		} else {
-			alert(`don't be kidding me! Please reset services duration or booking times`)
-		}
+		console.log(this.service);
+		this.servicesService.saveService(this.service)
+		// TODO before saving service add code to check if in all weeks duration coincides with declared duration
 	}
 
 }

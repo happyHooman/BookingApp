@@ -11,11 +11,6 @@ class DayPickerController {
 	$onInit() {
 		this.loggedIn = localStorage.getItem('auth-token') ? true : false
 		this.loadData()
-		this.newAvailability = {}
-		setTimeout(() => {
-			this.newAvailability[this.monday] = this.availability
-		},300)
-		console.log(this);
 	}
 
 	loadData() {
@@ -56,65 +51,50 @@ class DayPickerController {
 	}
 
 	setAvailability() {
-		this.setNewAvailability()
+		if (!this.availability) {
+			this.availability = {}
+		}
 		let n = this.bookingTimes.length;
-		this.availability = {}
-		this.availability.times = this.bookingTimes;
-		this.availability.slots = []
+		// let week = //TODO simplify some variables
+		this.availability[this.monday] = {}
+		this.availability[this.monday].times = this.bookingTimes
+		this.availability[this.monday].slots = []
 		for (var i = 0; i < n; i++) {
-			this.availability.slots[i] = []
+			this.availability[this.monday].slots[i] = []
 			for (var j = 0; j < 7; j++) {
 				if (this.workingDays[j]) {
-					this.availability.slots[i][j] = 1;
+					this.availability[this.monday].slots[i][j] = 1
 				} else {
-					this.availability.slots[i][j] = 0;
+					this.availability[this.monday].slots[i][j] = 0
 				}
 			}
 		}
 	}
 
-	setNewAvailability(){
-		let n = this.bookingTimes.length;
-		this.newAvailability[this.monday] = {}
-		this.newAvailability[this.monday].times = this.bookingTimes;
-		this.newAvailability[this.monday].slots = []
-		for (var i = 0; i < n; i++) {
-			this.newAvailability[this.monday].slots[i] = []
-			for (var j = 0; j < 7; j++) {
-				if (this.workingDays[j]) {
-					this.newAvailability[this.monday].slots[i][j] = 1;
-				} else {
-					this.newAvailability[this.monday].slots[i][j] = 0;
-				}
-			}
-		}
-		console.log(this);
-	}
-
-	setAvailable(hour, day) {
-		let slots = this.availability.slots
+	clickSlot(hour, day){
+		let slots = this.availability[this.monday].slots
 		let slot = slots[hour][day]
-		if (this.loggedIn) {
+		if (this.loggedIn) { //edit availability
 			if (slot === 0 || slot === 1) {
 				slots[hour][day] = (slot === 1) ? 0 : 1
 			} else if (slot === 3) {
 				console.log('are you shure you want to remove this booking?')
 			}
-		} else { // not logged in
+		} else { // add booking
 			if (slot === 1) {
 				if (this.selected) {
-					slots[this.selected.h][this.selected.d] = 1 // reset previously selected slot
+					this.availability[this.selected.w].slots[this.selected.h][this.selected.d] = 1 // reset previously selected slot
 				}
 				slots[hour][day] = 2;
 				this.selected = {
 					h: hour,
-					d: day
+					d: day,
+					w: this.monday
 				}
 			} else {
 				console.log("can not click there");
 			}
 		}
-
 	}
 
 	setClasses(val) {

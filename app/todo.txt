@@ -41,9 +41,6 @@
 connect week selector with bookings and also with availability table
 
 
-
-
-
 add booking end Time
 in availability add a div displaying working days in a graphical way
 

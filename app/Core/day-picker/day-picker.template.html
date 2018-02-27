@@ -7,17 +7,16 @@
 
 <table class="table day-picker-table">
   <week-selector-component></week-selector-component>
-  <p>{{$ctrl.monday}}</p>
   <thead>
     <th>time\day</th>
     <th ng-repeat="day in $ctrl.weekdays">{{day}}</th>
   </thead>
   <tbody>
     <!-- <tr ng-repeat="hour in $ctrl.availability.slots track by $index"> -->
-    <tr ng-repeat="hour in $ctrl.newAvailability[$ctrl.monday].slots track by $index">
-      <td>{{$ctrl.availability.times[$index] | date:'H:mm'}}</td>
+    <tr ng-repeat="hour in $ctrl.availability[$ctrl.monday].slots track by $index">
+      <td>{{$ctrl.availability[$ctrl.monday].times[$index] | date:'H:mm'}}</td>
       <td ng-repeat="day in hour track by $index">
-        <i ng-class="$ctrl.setClasses(day)" ng-click="$ctrl.setAvailable($parent.$index, $index)"></i>
+        <i ng-class="$ctrl.setClasses(day)" ng-click="$ctrl.clickSlot($parent.$index, $index)"></i>
       </td>
     </tr>
   </tbody>
