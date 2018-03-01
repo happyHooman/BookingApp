@@ -42,6 +42,5 @@ connect week selector with bookings and also with availability table
 
 
 add booking end Time
-in availability add a div displaying working days in a graphical way
 
 create admin calendar page, to view a calendar with all bookings on a selected week or month
