@@ -18,12 +18,6 @@ class ProfileController {
 		this.company.logo = faker.image.avatar()
 	}
 
-	toTitleCase(str) {
-		return str.replace(/\w\S*/g, txt => {
-			return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-		});
-	}
-
 	signOut() {
 		this.profileService.signOut()
 	}
